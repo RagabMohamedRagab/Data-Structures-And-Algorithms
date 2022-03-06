@@ -1,7 +1,7 @@
-# Data Structures And Algorithms 👨‍💻 🥇
+# Data Structures And Algorithms🥇
 <img src="./assets/Ds.jpg" alt=""/>
 
-<h1>1️⃣Data Structures 💯</h1>
+<h1>Data Structures💯</h1>
 
   <ol type="1">
          <li> Stack</li>
