@@ -1,2 +1,2 @@
-# DataStructureAndAlgorithm
-<img src="https://images.app.goo.gl/YhZct8hg6Jstz4q86" alt=""/>
+# DataStructures And Algorithms
+<img src="./assets/Ds.jpg" alt=""/>
