@@ -1,0 +1,16 @@
+C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedStack\bin\Debug\net5.0\LinkedStack.exe
+C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedStack\bin\Debug\net5.0\LinkedStack.deps.json
+C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedStack\bin\Debug\net5.0\LinkedStack.runtimeconfig.json
+C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedStack\bin\Debug\net5.0\LinkedStack.runtimeconfig.dev.json
+C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedStack\bin\Debug\net5.0\LinkedStack.dll
+C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedStack\bin\Debug\net5.0\ref\LinkedStack.dll
+C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedStack\bin\Debug\net5.0\LinkedStack.pdb
+C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedStack\obj\Debug\net5.0\LinkedStack.csprojAssemblyReference.cache
+C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedStack\obj\Debug\net5.0\LinkedStack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedStack\obj\Debug\net5.0\LinkedStack.AssemblyInfoInputs.cache
+C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedStack\obj\Debug\net5.0\LinkedStack.AssemblyInfo.cs
+C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedStack\obj\Debug\net5.0\LinkedStack.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedStack\obj\Debug\net5.0\LinkedStack.dll
+C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedStack\obj\Debug\net5.0\ref\LinkedStack.dll
+C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedStack\obj\Debug\net5.0\LinkedStack.pdb
+C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedStack\obj\Debug\net5.0\LinkedStack.genruntimeconfig.cache

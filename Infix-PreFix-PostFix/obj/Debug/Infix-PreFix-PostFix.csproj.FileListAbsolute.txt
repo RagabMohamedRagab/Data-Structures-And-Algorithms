@@ -1,0 +1,7 @@
+C:\Users\pc\source\repos\Practies DataStructures And Algorithm\Infix-PreFix-PostFix\bin\Debug\Infix-PreFix-PostFix.exe.config
+C:\Users\pc\source\repos\Practies DataStructures And Algorithm\Infix-PreFix-PostFix\bin\Debug\Infix-PreFix-PostFix.exe
+C:\Users\pc\source\repos\Practies DataStructures And Algorithm\Infix-PreFix-PostFix\bin\Debug\Infix-PreFix-PostFix.pdb
+C:\Users\pc\source\repos\Practies DataStructures And Algorithm\Infix-PreFix-PostFix\obj\Debug\Infix-PreFix-PostFix.csprojAssemblyReference.cache
+C:\Users\pc\source\repos\Practies DataStructures And Algorithm\Infix-PreFix-PostFix\obj\Debug\Infix-PreFix-PostFix.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\Practies DataStructures And Algorithm\Infix-PreFix-PostFix\obj\Debug\Infix-PreFix-PostFix.exe
+C:\Users\pc\source\repos\Practies DataStructures And Algorithm\Infix-PreFix-PostFix\obj\Debug\Infix-PreFix-PostFix.pdb

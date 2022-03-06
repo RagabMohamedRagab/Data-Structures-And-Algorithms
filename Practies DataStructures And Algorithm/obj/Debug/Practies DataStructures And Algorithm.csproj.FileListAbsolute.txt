@@ -1,0 +1,7 @@
+C:\Users\pc\source\repos\Practies DataStructures And Algorithm\Practies DataStructures And Algorithm\bin\Debug\Practies DataStructures And Algorithm.exe.config
+C:\Users\pc\source\repos\Practies DataStructures And Algorithm\Practies DataStructures And Algorithm\bin\Debug\Practies DataStructures And Algorithm.exe
+C:\Users\pc\source\repos\Practies DataStructures And Algorithm\Practies DataStructures And Algorithm\bin\Debug\Practies DataStructures And Algorithm.pdb
+C:\Users\pc\source\repos\Practies DataStructures And Algorithm\Practies DataStructures And Algorithm\obj\Debug\Practies DataStructures And Algorithm.csprojAssemblyReference.cache
+C:\Users\pc\source\repos\Practies DataStructures And Algorithm\Practies DataStructures And Algorithm\obj\Debug\Practies DataStructures And Algorithm.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\Practies DataStructures And Algorithm\Practies DataStructures And Algorithm\obj\Debug\Practies DataStructures And Algorithm.exe
+C:\Users\pc\source\repos\Practies DataStructures And Algorithm\Practies DataStructures And Algorithm\obj\Debug\Practies DataStructures And Algorithm.pdb

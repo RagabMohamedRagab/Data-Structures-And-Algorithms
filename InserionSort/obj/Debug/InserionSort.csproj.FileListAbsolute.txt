@@ -1,0 +1,6 @@
+C:\Users\pc\source\repos\DataStructuer And Algorithms\InserionSort\bin\Debug\InserionSort.exe.config
+C:\Users\pc\source\repos\DataStructuer And Algorithms\InserionSort\bin\Debug\InserionSort.exe
+C:\Users\pc\source\repos\DataStructuer And Algorithms\InserionSort\bin\Debug\InserionSort.pdb
+C:\Users\pc\source\repos\DataStructuer And Algorithms\InserionSort\obj\Debug\InserionSort.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\DataStructuer And Algorithms\InserionSort\obj\Debug\InserionSort.exe
+C:\Users\pc\source\repos\DataStructuer And Algorithms\InserionSort\obj\Debug\InserionSort.pdb

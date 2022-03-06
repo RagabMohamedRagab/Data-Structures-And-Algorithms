@@ -1,0 +1,16 @@
+C:\Users\pc\source\repos\DataStructuer And Algorithms\CircularLinkedList\bin\Debug\net5.0\CircularLinkedList.exe
+C:\Users\pc\source\repos\DataStructuer And Algorithms\CircularLinkedList\bin\Debug\net5.0\CircularLinkedList.deps.json
+C:\Users\pc\source\repos\DataStructuer And Algorithms\CircularLinkedList\bin\Debug\net5.0\CircularLinkedList.runtimeconfig.json
+C:\Users\pc\source\repos\DataStructuer And Algorithms\CircularLinkedList\bin\Debug\net5.0\CircularLinkedList.runtimeconfig.dev.json
+C:\Users\pc\source\repos\DataStructuer And Algorithms\CircularLinkedList\bin\Debug\net5.0\CircularLinkedList.dll
+C:\Users\pc\source\repos\DataStructuer And Algorithms\CircularLinkedList\bin\Debug\net5.0\ref\CircularLinkedList.dll
+C:\Users\pc\source\repos\DataStructuer And Algorithms\CircularLinkedList\bin\Debug\net5.0\CircularLinkedList.pdb
+C:\Users\pc\source\repos\DataStructuer And Algorithms\CircularLinkedList\obj\Debug\net5.0\CircularLinkedList.csprojAssemblyReference.cache
+C:\Users\pc\source\repos\DataStructuer And Algorithms\CircularLinkedList\obj\Debug\net5.0\CircularLinkedList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\source\repos\DataStructuer And Algorithms\CircularLinkedList\obj\Debug\net5.0\CircularLinkedList.AssemblyInfoInputs.cache
+C:\Users\pc\source\repos\DataStructuer And Algorithms\CircularLinkedList\obj\Debug\net5.0\CircularLinkedList.AssemblyInfo.cs
+C:\Users\pc\source\repos\DataStructuer And Algorithms\CircularLinkedList\obj\Debug\net5.0\CircularLinkedList.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\DataStructuer And Algorithms\CircularLinkedList\obj\Debug\net5.0\CircularLinkedList.dll
+C:\Users\pc\source\repos\DataStructuer And Algorithms\CircularLinkedList\obj\Debug\net5.0\ref\CircularLinkedList.dll
+C:\Users\pc\source\repos\DataStructuer And Algorithms\CircularLinkedList\obj\Debug\net5.0\CircularLinkedList.pdb
+C:\Users\pc\source\repos\DataStructuer And Algorithms\CircularLinkedList\obj\Debug\net5.0\CircularLinkedList.genruntimeconfig.cache

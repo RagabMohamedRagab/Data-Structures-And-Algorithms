@@ -1,0 +1,7 @@
+C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedList\bin\Debug\LinkedList.exe.config
+C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedList\bin\Debug\LinkedList.exe
+C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedList\bin\Debug\LinkedList.pdb
+C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedList\obj\Debug\LinkedList.csprojAssemblyReference.cache
+C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedList\obj\Debug\LinkedList.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedList\obj\Debug\LinkedList.exe
+C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedList\obj\Debug\LinkedList.pdb

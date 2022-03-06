@@ -1,0 +1,6 @@
+C:\Users\pc\source\repos\DataStructuer And Algorithms\CircleQueue\bin\Debug\CircleQueue.exe.config
+C:\Users\pc\source\repos\DataStructuer And Algorithms\CircleQueue\bin\Debug\CircleQueue.exe
+C:\Users\pc\source\repos\DataStructuer And Algorithms\CircleQueue\bin\Debug\CircleQueue.pdb
+C:\Users\pc\source\repos\DataStructuer And Algorithms\CircleQueue\obj\Debug\CircularQueue.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\DataStructuer And Algorithms\CircleQueue\obj\Debug\CircleQueue.exe
+C:\Users\pc\source\repos\DataStructuer And Algorithms\CircleQueue\obj\Debug\CircleQueue.pdb

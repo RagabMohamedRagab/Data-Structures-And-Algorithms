@@ -1,0 +1,7 @@
+C:\Users\pc\source\repos\DataStructuer And Algorithms\Amazon_Question_interview(Sum Up Zero(0))\bin\Debug\Amazon_Question_interview(Sum Up Zero(0)).exe.config
+C:\Users\pc\source\repos\DataStructuer And Algorithms\Amazon_Question_interview(Sum Up Zero(0))\bin\Debug\Amazon_Question_interview(Sum Up Zero(0)).exe
+C:\Users\pc\source\repos\DataStructuer And Algorithms\Amazon_Question_interview(Sum Up Zero(0))\bin\Debug\Amazon_Question_interview(Sum Up Zero(0)).pdb
+C:\Users\pc\source\repos\DataStructuer And Algorithms\Amazon_Question_interview(Sum Up Zero(0))\obj\Debug\Amazon_Question_interview(Sum Up Zero(0)).csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\DataStructuer And Algorithms\Amazon_Question_interview(Sum Up Zero(0))\obj\Debug\Amazon_Question_interview(Sum Up Zero(0)).exe
+C:\Users\pc\source\repos\DataStructuer And Algorithms\Amazon_Question_interview(Sum Up Zero(0))\obj\Debug\Amazon_Question_interview(Sum Up Zero(0)).pdb
+C:\Users\pc\source\repos\DataStructuer And Algorithms\Amazon_Question_interview(Sum Up Zero(0))\obj\Debug\Amazon_Question_interview(Sum Up Zero(0)).csprojAssemblyReference.cache
