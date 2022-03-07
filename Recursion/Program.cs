@@ -1,4 +1,12 @@
-﻿using System;
+﻿/* - Recursive : Which is method calls Itself Directly or Indirectly 
+ *         1- Base Case : it will terminate Recursion
+ *         2- Recursion Procedure : It Calls ItSelfs 
+ *  Complexity Time X Power Of Y
+ *   X : Number Of Function 
+ *   Y : Name Of Parameter
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,17 +16,16 @@ namespace Recursion
 {
     class Program
     {
-        //  Recursion Derictly
-        public static int Fac(int N)
+        public static int Fact(int N)
         {
-            if (N == 0 || N == 1)
-                return N;
+            if (N == 1) return 1;
             else
-                return Fac(N - 2) + Fac(N - 1);
+                return N * Fact(N - 1);
         }
+
         static void Main(string[] args)
         {
-            Console.WriteLine(Fac(7));
+            Console.WriteLine(Fact(5));
         }
     }
 }

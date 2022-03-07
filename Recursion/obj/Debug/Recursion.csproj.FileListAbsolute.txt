@@ -4,3 +4,10 @@ C:\Users\pc\source\repos\DataStructuer And Algorithms\Recursion\bin\Debug\Recurs
 C:\Users\pc\source\repos\DataStructuer And Algorithms\Recursion\obj\Debug\Recursion.csproj.CoreCompileInputs.cache
 C:\Users\pc\source\repos\DataStructuer And Algorithms\Recursion\obj\Debug\Recursion.exe
 C:\Users\pc\source\repos\DataStructuer And Algorithms\Recursion\obj\Debug\Recursion.pdb
+C:\Users\pc\Desktop\New folder (5)\Data-Structures\Recursion\bin\Debug\Recursion.exe.config
+C:\Users\pc\Desktop\New folder (5)\Data-Structures\Recursion\bin\Debug\Recursion.exe
+C:\Users\pc\Desktop\New folder (5)\Data-Structures\Recursion\bin\Debug\Recursion.pdb
+C:\Users\pc\Desktop\New folder (5)\Data-Structures\Recursion\obj\Debug\Recursion.csprojAssemblyReference.cache
+C:\Users\pc\Desktop\New folder (5)\Data-Structures\Recursion\obj\Debug\Recursion.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\New folder (5)\Data-Structures\Recursion\obj\Debug\Recursion.exe
+C:\Users\pc\Desktop\New folder (5)\Data-Structures\Recursion\obj\Debug\Recursion.pdb
