@@ -13,6 +13,8 @@
          <li>Doubly Linked List </li>
          <li>Circular Single List</li>
          <li> Circular Doubly List</li>
+         <li> Recursive </li>
+  
      </ol>
 
 
