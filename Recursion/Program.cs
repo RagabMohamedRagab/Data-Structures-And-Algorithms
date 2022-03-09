@@ -10,12 +10,22 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-
+using System.Threading.Tasks; 
 namespace Recursion
 {
     class Program
     {
+        public static int Fabi(int N)
+        {
+            if (N < 2)
+            {
+                return N;
+            }
+            else
+            {
+                return Fabi(N - 1) + Fabi(N - 2);
+            }
+        }
         public static int Fact(int N)
         {
             if (N == 1) return 1;
@@ -25,7 +35,8 @@ namespace Recursion
 
         static void Main(string[] args)
         {
-            Console.WriteLine(Fact(5));
+            //Console.WriteLine(Fact(5));
+            Console.WriteLine(Fabi(6));
         }
     }
 }
