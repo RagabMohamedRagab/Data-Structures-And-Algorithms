@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "IF7Pku8w6gL9fpe2febKJoRVRAtRwpG+WjtDNcC/iAQ2E4I0RqepCzPNA2sGVp2c8JP1Gm7FzCqumJsvkPLutQ==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\pc\\Source\\Repos\\Data-Structure\\LinkedStack\\LinkedStack.csproj",
+  "dgSpecHash": "DAjDxtzzAGpF0H94iYrbknjkRJmFjxVq2ixk2FmRiidlsdkaB232uqrnAbPgnrI5ARp4DL9i1igIORI6GhGPSg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\pc\\Desktop\\New folder (14)\\LinkedStack\\LinkedStack.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\pc\\Desktop\\Practies DataStructures And Algorithm\\Infix-PreFix-PostFix\\Infix-PreFix-PostFix.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\pc\\Desktop\\Practies DataStructures And Algorithm\\Infix-PreFix-PostFix\\Infix-PreFix-PostFix.csproj",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

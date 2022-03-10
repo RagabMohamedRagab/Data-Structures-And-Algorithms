@@ -36,7 +36,7 @@ namespace Recursion
         static void Main(string[] args)
         {
             //Console.WriteLine(Fact(5));
-            Console.WriteLine(Fabi(6));
+            Console.WriteLine(Fabi(5));
         }
     }
 }

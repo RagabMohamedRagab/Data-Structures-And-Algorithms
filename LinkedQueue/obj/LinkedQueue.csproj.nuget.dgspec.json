@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\Source\\Repos\\Data-Structure\\LinkedQueue\\LinkedQueue.csproj": {}
+    "C:\\Users\\pc\\Desktop\\New folder (14)\\LinkedQueue\\LinkedQueue.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\Source\\Repos\\Data-Structure\\LinkedQueue\\LinkedQueue.csproj": {
+    "C:\\Users\\pc\\Desktop\\New folder (14)\\LinkedQueue\\LinkedQueue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\Source\\Repos\\Data-Structure\\LinkedQueue\\LinkedQueue.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Desktop\\New folder (14)\\LinkedQueue\\LinkedQueue.csproj",
         "projectName": "LinkedQueue",
-        "projectPath": "C:\\Users\\pc\\Source\\Repos\\Data-Structure\\LinkedQueue\\LinkedQueue.csproj",
+        "projectPath": "C:\\Users\\pc\\Desktop\\New folder (14)\\LinkedQueue\\LinkedQueue.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\Source\\Repos\\Data-Structure\\LinkedQueue\\obj\\",
+        "outputPath": "C:\\Users\\pc\\Desktop\\New folder (14)\\LinkedQueue\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
