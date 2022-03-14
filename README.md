@@ -13,7 +13,14 @@
          <li>Doubly Linked List </li>
          <li>Circular Single List</li>
          <li> Circular Doubly List</li>
-         <li> Recursive </li>
+         <li> Recursive
+              <ul> 
+                <li>Direct method</li>
+                <li>InDirect method</li>
+                 <li>Tail method</li>
+                 <li>NoN-Tail method</li>
+           </ul>
+  </li>
      </ol>
 
 
