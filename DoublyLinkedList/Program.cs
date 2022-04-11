@@ -158,7 +158,7 @@ namespace DoublyLinkedList
         static void Main(string[] args)
         {
             Doubly doubly = new Doubly();
-            Console.Write("Size:");
+            Console.Write("Size Of Doubly Linked:");
             int size = Int16.Parse(Console.ReadLine());
             for (int i = 0; i < size; i++)
             {
