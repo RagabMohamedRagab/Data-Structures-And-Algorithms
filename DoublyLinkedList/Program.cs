@@ -127,7 +127,7 @@ namespace DoublyLinkedList
             {
                 Ptr = Ptr.Next;
             }
-            Ptr.Previous.Next = Ptr.Next;
+            Ptr.Previous.Next = Ptr.Next; //  Test Cases
             Ptr.Next.Previous = Ptr.Previous;
             GC.Collect();
         }
@@ -173,9 +173,13 @@ namespace DoublyLinkedList
             Console.Write("Enter Val:");
             int Item = Int32.Parse(Console.ReadLine());
             doubly.NthAddNode(Item, Pos);
+            Console.WriteLine("Here I will delete Node from First of the linkedList");
             doubly.DelNodeFromFirst();
+            Console.WriteLine("Here I will delete Node from Last of the linkedList");
             doubly.DelNodeFromLast();
-            Console.Write("Enter Position tO Del:");
+            Console.WriteLine("After Delete LinkedLit..");
+            doubly.Print();
+            Console.Write("Enter Position to Del:");
             int Position = int.Parse(Console.ReadLine());
             doubly.DelAt(Position);
             Console.WriteLine("After Creating CRUD Operation At Doubly LinkedList : ");

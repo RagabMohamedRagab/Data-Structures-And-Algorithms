@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iibnL1sbs5zcSztP0zYuzwDfqVXLS068euW8KPd9ms0gODUfLqu/DI3Sof/qi/hbuL0GDX6P+Z75iPyfKZy73g==",
+  "dgSpecHash": "2c+ceZnfZRuR0l49cIuXWNSpoT4Qxa8C+tNnVYmJZbqgAQx9SNmtg25SOFcYIzbydXl0AHPoeD2H3DHX/TQN6w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pc\\Desktop\\Ds\\CircularLinkedList\\CircularLinkedList.csproj",
+  "projectFilePath": "C:\\Users\\pc\\Desktop\\DS\\CircularLinkedList\\CircularLinkedList.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

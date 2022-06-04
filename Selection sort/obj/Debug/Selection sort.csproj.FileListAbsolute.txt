@@ -4,3 +4,11 @@ C:\Users\pc\source\repos\DataStructuer And Algorithms\Selection sort\bin\Debug\S
 C:\Users\pc\source\repos\DataStructuer And Algorithms\Selection sort\obj\Debug\Selection sort.csproj.CoreCompileInputs.cache
 C:\Users\pc\source\repos\DataStructuer And Algorithms\Selection sort\obj\Debug\Selection sort.exe
 C:\Users\pc\source\repos\DataStructuer And Algorithms\Selection sort\obj\Debug\Selection sort.pdb
+C:\Users\pc\Desktop\DS\Selection sort\bin\Debug\Selection sort.exe.config
+C:\Users\pc\Desktop\DS\Selection sort\bin\Debug\Selection sort.exe
+C:\Users\pc\Desktop\DS\Selection sort\bin\Debug\Selection sort.pdb
+C:\Users\pc\Desktop\DS\Selection sort\obj\Debug\Selection sort.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\DS\Selection sort\obj\Debug\Selection sort.csproj.SuggestedBindingRedirects.cache
+C:\Users\pc\Desktop\DS\Selection sort\obj\Debug\Selection sort.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\DS\Selection sort\obj\Debug\Selection sort.exe
+C:\Users\pc\Desktop\DS\Selection sort\obj\Debug\Selection sort.pdb

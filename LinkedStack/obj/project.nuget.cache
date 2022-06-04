@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XqR2D2NZ52x/ZjQ+050G45sq0/bnCVpx8+J5rTHweWW7OLyRybIWLB1zbndy960Wh2WYyKZ/crz18wbFEnatSw==",
+  "dgSpecHash": "6hC0VPWoFoZuNv4Yrxn5IgOgrkxA8l+1wcJ+JyHY6YiX7cOmrf7W00K4R5HwFOiYvb9XIGZPjibutZI/zMqrEQ==",
   "success": false,
-  "projectFilePath": "C:\\Users\\pc\\Desktop\\Ds\\LinkedStack\\LinkedStack.csproj",
+  "projectFilePath": "C:\\Users\\pc\\Desktop\\DS\\LinkedStack\\LinkedStack.csproj",
   "expectedPackageFiles": [],
   "logs": [
     {

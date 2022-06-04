@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\Desktop\\Ds\\MergeLinkedList\\MergeLinkedList.csproj": {}
+    "C:\\Users\\pc\\Desktop\\DS\\MergeLinkedList\\MergeLinkedList.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\Desktop\\Ds\\MergeLinkedList\\MergeLinkedList.csproj": {
+    "C:\\Users\\pc\\Desktop\\DS\\MergeLinkedList\\MergeLinkedList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\Desktop\\Ds\\MergeLinkedList\\MergeLinkedList.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Desktop\\DS\\MergeLinkedList\\MergeLinkedList.csproj",
         "projectName": "MergeLinkedList",
-        "projectPath": "C:\\Users\\pc\\Desktop\\Ds\\MergeLinkedList\\MergeLinkedList.csproj",
+        "projectPath": "C:\\Users\\pc\\Desktop\\DS\\MergeLinkedList\\MergeLinkedList.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\Desktop\\Ds\\MergeLinkedList\\obj\\",
+        "outputPath": "C:\\Users\\pc\\Desktop\\DS\\MergeLinkedList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
         }
       }
     }

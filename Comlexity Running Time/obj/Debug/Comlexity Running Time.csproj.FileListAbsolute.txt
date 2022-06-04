@@ -1,6 +1,0 @@
-C:\Users\pc\source\repos\DataStructuer And Algorithms\DataStructuer And Algorithms\bin\Debug\DataStructuer And Algorithms.exe.config
-C:\Users\pc\source\repos\DataStructuer And Algorithms\DataStructuer And Algorithms\bin\Debug\DataStructuer And Algorithms.exe
-C:\Users\pc\source\repos\DataStructuer And Algorithms\DataStructuer And Algorithms\bin\Debug\DataStructuer And Algorithms.pdb
-C:\Users\pc\source\repos\DataStructuer And Algorithms\DataStructuer And Algorithms\obj\Debug\Comlexity Running Time.csproj.CoreCompileInputs.cache
-C:\Users\pc\source\repos\DataStructuer And Algorithms\DataStructuer And Algorithms\obj\Debug\DataStructuer And Algorithms.exe
-C:\Users\pc\source\repos\DataStructuer And Algorithms\DataStructuer And Algorithms\obj\Debug\DataStructuer And Algorithms.pdb

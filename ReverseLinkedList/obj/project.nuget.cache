@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JobYESTm8DGmURJvFK3Oh2VgeS4awJvFGhLt9XSL5TFkRK8Y8hcBMqQ0A9QtqDCOUZSBGS+WdOIM2MAk/KIDDQ==",
+  "dgSpecHash": "yY5M5ZHwtSxpL8sRfpiinJ0+Rpyz5RWsB14wQ1lcvbMvzm1dOhoDvojwiWa9eRoJmUvn74Z1rlk8ysuG3Ks63A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pc\\Desktop\\Ds\\ReverseLinkedList\\ReverseLinkedList.csproj",
+  "projectFilePath": "C:\\Users\\pc\\Desktop\\DS\\ReverseLinkedList\\ReverseLinkedList.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

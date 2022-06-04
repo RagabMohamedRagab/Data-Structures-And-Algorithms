@@ -24,98 +24,41 @@
    5- Degenerate Binary Tree [physilogical] : Every Node has one Nodes ..
 
  ** Implement tree
-  - Method will Add From Left And Another from Right 
+  - Pre-order-traversal[root Left right ]
  
  */
 
 using System;
 namespace Tree
 {
-    // Structure of Tree
-   public class Tree
-    {
-        public int Key { get; set; } // Data Of A node
-        public Tree Left { get; set; } // Left Pointer 
-        public Tree Right { get; set; } // Right Pointer 
-        public Tree(int key)
-        {
-            this.Key = key;
-            this.Left = null;
-            this.Right = null;
-        }
-    }
-    // Implement Tree 
-    public class Node
-    {
-        public Tree First { get; set; } // refer to Right 
-        public Tree Second { get; set; } // refer to left
-        public Node() // Initial for two properties
-        {
-            First = null;
-            Second = null;
-        }
-        // Initial Node 
+   // Structute of Tree
+  public class Node {
+        public int Key;
+        public Node left;
+        public Node right;
         public Node(int key)
         {
-            Tree tree = new Tree(key);
-            tree.Left = null;
-            tree.Right = null;
-            this.First = tree;
-            this.Second = tree;
+            Key = key;
+            left = null;
+            right = null;
         }
-        // Push From Right..... 
-        public void PushFrompmRight(int key)
-        {
-            Tree Ptr = this.First;
-            while (Ptr.Right!=null)
-            {
-                Ptr = Ptr.Right;
-            }
-            Tree tree = new Tree(key);
-            Ptr.Right = tree;
-            tree.Right = null;
-        }
-
-        // Push from Right ....
-        public void PushFrompmLeft(int key)
-        {
-            Tree Ptr = this.Second;
-            while (Ptr.Left != null)
-            {
-                Ptr = Ptr.Left;
-            }
-            Tree tree = new Tree(key);
-            Ptr.Left = tree;
-            tree.Left = null;
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
+    public class Tree {
+        public static Node refer = null;
+         static Tree()
+        {
+            Node root=new Node(1);
+            refer= root;
+            root.left = null;
+            root.right = null;
+        }
+
+     }
     class Program
     {
         static void Main(string[] args)
         {
-            Node node = new Node(1);
-            for (int i = 0; i < 3; i++)
-            {
-             node.PushFrompmRight(2);
-             node.PushFrompmLeft(3);
-            }
+           
            
         }
     }

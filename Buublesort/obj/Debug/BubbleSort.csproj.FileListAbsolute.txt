@@ -4,3 +4,11 @@ C:\Users\pc\source\repos\DataStructuer And Algorithms\Buublesort\bin\Debug\Buubl
 C:\Users\pc\source\repos\DataStructuer And Algorithms\Buublesort\obj\Debug\BubbleSort.csproj.CoreCompileInputs.cache
 C:\Users\pc\source\repos\DataStructuer And Algorithms\Buublesort\obj\Debug\Buublesort.exe
 C:\Users\pc\source\repos\DataStructuer And Algorithms\Buublesort\obj\Debug\Buublesort.pdb
+C:\Users\pc\Desktop\DS\Buublesort\bin\Debug\Buublesort.exe.config
+C:\Users\pc\Desktop\DS\Buublesort\bin\Debug\Buublesort.exe
+C:\Users\pc\Desktop\DS\Buublesort\bin\Debug\Buublesort.pdb
+C:\Users\pc\Desktop\DS\Buublesort\obj\Debug\BubbleSort.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\DS\Buublesort\obj\Debug\BubbleSort.csproj.SuggestedBindingRedirects.cache
+C:\Users\pc\Desktop\DS\Buublesort\obj\Debug\BubbleSort.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\DS\Buublesort\obj\Debug\Buublesort.exe
+C:\Users\pc\Desktop\DS\Buublesort\obj\Debug\Buublesort.pdb
