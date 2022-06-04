@@ -45,7 +45,7 @@ namespace Tree
     }
     public class Tree {
         public static Node refer = null;
-         static Tree()
+         static Tree() // From Static Constructor we created Root Of the tree
         {
             Node root=new Node(1);
             refer= root;
@@ -58,8 +58,7 @@ namespace Tree
     {
         static void Main(string[] args)
         {
-           
-           
+           Tree tree=new Tree();
         }
     }
 }
