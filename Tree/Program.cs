@@ -26,62 +26,73 @@
   - Pre-order-traversal[root Left right ]
  
  */
-
 using System;
 namespace Tree
-{
+{ 
+    // Yup.. This is Structred of Tree
+    class Node {
+        public long key;
+        public Node Left;
+        public Node Right;
+        public Node(int Key)
+        {
+            this.key= Key;
+            this.Left = null;
+            this.Right = null;
+        }
+    }
+    // Yup .. This is Implementing of Binary Tree
     class BTS {
-       public  class Node {
-            public int key;
-            public Node Left;
-            public Node Right;
-            public Node(int key)
+        public Node Root = null;
+        public Node Temp=null;
+        public void Add(int data)
+        {
+            Node node = new Node(data);
+            if (Root == null) // if tree is Empty
             {
-                this.key = key;
-
+                node.Left = null;
+                node.Right = null;
+                Root = node;
+                Temp = Root;
+                return;
+            }
+            Temp = Root;
+            if (Temp.key <= data)
+            {
+                while (Temp.Right!=null)
+                {
+                    Temp= Temp.Right;
+                }
+                node.Left = null;
+                node.Right = null;
+                Temp.Right = node;
+            }
+            else
+            {
+                while (Temp.Left != null)
+                {
+                    Temp=Temp.Left;
+                }
+                node.Left= null;
+                node.Right = null;
+                Temp.Left = node;
             }
         }
-         public Node Temp=null;
-        public Node Root=null;
-        
-        // Adding Node
-        public void Add(int value)
-        {
-            Node node = new Node(value);
-            //if (Root == null) {
-            //    {
-            //        node.Left = null;
-            //        node.Right = null;
-            //        Temp = node;
-            //        Root = node;
-            //        return;
-            //    }
-            //    while (true)
-            //    {
-            //        Temp = Root;
-            //        if (Temp.key >= value)
-            //        {
-            //            Temp.Right = Root.Right;
 
 
-            //        }
-            //        else
-            //        {
 
-            //        }
-
-            //    }
-
-
-        }
 
     }
- 
     class Program
     {
         static void Main(string[] args)
         {
-           
+          BTS bTS = new BTS();
+            bTS.Add(1);
+            bTS.Add(2);
+            bTS.Add(3);
+            bTS.Add(-1);
+            bTS.Add(0);
         }
     }
 }
