@@ -78,10 +78,6 @@ namespace Tree
                 Temp.Left = node;
             }
         }
-
-
-
-
     }
     class Program
     {
