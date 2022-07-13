@@ -6,7 +6,7 @@
   "libraries": {},
   "projectFileDependencyGroups": {
     "net5.0": [
-      "C:\\Users\\pc\\Desktop\\Practies DataStructures And Algorithm\\Infix-PreFix-PostFix\\Infix-PreFix-PostFix.csproj"
+      "C:\\Users\\pc\\Desktop\\DataStructuer And Algorithms\\LinkedStack\\LinkedStack.csproj"
     ]
   },
   "packageFolders": {
@@ -16,11 +16,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\Desktop\\New folder (15)\\LinkedStack\\LinkedStack.csproj",
+      "projectUniqueName": "C:\\Users\\pc\\Desktop\\DS\\LinkedStack\\LinkedStack.csproj",
       "projectName": "LinkedStack",
-      "projectPath": "C:\\Users\\pc\\Desktop\\New folder (15)\\LinkedStack\\LinkedStack.csproj",
+      "projectPath": "C:\\Users\\pc\\Desktop\\DS\\LinkedStack\\LinkedStack.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pc\\Desktop\\New folder (15)\\LinkedStack\\obj\\",
+      "outputPath": "C:\\Users\\pc\\Desktop\\DS\\LinkedStack\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -41,8 +41,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\pc\\Desktop\\Practies DataStructures And Algorithm\\Infix-PreFix-PostFix\\Infix-PreFix-PostFix.csproj": {
-              "projectPath": "C:\\Users\\pc\\Desktop\\Practies DataStructures And Algorithm\\Infix-PreFix-PostFix\\Infix-PreFix-PostFix.csproj"
+            "C:\\Users\\pc\\Desktop\\DataStructuer And Algorithms\\LinkedStack\\LinkedStack.csproj": {
+              "projectPath": "C:\\Users\\pc\\Desktop\\DataStructuer And Algorithms\\LinkedStack\\LinkedStack.csproj"
             }
           }
         }
@@ -79,8 +79,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\pc\\Desktop\\Practies DataStructures And Algorithm\\Infix-PreFix-PostFix\\Infix-PreFix-PostFix.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\pc\\Desktop\\Practies DataStructures And Algorithm\\Infix-PreFix-PostFix\\Infix-PreFix-PostFix.csproj",
+      "message": "Unable to find project 'C:\\Users\\pc\\Desktop\\DataStructuer And Algorithms\\LinkedStack\\LinkedStack.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\pc\\Desktop\\DataStructuer And Algorithms\\LinkedStack\\LinkedStack.csproj",
       "targetGraphs": [
         "net5.0"
       ]

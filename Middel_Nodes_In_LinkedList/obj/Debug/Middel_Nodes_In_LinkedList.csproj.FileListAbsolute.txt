@@ -7,7 +7,6 @@ C:\Users\pc\source\repos\DataStructuer And Algorithms\Middel_Nodes_In_LinkedList
 C:\Users\pc\Desktop\DS\Middel_Nodes_In_LinkedList\bin\Debug\Middel_Nodes_In_LinkedList.exe.config
 C:\Users\pc\Desktop\DS\Middel_Nodes_In_LinkedList\bin\Debug\Middel_Nodes_In_LinkedList.exe
 C:\Users\pc\Desktop\DS\Middel_Nodes_In_LinkedList\bin\Debug\Middel_Nodes_In_LinkedList.pdb
-C:\Users\pc\Desktop\DS\Middel_Nodes_In_LinkedList\obj\Debug\Middel_Nodes_In_LinkedList.csproj.AssemblyReference.cache
 C:\Users\pc\Desktop\DS\Middel_Nodes_In_LinkedList\obj\Debug\Middel_Nodes_In_LinkedList.csproj.SuggestedBindingRedirects.cache
 C:\Users\pc\Desktop\DS\Middel_Nodes_In_LinkedList\obj\Debug\Middel_Nodes_In_LinkedList.csproj.CoreCompileInputs.cache
 C:\Users\pc\Desktop\DS\Middel_Nodes_In_LinkedList\obj\Debug\Middel_Nodes_In_LinkedList.exe

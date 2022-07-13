@@ -29,4 +29,3 @@ C:\Users\pc\Desktop\Ds\DoublyLinkedList\obj\Debug\net5.0\DoublyLinkedList.dll
 C:\Users\pc\Desktop\Ds\DoublyLinkedList\obj\Debug\net5.0\ref\DoublyLinkedList.dll
 C:\Users\pc\Desktop\Ds\DoublyLinkedList\obj\Debug\net5.0\DoublyLinkedList.pdb
 C:\Users\pc\Desktop\Ds\DoublyLinkedList\obj\Debug\net5.0\DoublyLinkedList.genruntimeconfig.cache
-C:\Users\pc\Desktop\DS\DoublyLinkedList\obj\Debug\net5.0\DoublyLinkedList.csproj.AssemblyReference.cache

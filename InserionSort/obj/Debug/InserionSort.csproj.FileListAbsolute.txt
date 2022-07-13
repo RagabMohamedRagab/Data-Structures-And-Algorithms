@@ -7,7 +7,6 @@ C:\Users\pc\source\repos\DataStructuer And Algorithms\InserionSort\obj\Debug\Ins
 C:\Users\pc\Desktop\DS\InserionSort\bin\Debug\InserionSort.exe.config
 C:\Users\pc\Desktop\DS\InserionSort\bin\Debug\InserionSort.exe
 C:\Users\pc\Desktop\DS\InserionSort\bin\Debug\InserionSort.pdb
-C:\Users\pc\Desktop\DS\InserionSort\obj\Debug\InserionSort.csproj.AssemblyReference.cache
 C:\Users\pc\Desktop\DS\InserionSort\obj\Debug\InserionSort.csproj.SuggestedBindingRedirects.cache
 C:\Users\pc\Desktop\DS\InserionSort\obj\Debug\InserionSort.csproj.CoreCompileInputs.cache
 C:\Users\pc\Desktop\DS\InserionSort\obj\Debug\InserionSort.exe

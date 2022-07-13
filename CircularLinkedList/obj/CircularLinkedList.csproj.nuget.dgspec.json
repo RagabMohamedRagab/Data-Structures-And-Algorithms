@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\Desktop\\New folder (15)\\CircularLinkedList\\CircularLinkedList.csproj": {}
+    "C:\\Users\\pc\\Desktop\\DS\\CircularLinkedList\\CircularLinkedList.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\Desktop\\New folder (15)\\CircularLinkedList\\CircularLinkedList.csproj": {
+    "C:\\Users\\pc\\Desktop\\DS\\CircularLinkedList\\CircularLinkedList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\Desktop\\New folder (15)\\CircularLinkedList\\CircularLinkedList.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Desktop\\DS\\CircularLinkedList\\CircularLinkedList.csproj",
         "projectName": "CircularLinkedList",
-        "projectPath": "C:\\Users\\pc\\Desktop\\New folder (15)\\CircularLinkedList\\CircularLinkedList.csproj",
+        "projectPath": "C:\\Users\\pc\\Desktop\\DS\\CircularLinkedList\\CircularLinkedList.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\Desktop\\New folder (15)\\CircularLinkedList\\obj\\",
+        "outputPath": "C:\\Users\\pc\\Desktop\\DS\\CircularLinkedList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

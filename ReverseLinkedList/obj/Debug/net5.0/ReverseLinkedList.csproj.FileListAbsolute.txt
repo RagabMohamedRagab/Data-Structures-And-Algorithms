@@ -21,7 +21,6 @@ C:\Users\pc\Desktop\DS\ReverseLinkedList\bin\Debug\net5.0\ReverseLinkedList.runt
 C:\Users\pc\Desktop\DS\ReverseLinkedList\bin\Debug\net5.0\ReverseLinkedList.dll
 C:\Users\pc\Desktop\DS\ReverseLinkedList\bin\Debug\net5.0\ref\ReverseLinkedList.dll
 C:\Users\pc\Desktop\DS\ReverseLinkedList\bin\Debug\net5.0\ReverseLinkedList.pdb
-C:\Users\pc\Desktop\DS\ReverseLinkedList\obj\Debug\net5.0\ReverseLinkedList.csproj.AssemblyReference.cache
 C:\Users\pc\Desktop\DS\ReverseLinkedList\obj\Debug\net5.0\ReverseLinkedList.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\pc\Desktop\DS\ReverseLinkedList\obj\Debug\net5.0\ReverseLinkedList.AssemblyInfoInputs.cache
 C:\Users\pc\Desktop\DS\ReverseLinkedList\obj\Debug\net5.0\ReverseLinkedList.AssemblyInfo.cs

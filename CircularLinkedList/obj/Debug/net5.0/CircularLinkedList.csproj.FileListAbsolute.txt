@@ -21,7 +21,6 @@ C:\Users\pc\Desktop\DS\CircularLinkedList\bin\Debug\net5.0\CircularLinkedList.ru
 C:\Users\pc\Desktop\DS\CircularLinkedList\bin\Debug\net5.0\CircularLinkedList.dll
 C:\Users\pc\Desktop\DS\CircularLinkedList\bin\Debug\net5.0\ref\CircularLinkedList.dll
 C:\Users\pc\Desktop\DS\CircularLinkedList\bin\Debug\net5.0\CircularLinkedList.pdb
-C:\Users\pc\Desktop\DS\CircularLinkedList\obj\Debug\net5.0\CircularLinkedList.csproj.AssemblyReference.cache
 C:\Users\pc\Desktop\DS\CircularLinkedList\obj\Debug\net5.0\CircularLinkedList.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\pc\Desktop\DS\CircularLinkedList\obj\Debug\net5.0\CircularLinkedList.AssemblyInfoInputs.cache
 C:\Users\pc\Desktop\DS\CircularLinkedList\obj\Debug\net5.0\CircularLinkedList.AssemblyInfo.cs
