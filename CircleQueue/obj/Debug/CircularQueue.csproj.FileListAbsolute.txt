@@ -11,3 +11,10 @@ C:\Users\pc\Desktop\DS\CircleQueue\obj\Debug\CircularQueue.csproj.SuggestedBindi
 C:\Users\pc\Desktop\DS\CircleQueue\obj\Debug\CircularQueue.csproj.CoreCompileInputs.cache
 C:\Users\pc\Desktop\DS\CircleQueue\obj\Debug\CircleQueue.exe
 C:\Users\pc\Desktop\DS\CircleQueue\obj\Debug\CircleQueue.pdb
+C:\Users\pc\Desktop\New folder (2)\CircleQueue\bin\Debug\CircleQueue.exe.config
+C:\Users\pc\Desktop\New folder (2)\CircleQueue\bin\Debug\CircleQueue.exe
+C:\Users\pc\Desktop\New folder (2)\CircleQueue\bin\Debug\CircleQueue.pdb
+C:\Users\pc\Desktop\New folder (2)\CircleQueue\obj\Debug\CircularQueue.csproj.SuggestedBindingRedirects.cache
+C:\Users\pc\Desktop\New folder (2)\CircleQueue\obj\Debug\CircularQueue.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\New folder (2)\CircleQueue\obj\Debug\CircleQueue.exe
+C:\Users\pc\Desktop\New folder (2)\CircleQueue\obj\Debug\CircleQueue.pdb

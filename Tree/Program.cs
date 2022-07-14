@@ -101,6 +101,41 @@ namespace Tree {
                 }
             }
         }
+
+        // Max
+        public long GetMax()
+        {
+            Temp = Root;
+            if (Temp == null)
+            {
+                Console.WriteLine("Tree is Empty.");
+            }
+            while (Temp != null)
+            {
+                Previous = Temp;
+                Temp = Temp.Right;
+            }
+            return Previous.Key;
+        }
+        public void GetMaxHelper()
+        {
+            Temp = Root;
+            if (Temp == null)
+            {
+                Console.WriteLine("Tree is Empty.");
+            }
+            //Console.WriteLine(MaxHelper(Temp));
+        }
+        //public long MaxHelper(Node temp)
+        //{
+        //    if (temp == null)
+        //    {
+        //        return Previous.Key;
+        //    }
+        //    Previous = temp;
+        //    MaxHelper(temp.Right);
+        //    return 0;
+        //}
     }
     class Program {
 
@@ -111,6 +146,8 @@ namespace Tree {
             {
                 bST.AddHelper(i);
             }
+            Console.WriteLine(bST.GetMax());
+            bST.GetMaxHelper();
         }
     }
 }

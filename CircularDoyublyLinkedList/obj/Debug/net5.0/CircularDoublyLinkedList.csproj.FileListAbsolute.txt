@@ -29,3 +29,18 @@ C:\Users\pc\Desktop\DS\CircularDoyublyLinkedList\obj\Debug\net5.0\CircularDoubly
 C:\Users\pc\Desktop\DS\CircularDoyublyLinkedList\obj\Debug\net5.0\ref\CircularDoublyLinkedList.dll
 C:\Users\pc\Desktop\DS\CircularDoyublyLinkedList\obj\Debug\net5.0\CircularDoublyLinkedList.pdb
 C:\Users\pc\Desktop\DS\CircularDoyublyLinkedList\obj\Debug\net5.0\CircularDoublyLinkedList.genruntimeconfig.cache
+C:\Users\pc\Desktop\New folder (2)\CircularDoyublyLinkedList\bin\Debug\net5.0\CircularDoublyLinkedList.exe
+C:\Users\pc\Desktop\New folder (2)\CircularDoyublyLinkedList\bin\Debug\net5.0\CircularDoublyLinkedList.deps.json
+C:\Users\pc\Desktop\New folder (2)\CircularDoyublyLinkedList\bin\Debug\net5.0\CircularDoublyLinkedList.runtimeconfig.json
+C:\Users\pc\Desktop\New folder (2)\CircularDoyublyLinkedList\bin\Debug\net5.0\CircularDoublyLinkedList.runtimeconfig.dev.json
+C:\Users\pc\Desktop\New folder (2)\CircularDoyublyLinkedList\bin\Debug\net5.0\CircularDoublyLinkedList.dll
+C:\Users\pc\Desktop\New folder (2)\CircularDoyublyLinkedList\bin\Debug\net5.0\ref\CircularDoublyLinkedList.dll
+C:\Users\pc\Desktop\New folder (2)\CircularDoyublyLinkedList\bin\Debug\net5.0\CircularDoublyLinkedList.pdb
+C:\Users\pc\Desktop\New folder (2)\CircularDoyublyLinkedList\obj\Debug\net5.0\CircularDoublyLinkedList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Desktop\New folder (2)\CircularDoyublyLinkedList\obj\Debug\net5.0\CircularDoublyLinkedList.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\New folder (2)\CircularDoyublyLinkedList\obj\Debug\net5.0\CircularDoublyLinkedList.AssemblyInfo.cs
+C:\Users\pc\Desktop\New folder (2)\CircularDoyublyLinkedList\obj\Debug\net5.0\CircularDoublyLinkedList.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\New folder (2)\CircularDoyublyLinkedList\obj\Debug\net5.0\CircularDoublyLinkedList.dll
+C:\Users\pc\Desktop\New folder (2)\CircularDoyublyLinkedList\obj\Debug\net5.0\ref\CircularDoublyLinkedList.dll
+C:\Users\pc\Desktop\New folder (2)\CircularDoyublyLinkedList\obj\Debug\net5.0\CircularDoublyLinkedList.pdb
+C:\Users\pc\Desktop\New folder (2)\CircularDoyublyLinkedList\obj\Debug\net5.0\CircularDoublyLinkedList.genruntimeconfig.cache

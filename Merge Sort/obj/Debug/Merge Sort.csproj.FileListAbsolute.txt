@@ -11,3 +11,10 @@ C:\Users\pc\Desktop\DS\Merge Sort\obj\Debug\Merge Sort.csproj.SuggestedBindingRe
 C:\Users\pc\Desktop\DS\Merge Sort\obj\Debug\Merge Sort.csproj.CoreCompileInputs.cache
 C:\Users\pc\Desktop\DS\Merge Sort\obj\Debug\Merge Sort.exe
 C:\Users\pc\Desktop\DS\Merge Sort\obj\Debug\Merge Sort.pdb
+C:\Users\pc\Desktop\New folder (2)\Merge Sort\bin\Debug\Merge Sort.exe.config
+C:\Users\pc\Desktop\New folder (2)\Merge Sort\bin\Debug\Merge Sort.exe
+C:\Users\pc\Desktop\New folder (2)\Merge Sort\bin\Debug\Merge Sort.pdb
+C:\Users\pc\Desktop\New folder (2)\Merge Sort\obj\Debug\Merge Sort.csproj.SuggestedBindingRedirects.cache
+C:\Users\pc\Desktop\New folder (2)\Merge Sort\obj\Debug\Merge Sort.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\New folder (2)\Merge Sort\obj\Debug\Merge Sort.exe
+C:\Users\pc\Desktop\New folder (2)\Merge Sort\obj\Debug\Merge Sort.pdb

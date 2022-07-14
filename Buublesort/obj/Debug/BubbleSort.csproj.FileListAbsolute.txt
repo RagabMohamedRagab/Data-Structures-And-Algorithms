@@ -11,3 +11,11 @@ C:\Users\pc\Desktop\DS\Buublesort\obj\Debug\BubbleSort.csproj.SuggestedBindingRe
 C:\Users\pc\Desktop\DS\Buublesort\obj\Debug\BubbleSort.csproj.CoreCompileInputs.cache
 C:\Users\pc\Desktop\DS\Buublesort\obj\Debug\Buublesort.exe
 C:\Users\pc\Desktop\DS\Buublesort\obj\Debug\Buublesort.pdb
+C:\Users\pc\Desktop\New folder (2)\Buublesort\bin\Debug\Buublesort.exe.config
+C:\Users\pc\Desktop\New folder (2)\Buublesort\bin\Debug\Buublesort.exe
+C:\Users\pc\Desktop\New folder (2)\Buublesort\bin\Debug\Buublesort.pdb
+C:\Users\pc\Desktop\New folder (2)\Buublesort\obj\Debug\BubbleSort.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\New folder (2)\Buublesort\obj\Debug\BubbleSort.csproj.SuggestedBindingRedirects.cache
+C:\Users\pc\Desktop\New folder (2)\Buublesort\obj\Debug\BubbleSort.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\New folder (2)\Buublesort\obj\Debug\Buublesort.exe
+C:\Users\pc\Desktop\New folder (2)\Buublesort\obj\Debug\Buublesort.pdb

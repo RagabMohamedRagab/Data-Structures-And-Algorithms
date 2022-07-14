@@ -11,3 +11,10 @@ C:\Users\pc\Desktop\DS\Selection sort\obj\Debug\Selection sort.csproj.SuggestedB
 C:\Users\pc\Desktop\DS\Selection sort\obj\Debug\Selection sort.csproj.CoreCompileInputs.cache
 C:\Users\pc\Desktop\DS\Selection sort\obj\Debug\Selection sort.exe
 C:\Users\pc\Desktop\DS\Selection sort\obj\Debug\Selection sort.pdb
+C:\Users\pc\Desktop\New folder (2)\Selection sort\bin\Debug\Selection sort.exe.config
+C:\Users\pc\Desktop\New folder (2)\Selection sort\bin\Debug\Selection sort.exe
+C:\Users\pc\Desktop\New folder (2)\Selection sort\bin\Debug\Selection sort.pdb
+C:\Users\pc\Desktop\New folder (2)\Selection sort\obj\Debug\Selection sort.csproj.SuggestedBindingRedirects.cache
+C:\Users\pc\Desktop\New folder (2)\Selection sort\obj\Debug\Selection sort.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\New folder (2)\Selection sort\obj\Debug\Selection sort.exe
+C:\Users\pc\Desktop\New folder (2)\Selection sort\obj\Debug\Selection sort.pdb

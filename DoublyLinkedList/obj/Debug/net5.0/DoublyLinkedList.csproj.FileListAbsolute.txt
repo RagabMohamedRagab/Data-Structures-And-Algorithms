@@ -29,3 +29,18 @@ C:\Users\pc\Desktop\Ds\DoublyLinkedList\obj\Debug\net5.0\DoublyLinkedList.dll
 C:\Users\pc\Desktop\Ds\DoublyLinkedList\obj\Debug\net5.0\ref\DoublyLinkedList.dll
 C:\Users\pc\Desktop\Ds\DoublyLinkedList\obj\Debug\net5.0\DoublyLinkedList.pdb
 C:\Users\pc\Desktop\Ds\DoublyLinkedList\obj\Debug\net5.0\DoublyLinkedList.genruntimeconfig.cache
+C:\Users\pc\Desktop\New folder (2)\DoublyLinkedList\bin\Debug\net5.0\DoublyLinkedList.exe
+C:\Users\pc\Desktop\New folder (2)\DoublyLinkedList\bin\Debug\net5.0\DoublyLinkedList.deps.json
+C:\Users\pc\Desktop\New folder (2)\DoublyLinkedList\bin\Debug\net5.0\DoublyLinkedList.runtimeconfig.json
+C:\Users\pc\Desktop\New folder (2)\DoublyLinkedList\bin\Debug\net5.0\DoublyLinkedList.runtimeconfig.dev.json
+C:\Users\pc\Desktop\New folder (2)\DoublyLinkedList\bin\Debug\net5.0\DoublyLinkedList.dll
+C:\Users\pc\Desktop\New folder (2)\DoublyLinkedList\bin\Debug\net5.0\ref\DoublyLinkedList.dll
+C:\Users\pc\Desktop\New folder (2)\DoublyLinkedList\bin\Debug\net5.0\DoublyLinkedList.pdb
+C:\Users\pc\Desktop\New folder (2)\DoublyLinkedList\obj\Debug\net5.0\DoublyLinkedList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Desktop\New folder (2)\DoublyLinkedList\obj\Debug\net5.0\DoublyLinkedList.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\New folder (2)\DoublyLinkedList\obj\Debug\net5.0\DoublyLinkedList.AssemblyInfo.cs
+C:\Users\pc\Desktop\New folder (2)\DoublyLinkedList\obj\Debug\net5.0\DoublyLinkedList.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\New folder (2)\DoublyLinkedList\obj\Debug\net5.0\DoublyLinkedList.dll
+C:\Users\pc\Desktop\New folder (2)\DoublyLinkedList\obj\Debug\net5.0\ref\DoublyLinkedList.dll
+C:\Users\pc\Desktop\New folder (2)\DoublyLinkedList\obj\Debug\net5.0\DoublyLinkedList.pdb
+C:\Users\pc\Desktop\New folder (2)\DoublyLinkedList\obj\Debug\net5.0\DoublyLinkedList.genruntimeconfig.cache
