@@ -30,3 +30,19 @@ C:\Users\pc\Desktop\New folder (2)\Tree\obj\Debug\net5.0\Tree.dll
 C:\Users\pc\Desktop\New folder (2)\Tree\obj\Debug\net5.0\ref\Tree.dll
 C:\Users\pc\Desktop\New folder (2)\Tree\obj\Debug\net5.0\Tree.pdb
 C:\Users\pc\Desktop\New folder (2)\Tree\obj\Debug\net5.0\Tree.genruntimeconfig.cache
+C:\Users\pc\Desktop\New folder\Tree\bin\Debug\net5.0\Tree.exe
+C:\Users\pc\Desktop\New folder\Tree\bin\Debug\net5.0\Tree.deps.json
+C:\Users\pc\Desktop\New folder\Tree\bin\Debug\net5.0\Tree.runtimeconfig.json
+C:\Users\pc\Desktop\New folder\Tree\bin\Debug\net5.0\Tree.runtimeconfig.dev.json
+C:\Users\pc\Desktop\New folder\Tree\bin\Debug\net5.0\Tree.dll
+C:\Users\pc\Desktop\New folder\Tree\bin\Debug\net5.0\ref\Tree.dll
+C:\Users\pc\Desktop\New folder\Tree\bin\Debug\net5.0\Tree.pdb
+C:\Users\pc\Desktop\New folder\Tree\obj\Debug\net5.0\Tree.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\New folder\Tree\obj\Debug\net5.0\Tree.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Desktop\New folder\Tree\obj\Debug\net5.0\Tree.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\New folder\Tree\obj\Debug\net5.0\Tree.AssemblyInfo.cs
+C:\Users\pc\Desktop\New folder\Tree\obj\Debug\net5.0\Tree.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\New folder\Tree\obj\Debug\net5.0\Tree.dll
+C:\Users\pc\Desktop\New folder\Tree\obj\Debug\net5.0\ref\Tree.dll
+C:\Users\pc\Desktop\New folder\Tree\obj\Debug\net5.0\Tree.pdb
+C:\Users\pc\Desktop\New folder\Tree\obj\Debug\net5.0\Tree.genruntimeconfig.cache

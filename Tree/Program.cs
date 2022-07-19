@@ -101,7 +101,6 @@ namespace Tree {
                 }
             }
         }
-
         // Max
         public long GetMax()
         {
@@ -117,25 +116,76 @@ namespace Tree {
             }
             return Previous.Key;
         }
-        public void GetMaxHelper()
+       // Max Recursion
+       public void GetMaxRec()
+        {
+            Temp = Root;
+            if(Temp == null)
+            {
+                Console.WriteLine("Tree Is Empty..");
+            }
+            else
+            {
+                GetMaxHelper(Temp);
+
+            }
+        }
+       public void GetMaxHelper(Node Temp)
+        {
+            if (Temp.Right == null)
+            {
+                Console.WriteLine("Max :"+Previous.Key);
+            }
+            else
+            {
+                Previous = Temp.Right;
+                GetMaxHelper(Temp.Right);
+            }
+        }
+        //Min 
+       public long GetMin()
         {
             Temp = Root;
             if (Temp == null)
             {
-                Console.WriteLine("Tree is Empty.");
+                Console.WriteLine("Empty");
             }
-            //Console.WriteLine(MaxHelper(Temp));
+            else
+            {
+                while (Temp!=null) {
+                    Previous = Temp;
+                    Temp=Temp.Left;
+                }
+            }
+            return Previous.Key;
+
         }
-        //public long MaxHelper(Node temp)
-        //{
-        //    if (temp == null)
-        //    {
-        //        return Previous.Key;
-        //    }
-        //    Previous = temp;
-        //    MaxHelper(temp.Right);
-        //    return 0;
-        //}
+       public void GetMinHelper()
+        {
+            Temp = Root;
+            if (Temp == null)
+            {
+                Console.WriteLine("tree Is Empty.");
+            }
+            else
+            {
+                MinHelper(Temp.Left);
+            }
+        }
+
+        public void MinHelper(Node Temp)
+        {
+            if (Temp == null)
+            {
+                Console.WriteLine(Previous.Key);
+            }
+            else
+            {
+                Previous = Temp;
+                MinHelper(Temp.Left);
+            }
+        }
+
     }
     class Program {
 
@@ -146,8 +196,16 @@ namespace Tree {
             {
                 bST.AddHelper(i);
             }
-            Console.WriteLine(bST.GetMax());
-            bST.GetMaxHelper();
+            Console.WriteLine("Max by iteration:" + bST.GetMax());
+            Console.Write("Recursion:");
+            bST.GetMaxRec();
+            for (int i = -3; i <= 0; i++)
+            {
+                bST.Add(i);
+            }
+            Console.WriteLine("Min by iteration: :" + bST.GetMin());
+            Console.Write("Recursion:");
+            bST.GetMinHelper();
         }
     }
 }
