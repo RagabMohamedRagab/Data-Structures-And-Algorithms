@@ -224,7 +224,7 @@ namespace Tree {
                 Console.WriteLine("Min by iteration: :" + bST.GetMin());
                 Console.Write("Recursion:");
                 bST.GetMinHelper();
-                Console.WriteLine(bST.GetHight());
+                Console.WriteLine("Hight:"+bST.GetHight());
             }
         }
     }
