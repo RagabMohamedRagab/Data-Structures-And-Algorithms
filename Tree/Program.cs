@@ -116,11 +116,11 @@ namespace Tree {
             }
             return Previous.Key;
         }
-       // Max Recursion
-       public void GetMaxRec()
+        // Max Recursion
+        public void GetMaxRec()
         {
             Temp = Root;
-            if(Temp == null)
+            if (Temp == null)
             {
                 Console.WriteLine("Tree Is Empty..");
             }
@@ -130,11 +130,11 @@ namespace Tree {
 
             }
         }
-       public void GetMaxHelper(Node Temp)
+        public void GetMaxHelper(Node Temp)
         {
             if (Temp.Right == null)
             {
-                Console.WriteLine("Max :"+Previous.Key);
+                Console.WriteLine("Max :" + Previous.Key);
             }
             else
             {
@@ -143,7 +143,7 @@ namespace Tree {
             }
         }
         //Min 
-       public long GetMin()
+        public long GetMin()
         {
             Temp = Root;
             if (Temp == null)
@@ -152,15 +152,16 @@ namespace Tree {
             }
             else
             {
-                while (Temp!=null) {
+                while (Temp != null)
+                {
                     Previous = Temp;
-                    Temp=Temp.Left;
+                    Temp = Temp.Left;
                 }
             }
             return Previous.Key;
 
         }
-       public void GetMinHelper()
+        public void GetMinHelper()
         {
             Temp = Root;
             if (Temp == null)
@@ -185,27 +186,46 @@ namespace Tree {
                 MinHelper(Temp.Left);
             }
         }
-
-    }
-    class Program {
-
-        static void Main(string[] args)
+        long GetHelperHight(Node temp)
         {
-            BST bST = new BST();
-            for (int i = 0; i < 4; i++)
+            if (temp == null)
             {
-                bST.AddHelper(i);
+                return -1;
             }
-            Console.WriteLine("Max by iteration:" + bST.GetMax());
-            Console.Write("Recursion:");
-            bST.GetMaxRec();
-            for (int i = -3; i <= 0; i++)
+            long Left_Sub = GetHelperHight(temp.Left);
+            long Right_Sub = GetHelperHight(temp.Right);
+            return 1 + Math.Max(Left_Sub, Right_Sub);
+        }
+        public long GetHight()
+        {
+            Temp = Root;
+            if (Temp == null)
             {
-                bST.Add(i);
+                return -1;
             }
-            Console.WriteLine("Min by iteration: :" + bST.GetMin());
-            Console.Write("Recursion:");
-            bST.GetMinHelper();
+            return GetHelperHight(Temp);
+        }
+        class Program {
+
+            static void Main(string[] args)
+            {
+                BST bST = new BST();
+                for (int i = 0; i < 4; i++)
+                {
+                    bST.AddHelper(i);
+                }
+                Console.WriteLine("Max by iteration:" + bST.GetMax());
+                Console.Write("Recursion:");
+                bST.GetMaxRec();
+                for (int i = -3; i <= 0; i++)
+                {
+                    bST.Add(i);
+                }
+                Console.WriteLine("Min by iteration: :" + bST.GetMin());
+                Console.Write("Recursion:");
+                bST.GetMinHelper();
+                Console.WriteLine(bST.GetHight());
+            }
         }
     }
 }
