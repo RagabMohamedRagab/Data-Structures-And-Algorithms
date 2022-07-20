@@ -69,6 +69,7 @@ namespace Tree {
 
         }
         // Recusrion 
+        // Big o(1)
         public void Helper(Node temp, int data)
         {
 
@@ -102,6 +103,7 @@ namespace Tree {
             }
         }
         // Max
+        // Big O(N)
         public long GetMax()
         {
             Temp = Root;
@@ -117,6 +119,7 @@ namespace Tree {
             return Previous.Key;
         }
         // Max Recursion
+        // Big o(1)
         public void GetMaxRec()
         {
             Temp = Root;
@@ -130,6 +133,7 @@ namespace Tree {
 
             }
         }
+        // Big o(1)
         public void GetMaxHelper(Node Temp)
         {
             if (Temp.Right == null)
@@ -143,6 +147,7 @@ namespace Tree {
             }
         }
         //Min 
+        //big o(N)
         public long GetMin()
         {
             Temp = Root;
@@ -161,6 +166,7 @@ namespace Tree {
             return Previous.Key;
 
         }
+        // big o(1)
         public void GetMinHelper()
         {
             Temp = Root;
@@ -173,7 +179,7 @@ namespace Tree {
                 MinHelper(Temp.Left);
             }
         }
-
+        // big o(1)
         public void MinHelper(Node Temp)
         {
             if (Temp == null)
@@ -186,6 +192,7 @@ namespace Tree {
                 MinHelper(Temp.Left);
             }
         }
+        // 
         long GetHelperHight(Node temp)
         {
             if (temp == null)
