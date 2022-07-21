@@ -1,0 +1,16 @@
+C:\Users\pc\Desktop\New folder\BFS\bin\Debug\net5.0\BFS.exe
+C:\Users\pc\Desktop\New folder\BFS\bin\Debug\net5.0\BFS.deps.json
+C:\Users\pc\Desktop\New folder\BFS\bin\Debug\net5.0\BFS.runtimeconfig.json
+C:\Users\pc\Desktop\New folder\BFS\bin\Debug\net5.0\BFS.runtimeconfig.dev.json
+C:\Users\pc\Desktop\New folder\BFS\bin\Debug\net5.0\BFS.dll
+C:\Users\pc\Desktop\New folder\BFS\bin\Debug\net5.0\ref\BFS.dll
+C:\Users\pc\Desktop\New folder\BFS\bin\Debug\net5.0\BFS.pdb
+C:\Users\pc\Desktop\New folder\BFS\obj\Debug\net5.0\BFS.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\New folder\BFS\obj\Debug\net5.0\BFS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Desktop\New folder\BFS\obj\Debug\net5.0\BFS.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\New folder\BFS\obj\Debug\net5.0\BFS.AssemblyInfo.cs
+C:\Users\pc\Desktop\New folder\BFS\obj\Debug\net5.0\BFS.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\New folder\BFS\obj\Debug\net5.0\BFS.dll
+C:\Users\pc\Desktop\New folder\BFS\obj\Debug\net5.0\ref\BFS.dll
+C:\Users\pc\Desktop\New folder\BFS\obj\Debug\net5.0\BFS.pdb
+C:\Users\pc\Desktop\New folder\BFS\obj\Debug\net5.0\BFS.genruntimeconfig.cache

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\Desktop\\New folder (2)\\Balanced Parntheses\\Balanced Parntheses.csproj",
+      "projectUniqueName": "C:\\Users\\pc\\Desktop\\New folder\\Balanced Parntheses\\Balanced Parntheses.csproj",
       "projectName": "Balanced Parntheses",
-      "projectPath": "C:\\Users\\pc\\Desktop\\New folder (2)\\Balanced Parntheses\\Balanced Parntheses.csproj",
+      "projectPath": "C:\\Users\\pc\\Desktop\\New folder\\Balanced Parntheses\\Balanced Parntheses.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pc\\Desktop\\New folder (2)\\Balanced Parntheses\\obj\\",
+      "outputPath": "C:\\Users\\pc\\Desktop\\New folder\\Balanced Parntheses\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -41,11 +41,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircularDoublyLinkedList", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tree", "Tree\Tree.csproj", "{42629429-4F57-4028-A4EC-16CCFD945BB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balanced Parntheses", "Balanced Parntheses\Balanced Parntheses.csproj", "{77D724D3-CAC3-45C2-811A-4B12C9F275FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Balanced Parntheses", "Balanced Parntheses\Balanced Parntheses.csproj", "{77D724D3-CAC3-45C2-811A-4B12C9F275FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postfix _Prefix_Infix", "Postfix _Prefix_Infix\Postfix _Prefix_Infix.csproj", "{5976B95E-4BAE-4EAF-9EBC-28C92DB33347}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Postfix _Prefix_Infix", "Postfix _Prefix_Infix\Postfix _Prefix_Infix.csproj", "{5976B95E-4BAE-4EAF-9EBC-28C92DB33347}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complexity Running Time", "Complexity Running Time\Complexity Running Time.csproj", "{301E2405-363C-4720-BE29-423D75E1F892}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Complexity Running Time", "Complexity Running Time\Complexity Running Time.csproj", "{301E2405-363C-4720-BE29-423D75E1F892}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BFS", "BFS\BFS.csproj", "{49495B8C-4C14-4B79-BD22-B94673D15463}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{301E2405-363C-4720-BE29-423D75E1F892}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{301E2405-363C-4720-BE29-423D75E1F892}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{301E2405-363C-4720-BE29-423D75E1F892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49495B8C-4C14-4B79-BD22-B94673D15463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49495B8C-4C14-4B79-BD22-B94673D15463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49495B8C-4C14-4B79-BD22-B94673D15463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49495B8C-4C14-4B79-BD22-B94673D15463}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
