@@ -1,5 +1,7 @@
 ﻿// I'm using Recursion for all Traversal of tree
 using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace BFS {
     public class Node {
@@ -16,6 +18,9 @@ namespace BFS {
     public class Tree {
         Node Root = null;
         Node Temp = null;
+        Node Current = null;
+        Queue<Node> Queu=new Queue<Node>();
+
         Node Previous = null;
         public void AddNode(long key)
         {
@@ -55,6 +60,41 @@ namespace BFS {
                 AddRecursion(temp.Left, data);
             }
         }
+      
+        // Dealing With Queue in Tree
+        public void BFS()
+        {
+            Temp = Root;
+            if (Temp != null)
+            {
+                Queu.Enqueue(Temp);
+              
+                while (Queu.Count != 0)
+                {
+                    Current = Queu.Peek();
+                    Queu.Dequeue();
+                    Console.Write(Current.key + " ");
+                    if (Current.Left != null)
+                    {
+                        Queu.Enqueue(Temp.Left);
+                    }
+                    else
+                    {
+                        Queu.Enqueue(Temp.Right);
+                    }
+                    if (Current.Right != null)
+                    {
+                        Queu.Enqueue(Temp.Right);
+                    }
+                    else
+                    {
+                        Queu.Enqueue(Temp.Left);
+                    }
+                }
+                
+            }
+
+        }
 
     }
     public class Program {
@@ -66,6 +106,7 @@ namespace BFS {
             tree.AddNode(2);
             tree.AddNode(5);
             tree.AddNode(1);
+            tree.BFS();
         }
     }
 }
