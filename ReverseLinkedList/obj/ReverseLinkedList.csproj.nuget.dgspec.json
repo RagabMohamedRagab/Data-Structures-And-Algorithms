@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\Desktop\\New folder\\ReverseLinkedList\\ReverseLinkedList.csproj": {}
+    "C:\\Users\\pc\\Desktop\\PS\\ReverseLinkedList\\ReverseLinkedList.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\Desktop\\New folder\\ReverseLinkedList\\ReverseLinkedList.csproj": {
+    "C:\\Users\\pc\\Desktop\\PS\\ReverseLinkedList\\ReverseLinkedList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\Desktop\\New folder\\ReverseLinkedList\\ReverseLinkedList.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Desktop\\PS\\ReverseLinkedList\\ReverseLinkedList.csproj",
         "projectName": "ReverseLinkedList",
-        "projectPath": "C:\\Users\\pc\\Desktop\\New folder\\ReverseLinkedList\\ReverseLinkedList.csproj",
+        "projectPath": "C:\\Users\\pc\\Desktop\\PS\\ReverseLinkedList\\ReverseLinkedList.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\Desktop\\New folder\\ReverseLinkedList\\obj\\",
+        "outputPath": "C:\\Users\\pc\\Desktop\\PS\\ReverseLinkedList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

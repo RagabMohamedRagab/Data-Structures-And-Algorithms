@@ -18,8 +18,8 @@ namespace BFS {
     public class Tree {
         Node Root = null;
         Node Temp = null;
-        Node Current = null;
-        Queue<Node> Queu=new Queue<Node>();
+       Node Current = null;
+        Queue<Node> MyQueue=new Queue<Node>();
 
         Node Previous = null;
         public void AddNode(long key)
@@ -65,34 +65,23 @@ namespace BFS {
         public void BFS()
         {
             Temp = Root;
-            if (Temp != null)
+            MyQueue.Enqueue(Temp);
+            while(MyQueue.Count > 0)
             {
-                Queu.Enqueue(Temp);
-              
-                while (Queu.Count != 0)
+                Current=MyQueue.Dequeue();
+                Console.WriteLine(Current.key);
+               
+                if(Current.Left != null)
                 {
-                    Current = Queu.Peek();
-                    Queu.Dequeue();
-                    Console.Write(Current.key + " ");
-                    if (Current.Left != null)
-                    {
-                        Queu.Enqueue(Temp.Left);
-                    }
-                    else
-                    {
-                        Queu.Enqueue(Temp.Right);
-                    }
-                    if (Current.Right != null)
-                    {
-                        Queu.Enqueue(Temp.Right);
-                    }
-                    else
-                    {
-                        Queu.Enqueue(Temp.Left);
-                    }
+                    MyQueue.Enqueue(Current.Left);
                 }
-                
+                if (Current.Right != null)
+                {
+                    MyQueue.Enqueue(Current.Right);
+                };
+
             }
+           
 
         }
 

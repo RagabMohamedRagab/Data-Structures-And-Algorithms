@@ -18,7 +18,7 @@ using System.Collections.Generic;
 namespace QueueDS
 {
 
-    class Queue
+   public class Queue
     {
         // Front-Head Of Queue 
         int Front;
