@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\Desktop\\PS\\CircularDoyublyLinkedList\\CircularDoublyLinkedList.csproj": {}
+    "C:\\Users\\pc\\Desktop\\New folder\\CircularDoyublyLinkedList\\CircularDoublyLinkedList.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\Desktop\\PS\\CircularDoyublyLinkedList\\CircularDoublyLinkedList.csproj": {
+    "C:\\Users\\pc\\Desktop\\New folder\\CircularDoyublyLinkedList\\CircularDoublyLinkedList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\Desktop\\PS\\CircularDoyublyLinkedList\\CircularDoublyLinkedList.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Desktop\\New folder\\CircularDoyublyLinkedList\\CircularDoublyLinkedList.csproj",
         "projectName": "CircularDoublyLinkedList",
-        "projectPath": "C:\\Users\\pc\\Desktop\\PS\\CircularDoyublyLinkedList\\CircularDoublyLinkedList.csproj",
+        "projectPath": "C:\\Users\\pc\\Desktop\\New folder\\CircularDoyublyLinkedList\\CircularDoublyLinkedList.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\Desktop\\PS\\CircularDoyublyLinkedList\\obj\\",
+        "outputPath": "C:\\Users\\pc\\Desktop\\New folder\\CircularDoyublyLinkedList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

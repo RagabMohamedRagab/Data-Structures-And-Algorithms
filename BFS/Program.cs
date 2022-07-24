@@ -60,7 +60,7 @@ namespace BFS {
                 AddRecursion(temp.Left, data);
             }
         }
-      
+       // BFS
         // Dealing With Queue in Tree
         public void BFS()
         {
@@ -69,7 +69,7 @@ namespace BFS {
             while(MyQueue.Count > 0)
             {
                 Current=MyQueue.Dequeue();
-                Console.WriteLine(Current.key);
+                Console.Write(Current.key+" ");
                
                 if(Current.Left != null)
                 {
@@ -84,6 +84,73 @@ namespace BFS {
            
 
         }
+        public void DFS_PreOrder()
+        {
+            Temp = Root;
+            if (Temp == null)
+            {
+                Console.WriteLine("Your Tree Is Empty..");
+            }
+            PreOrderHelper(Temp);
+
+        }
+
+
+        void PreOrderHelper(Node temp)
+        {
+            if(temp == null)
+            {
+                return;
+            }
+            Console.Write(temp.key+" ");
+            PreOrderHelper(temp.Left);
+            PreOrderHelper(temp.Right);
+        }
+        public void DFS_INOrder()
+        {
+            Temp = Root;
+            if (Temp == null)
+            {
+                Console.WriteLine("Your Tree Is Empty..");
+            }
+            INOrderHelper(Temp);
+
+        }
+
+
+        void INOrderHelper(Node temp)
+        {
+            if (temp == null)
+            {
+                return;
+            }
+            INOrderHelper(temp.Left);
+            Console.Write(temp.key + " ");
+            INOrderHelper(temp.Right);
+        }
+        public void DFS_POSTOrder()
+        {
+            Temp = Root;
+            if (Temp == null)
+            {
+                Console.WriteLine("Your Tree Is Empty..");
+            }
+            POSTOrderHelper(Temp);
+
+        }
+
+
+        void POSTOrderHelper(Node temp)
+        {
+            if (temp == null)
+            {
+                return;
+            }
+            POSTOrderHelper(temp.Left);
+            POSTOrderHelper(temp.Right);
+            Console.Write(temp.key + " ");
+
+        }
 
     }
     public class Program {
@@ -95,7 +162,15 @@ namespace BFS {
             tree.AddNode(2);
             tree.AddNode(5);
             tree.AddNode(1);
+            Console.WriteLine("Traversal By using Breadth First :");
             tree.BFS();
+            Console.WriteLine("\nTraversal By using Depth First=>Pre Order :");
+            tree.DFS_PreOrder();
+            Console.WriteLine("\nTraversal By using Depth First=>In Order :");
+            tree.DFS_INOrder();
+            Console.WriteLine("\nTraversal By using Depth First=>Post Order :");
+            tree.DFS_POSTOrder();
+
         }
     }
 }
