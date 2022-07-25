@@ -84,6 +84,7 @@ namespace BFS {
            
 
         }
+        //VLR
         public void DFS_PreOrder()
         {
             Temp = Root;
@@ -106,6 +107,7 @@ namespace BFS {
             PreOrderHelper(temp.Left);
             PreOrderHelper(temp.Right);
         }
+        //LVR
         public void DFS_INOrder()
         {
             Temp = Root;
@@ -128,6 +130,7 @@ namespace BFS {
             Console.Write(temp.key + " ");
             INOrderHelper(temp.Right);
         }
+        //LRV
         public void DFS_POSTOrder()
         {
             Temp = Root;
@@ -149,10 +152,40 @@ namespace BFS {
             POSTOrderHelper(temp.Left);
             POSTOrderHelper(temp.Right);
             Console.Write(temp.key + " ");
-
         }
 
-    }
+        bool IsEmpty()
+        {
+            return Root == null;
+        }
+
+        // Searching 
+
+    //    Node SearchHelper(Node temp,long key)
+    //    {
+    //        if (temp.key == key)
+    //        {
+    //            return temp;
+    //        }
+
+    //    }
+
+    //    public dynamic Search(long key)
+    //    {
+    //        if (IsEmpty())
+    //        {
+    //            Console.WriteLine("Tree Is Empty");
+    //        }
+    //        Temp = Root;
+
+
+
+
+
+
+    //    }
+
+    //}
     public class Program {
         static void Main(string[] args)
         {
