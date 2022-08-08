@@ -14,3 +14,6 @@ C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedStack\obj\Debug\net5
 C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedStack\obj\Debug\net5.0\ref\LinkedStack.dll
 C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedStack\obj\Debug\net5.0\LinkedStack.pdb
 C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedStack\obj\Debug\net5.0\LinkedStack.genruntimeconfig.cache
+C:\Users\pc\Desktop\DS\LinkedStack\obj\Debug\net5.0\LinkedStack.dll
+C:\Users\pc\Desktop\DS\LinkedStack\obj\Debug\net5.0\ref\LinkedStack.dll
+C:\Users\pc\Desktop\DS\LinkedStack\obj\Debug\net5.0\LinkedStack.pdb

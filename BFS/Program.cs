@@ -18,10 +18,10 @@ namespace BFS {
     public class Tree {
         Node Root = null;
         Node Temp = null;
-       Node Current = null;
-        Queue<Node> MyQueue=new Queue<Node>();
-
+        Node Current = null;
+        Queue<Node> MyQueue = new Queue<Node>();
         Node Previous = null;
+        #region Insert
         public void AddNode(long key)
         {
             if (Root == null)
@@ -60,18 +60,19 @@ namespace BFS {
                 AddRecursion(temp.Left, data);
             }
         }
-       // BFS
+        #endregion
+        #region BFS
         // Dealing With Queue in Tree
         public void BFS()
         {
             Temp = Root;
             MyQueue.Enqueue(Temp);
-            while(MyQueue.Count > 0)
+            while (MyQueue.Count > 0)
             {
-                Current=MyQueue.Dequeue();
-                Console.Write(Current.key+" ");
-               
-                if(Current.Left != null)
+                Current = MyQueue.Dequeue();
+                Console.Write(Current.key + " ");
+
+                if (Current.Left != null)
                 {
                     MyQueue.Enqueue(Current.Left);
                 }
@@ -81,10 +82,11 @@ namespace BFS {
                 };
 
             }
-           
+
 
         }
-        //VLR
+        #endregion
+        #region VLR
         public void DFS_PreOrder()
         {
             Temp = Root;
@@ -95,19 +97,18 @@ namespace BFS {
             PreOrderHelper(Temp);
 
         }
-
-
         void PreOrderHelper(Node temp)
         {
-            if(temp == null)
+            if (temp == null)
             {
                 return;
             }
-            Console.Write(temp.key+" ");
+            Console.Write(temp.key + " ");
             PreOrderHelper(temp.Left);
             PreOrderHelper(temp.Right);
         }
-        //LVR
+        #endregion
+        #region LVR
         public void DFS_INOrder()
         {
             Temp = Root;
@@ -118,8 +119,6 @@ namespace BFS {
             INOrderHelper(Temp);
 
         }
-
-
         void INOrderHelper(Node temp)
         {
             if (temp == null)
@@ -130,7 +129,8 @@ namespace BFS {
             Console.Write(temp.key + " ");
             INOrderHelper(temp.Right);
         }
-        //LRV
+        #endregion
+        #region LRV
         public void DFS_POSTOrder()
         {
             Temp = Root;
@@ -141,8 +141,6 @@ namespace BFS {
             POSTOrderHelper(Temp);
 
         }
-
-
         void POSTOrderHelper(Node temp)
         {
             if (temp == null)
@@ -153,39 +151,44 @@ namespace BFS {
             POSTOrderHelper(temp.Right);
             Console.Write(temp.key + " ");
         }
-
         bool IsEmpty()
         {
             return Root == null;
         }
+        #endregion
+        #region Search
+        public void Search(long data)
+        {
+           
+            if(Root != null) {
+                Temp = Root;
+                SearchHelper(Temp, data);
+            }
 
-        // Searching 
-
-    //    Node SearchHelper(Node temp,long key)
-    //    {
-    //        if (temp.key == key)
-    //        {
-    //            return temp;
-    //        }
-
-    //    }
-
-    //    public dynamic Search(long key)
-    //    {
-    //        if (IsEmpty())
-    //        {
-    //            Console.WriteLine("Tree Is Empty");
-    //        }
-    //        Temp = Root;
-
-
-
+        }
+        void SearchHelper(Node temp,long key)
+        {
+            if(temp == null)
+            {
+                Console.WriteLine("Not Found Key....?");
+                return;
+            }else if (temp.key == key)
+            {
+                Console.WriteLine($"Found key : {temp.key}");
+                return;
+            }else if (temp.key < key)
+            {
+                SearchHelper(temp.Right, key);
+            }else if(temp.key >= key)
+            {
+                SearchHelper(temp.Left, key) ;
+            }
+        }
 
 
 
-    //    }
-
-    //}
+        #endregion
+    }
     public class Program {
         static void Main(string[] args)
         {
@@ -203,6 +206,9 @@ namespace BFS {
             tree.DFS_INOrder();
             Console.WriteLine("\nTraversal By using Depth First=>Post Order :");
             tree.DFS_POSTOrder();
+            Console.Write("\nPlZ Enter Search Number :");
+            long search_num = Int64.Parse(Console.ReadLine());
+            tree.Search(search_num);
 
         }
     }

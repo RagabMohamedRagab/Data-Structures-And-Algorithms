@@ -19,3 +19,4 @@ C:\Users\pc\Desktop\New folder (2)\Stack\obj\Debug\Stack.csproj.SuggestedBinding
 C:\Users\pc\Desktop\New folder (2)\Stack\obj\Debug\Stack.csproj.CoreCompileInputs.cache
 C:\Users\pc\Desktop\New folder (2)\Stack\obj\Debug\Stack.exe
 C:\Users\pc\Desktop\New folder (2)\Stack\obj\Debug\Stack.pdb
+C:\Users\pc\Desktop\DS\Stack\obj\Debug\Stack.csproj.AssemblyReference.cache
