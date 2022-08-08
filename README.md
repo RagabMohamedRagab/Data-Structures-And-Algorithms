@@ -21,7 +21,12 @@
                  <li>NoN-Tail method</li>
            </ul>
   </li>
-    <li>Tree
+    <li>Tree 
+     <ul> 
+                <li>Inserting</li>
+                <li>Searching</li>
+                 <li>Deleting</li>
+           </ul>
      <ul> 
                 <li>VLR</li>
                 <li>LVR</li>
