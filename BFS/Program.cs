@@ -157,6 +157,8 @@ namespace BFS {
         }
         #endregion
         #region Search
+        // Worest Case : O(N)
+        // Besr Case :O(log n)
         public void Search(long data)
         {
            
