@@ -44,4 +44,3 @@ C:\Users\pc\Desktop\New folder (2)\ReverseLinkedList\obj\Debug\net5.0\ReverseLin
 C:\Users\pc\Desktop\New folder (2)\ReverseLinkedList\obj\Debug\net5.0\ref\ReverseLinkedList.dll
 C:\Users\pc\Desktop\New folder (2)\ReverseLinkedList\obj\Debug\net5.0\ReverseLinkedList.pdb
 C:\Users\pc\Desktop\New folder (2)\ReverseLinkedList\obj\Debug\net5.0\ReverseLinkedList.genruntimeconfig.cache
-C:\Users\pc\Desktop\DS\ReverseLinkedList\obj\Debug\net5.0\ReverseLinkedList.csproj.AssemblyReference.cache

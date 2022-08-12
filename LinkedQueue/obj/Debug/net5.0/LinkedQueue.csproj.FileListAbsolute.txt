@@ -44,4 +44,3 @@ C:\Users\pc\Desktop\New folder (2)\LinkedQueue\obj\Debug\net5.0\LinkedQueue.dll
 C:\Users\pc\Desktop\New folder (2)\LinkedQueue\obj\Debug\net5.0\ref\LinkedQueue.dll
 C:\Users\pc\Desktop\New folder (2)\LinkedQueue\obj\Debug\net5.0\LinkedQueue.pdb
 C:\Users\pc\Desktop\New folder (2)\LinkedQueue\obj\Debug\net5.0\LinkedQueue.genruntimeconfig.cache
-C:\Users\pc\Desktop\DS\LinkedQueue\obj\Debug\net5.0\LinkedQueue.csproj.AssemblyReference.cache

@@ -161,33 +161,147 @@ namespace BFS {
         // Besr Case :O(log n)
         public void Search(long data)
         {
-           
-            if(Root != null) {
+
+            if (Root != null)
+            {
                 Temp = Root;
                 SearchHelper(Temp, data);
             }
 
         }
-        void SearchHelper(Node temp,long key)
+        void SearchHelper(Node temp, long key)
         {
-            if(temp == null)
+            if (temp == null)
             {
                 Console.WriteLine("Not Found Key....?");
                 return;
-            }else if (temp.key == key)
+            }
+            else if (temp.key == key)
             {
                 Console.WriteLine($"Found key : {temp.key}");
                 return;
-            }else if (temp.key < key)
+            }
+            else if (temp.key < key)
             {
                 SearchHelper(temp.Right, key);
-            }else if(temp.key >= key)
+            }
+            else if (temp.key >= key)
             {
-                SearchHelper(temp.Left, key) ;
+                SearchHelper(temp.Left, key);
             }
         }
 
 
+        #endregion
+
+        #region Deletion
+       public void Deletion(long key)
+        {
+            #region Test Case
+            // Test Case for Empty Tree
+            if (IsEmpty())
+                {
+                    Console.WriteLine("Tree Is Empty..");
+                    return;
+                }
+            #endregion
+
+            #region Searching For key
+            Temp = Root;
+                while (Temp != null)
+                {
+                    if (Temp.key == key)
+                    {
+                        Current = Temp;
+                        Temp=Temp.Right;
+                    }
+                    else if (Temp.key < key)
+                    {
+                        Previous = Temp;
+                        Temp = Temp.Right;
+                    }
+                    else
+                    {
+                        Previous = Temp;
+                        Temp = Temp.Left;
+                    }
+                }
+            #endregion
+           
+            #region Case1
+                // IF Right And Left are Null;
+            if (Current.Left == null && Current.Right == null)
+            {
+                if (Previous.Left == Current)
+                {
+                    Previous.Left = null;
+                    Console.WriteLine("Done.");
+                }
+                else
+                {
+                    Previous.Right = null;
+                    Console.WriteLine("Done.");
+                }
+            }
+            #endregion
+
+            #region Case2
+            // If Right is null and Left is not Null or Right Is not Null and Left is Null;
+            if ((Current.Right == null && Current.Left != null) || (Current.Right != null && Current.Left == null))
+            {
+                if (Current.Right != null)
+                {
+                    if (Previous.Right.key == Current.key)
+                    {
+                        Previous.Right = Current.Right;
+                        Console.WriteLine("Done.");
+                    }
+                }
+                else
+                {
+                    if(Previous.Left.key == Current.key)
+                    {
+                        Previous.Left= Current.Left;
+                        Console.WriteLine("Done.");
+                    }
+                }
+            }
+            #endregion
+
+            #region Case3
+            // if Right And Left aren't Null
+            if (Current.Right != null && Current.Left != null)
+            {
+                // Find Minumum Node in Right Sup Tree or Maxumum Node in Left Sup Tree 
+
+                Temp = Current;
+                while (Temp!=null) {
+                    Previous = Temp;
+                    Temp = Temp.Right;
+                }
+                Current.key = Temp.key;
+                if(Previous.Right != null)
+                {
+                    if (Previous.Right.key == Temp.key)
+                    {
+                        Previous.Right = null;
+                        Console.WriteLine("Done.");
+                    }
+                }
+                else
+                {
+                    if (Previous.Left.key == Temp.key)
+                    {
+                        Previous.Left = null;
+                        Console.WriteLine("Done.");
+                    }
+                }
+            }
+            #endregion
+
+            GC.Collect();
+
+        }
 
         #endregion
     }
@@ -204,13 +318,17 @@ namespace BFS {
             tree.BFS();
             Console.WriteLine("\nTraversal By using Depth First=>Pre Order :");
             tree.DFS_PreOrder();
-            Console.WriteLine("\nTraversal By using Depth First=>In Order :");
-            tree.DFS_INOrder();
+           
             Console.WriteLine("\nTraversal By using Depth First=>Post Order :");
             tree.DFS_POSTOrder();
             Console.Write("\nPlZ Enter Search Number :");
             long search_num = Int64.Parse(Console.ReadLine());
             tree.Search(search_num);
+            Console.Write("\nDeleting Node in tree :");
+            long Delete_num=Int64.Parse(Console.ReadLine());
+            tree.Deletion(Delete_num);
+            Console.WriteLine("\nTraversal By using Depth First=>In Order :");
+            tree.DFS_INOrder();
 
         }
     }

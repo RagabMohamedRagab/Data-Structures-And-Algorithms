@@ -73,11 +73,11 @@ namespace QueueDS
         static void Main(string[] args)
         {
             Queue queue = new Queue();
-            queue.Enqueue(10);
-            queue.Enqueue(20);
-            queue.Enqueue(30);
+            queue.Enqueue(100);
+            queue.Enqueue(200);
+            queue.Enqueue(300);
             queue.DeQueue();
-            queue.Enqueue(40);
+            queue.Enqueue(400);
             queue.Print();
         }
     }
