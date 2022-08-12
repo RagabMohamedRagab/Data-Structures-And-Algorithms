@@ -193,7 +193,6 @@ namespace BFS {
 
 
         #endregion
-
         #region Deletion
        public void Deletion(long key)
         {
@@ -318,7 +317,6 @@ namespace BFS {
             tree.BFS();
             Console.WriteLine("\nTraversal By using Depth First=>Pre Order :");
             tree.DFS_PreOrder();
-           
             Console.WriteLine("\nTraversal By using Depth First=>Post Order :");
             tree.DFS_POSTOrder();
             Console.Write("\nPlZ Enter Search Number :");
