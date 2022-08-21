@@ -21,13 +21,18 @@ namespace BFS {
     public class Tree {
         #region Properties
         Node Root = null;
+        Node Root2 = null;
         Node Temp = null;
+        Node Temp2 = null;
         Node Current = null;
+        Node Current2 = null;
         Queue<Node> MyQueue = new Queue<Node>();
-       public ArrayList arr1 = new ArrayList();
+        Queue<Node> MyQueue2 = new Queue<Node>();
+        public ArrayList arr1 = new ArrayList();
         Node Previous = null;
+        Node Previous2 = null;
         #endregion
-        #region Insert
+        #region Insert First
         public void AddNode(long key)
         {
             if (Root == null)
@@ -66,8 +71,50 @@ namespace BFS {
                 AddRecursion(temp.Left, data);
             }
         }
+        #endregion #region Insert
+
+        #region Insert Doth
+        public void AddDothNode(long key)
+        {
+            if (Root2 == null)
+            {
+                Node node = new Node(key);
+                Root2 = node;
+                Temp2 = Root2;
+                return;
+            }
+            Temp2 = Root2;
+            AddDothRecursion(Temp2, key);
+        }
+        void AddDothRecursion(Node temp, long data)
+        {
+            if (temp == null)
+            {
+                Node node = new Node(data);
+                if (Previous2.key < data)
+                {
+                    Previous2.Right = node;
+                }
+                else
+                {
+                    Previous2.Left = node;
+                }
+                return;
+            }
+            else if (temp.key < data)
+            {
+                Previous2 = temp;
+                AddDothRecursion(temp.Right, data);
+            }
+            else
+            {
+                Previous2 = temp;
+                AddDothRecursion(temp.Left, data);
+            }
+        }
         #endregion
-        #region BFS
+
+        #region BFS1
         // Dealing With Queue in Tree
         public void BFS()
         {
@@ -92,6 +139,30 @@ namespace BFS {
 
         }
         #endregion
+
+        #region BFS2
+        // Dealing With Queue in Tree
+        public void BFSDoth()
+        {
+            Temp2 = Root2;
+            MyQueue2.Enqueue(Temp2);
+            while (MyQueue2.Count > 0)
+            {
+                Current2 = MyQueue2.Dequeue();
+                Console.Write(Current2.key + " ");
+
+                if (Current2.Left != null)
+                {
+                    MyQueue2.Enqueue(Current2.Left);
+                }
+                if (Current2.Right != null)
+                {
+                    MyQueue2.Enqueue(Current2.Right);
+                };
+            }
+        }
+        #endregion
+
         #region VLR
         public void DFS_PreOrder()
         {
@@ -114,6 +185,7 @@ namespace BFS {
             PreOrderHelper(temp.Right);
         }
         #endregion
+
         #region LVR
         public void DFS_INOrder()
         {
@@ -136,6 +208,7 @@ namespace BFS {
             INOrderHelper(temp.Right);
         }
         #endregion
+
         #region LRV
         public void DFS_POSTOrder()
         {
@@ -162,6 +235,7 @@ namespace BFS {
             return Root == null;
         }
         #endregion
+
         #region Search
         // Worest Case : O(N)
         // Besr Case :O(log n)
@@ -201,41 +275,41 @@ namespace BFS {
         #endregion
 
         #region Deletion
-       public void Deletion(long key)
+        public void Deletion(long key)
         {
             #region Test Case
             // Test Case for Empty Tree
             if (IsEmpty())
-                {
-                    Console.WriteLine("Tree Is Empty..");
-                    return;
-                }
+            {
+                Console.WriteLine("Tree Is Empty..");
+                return;
+            }
             #endregion
 
             #region Searching For key
             Temp = Root;
-                while (Temp != null)
+            while (Temp != null)
+            {
+                if (Temp.key == key)
                 {
-                    if (Temp.key == key)
-                    {
-                        Current = Temp;
-                        Temp=Temp.Right;
-                    }
-                    else if (Temp.key < key)
-                    {
-                        Previous = Temp;
-                        Temp = Temp.Right;
-                    }
-                    else
-                    {
-                        Previous = Temp;
-                        Temp = Temp.Left;
-                    }
+                    Current = Temp;
+                    Temp = Temp.Right;
                 }
+                else if (Temp.key < key)
+                {
+                    Previous = Temp;
+                    Temp = Temp.Right;
+                }
+                else
+                {
+                    Previous = Temp;
+                    Temp = Temp.Left;
+                }
+            }
             #endregion
-           
+
             #region Case1
-                // IF Right And Left are Null;
+            // IF Right And Left are Null;
             if (Current.Left == null && Current.Right == null)
             {
                 if (Previous.Left == Current)
@@ -265,9 +339,9 @@ namespace BFS {
                 }
                 else
                 {
-                    if(Previous.Left.key == Current.key)
+                    if (Previous.Left.key == Current.key)
                     {
-                        Previous.Left= Current.Left;
+                        Previous.Left = Current.Left;
                         Console.WriteLine("Done.");
                     }
                 }
@@ -281,12 +355,13 @@ namespace BFS {
                 // Find Minumum Node in Right Sup Tree or Maxumum Node in Left Sup Tree 
 
                 Temp = Current;
-                while (Temp!=null) {
+                while (Temp != null)
+                {
                     Previous = Temp;
                     Temp = Temp.Right;
                 }
                 Current.key = Temp.key;
-                if(Previous.Right != null)
+                if (Previous.Right != null)
                 {
                     if (Previous.Right.key == Temp.key)
                     {
@@ -310,161 +385,80 @@ namespace BFS {
 
         #endregion
 
+
+        #region Problem Solving 
+        #endregion
+
         #region Check if two binary trees are identical or not
-
-        #region Tree1
-
-        #region Recursion
-        public void RecursiveHelper_Tree1()
+        ///****** Notes*******///
+        // Root1 and Temp 1 Are tree1
+        // Root2 and Temp 2 Are tree1
+        ///*****Notes********///
+        bool IsEqual = false;
+        public void ProblemI()
         {
-            if (!IsEmpty())
+            if (Root == null && Root2 == null)
             {
-                Temp = Root;
-                Recursive_Tree1(Temp);
-            }
-        }
-         void Recursive_Tree1(Node Temp)
-        {
-           
-            if(Temp == null)
-            {
-                return;
-            }
-            arr1.Add(Temp.key);
-            Recursive_Tree1(Temp.Left);
-            Recursive_Tree1(Temp.Right);
-        }
-        #endregion
-
-        #region Print
-        public void PrintTree1()
-        {
-            foreach (var item in arr1)
-            {
-                Console.Write(item+" ");
-            }
-        }
-        #endregion
-        #endregion
-
-        
-
-       
-
-        #endregion
-    }
-    public class Tree2 {
-        Node Root = null;
-        Node Temp = null;
-        Node Previous = null;
-       public ArrayList arr2 = new ArrayList();
-
-        #region Insert
-        public void AddNode(long key)
-        {
-            if (Root == null)
-            {
-                Node node = new Node(key);
-                Root = node;
-                Temp = Root;
-                return;
+                Console.WriteLine("Trees are Empty");
             }
             Temp = Root;
-            AddRecursion(Temp, key);
-        }
-        void AddRecursion(Node temp, long data)
-        {
-            if (temp == null)
+            Temp2 = Root2;
+            ProblemIHelper(Temp, Temp2);
+            if (IsEqual)
             {
-                Node node = new Node(data);
-                if (Previous.key < data)
-                {
-                    Previous.Right = node;
-                }
-                else
-                {
-                    Previous.Left = node;
-                }
-                return;
-            }
-            else if (temp.key < data)
-            {
-                Previous = temp;
-                AddRecursion(temp.Right, data);
+                Console.WriteLine("They are Equal");
             }
             else
             {
-                Previous = temp;
-                AddRecursion(temp.Left, data);
+                Console.WriteLine("They are not equal");
             }
         }
-        #endregion
-        #region Tree2
-
-        #region Recursion
-        public void RecursiveHelper_Tree2()
+        void ProblemIHelper(Node temp1, Node temp2)
         {
-            if (Root!=null)
+            if (temp1 == null && temp2 == null)
             {
-                Temp = Root;
-                Recursive_Tree2(Temp);
-            }
-        }
-        void Recursive_Tree2(Node Temp)
-        {
-
-            if (Temp == null)
-            {
+                IsEqual = true;
                 return;
             }
-            arr2.Add(Temp.key);
-            Recursive_Tree2(Temp.Left);
-            Recursive_Tree2(Temp.Right);
-        }
-        #endregion
-
-        #region Print
-        public void PrintTree2()
-        {
-            foreach (var item in arr2)
+            else if (temp1.key == temp2.key)
             {
-                Console.Write(item + " ");
+                ProblemIHelper(temp1.Left, temp2.Left);
+                ProblemIHelper(temp1.Right, temp2.Right);
+            }
+            else
+            {
+                IsEqual = false;
             }
         }
         #endregion
 
-        #endregion
+
+
+
+
+
+
     }
     public class Program {
         static void Main(string[] args)
         {
             Tree tree = new Tree();
-            tree.AddNode(3);
-            tree.AddNode(4);
-            tree.AddNode(2);
-            tree.AddNode(5);
-            tree.AddNode(1);
-            tree.RecursiveHelper_Tree1();
-            Console.Write("First Tree: ");
-            tree.PrintTree1();
-            Tree2 tree2 = new Tree2();
-            tree2.AddNode(3);
-            tree2.AddNode(4);
-            tree2.AddNode(2);
-            tree2.AddNode(5);
-            tree2.AddNode(1);
-            tree2.RecursiveHelper_Tree2();
-            Console.Write("\nSecond Tree: ");
-            tree2.PrintTree2();
-            Console.Write("\nResult:");
-           dynamic result= Compare(tree.arr1, tree.arr1);
-            if (result != null)
+            Console.Write("Plz Enter Count Of Node IN Binary Tree:");
+            int Count = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Enter First Tree : ");
+            Console.WriteLine("PLZ Enter Node Value:");
+            for (int i = 1; i <= Count; i++)
             {
-                Console.Write("They are Equal");
+                long Item = Int64.Parse(Console.ReadLine());
+                tree.AddNode(Item);
             }
-            else
+            Console.WriteLine("Enter Second Tree :");
+            Console.WriteLine("PLZ Enter Nodes Value:");
+            for (int i = 1; i <= Count; i++)
             {
-                Console.Write("They aren't Equal");
+
+                long Item = Int64.Parse(Console.ReadLine());
+                tree.AddDothNode(Item);
             }
             Console.WriteLine("\nTraversal By using Breadth First :");
             tree.BFS();
@@ -475,32 +469,22 @@ namespace BFS {
             Console.Write("\nPlZ Enter Search Number :");
             long search_num = Int64.Parse(Console.ReadLine());
             tree.Search(search_num);
-            Console.Write("\nDeleting Node in tree :");
-            long Delete_num=Int64.Parse(Console.ReadLine());
-            tree.Deletion(Delete_num);
-            Console.WriteLine("\nTraversal By using Depth First=>In Order :");
-            tree.DFS_INOrder();
+            //Console.Write("\nDeleting Node in tree :");
+            //long Delete_num = Int64.Parse(Console.ReadLine());
+            //tree.Deletion(Delete_num);
+            //Console.WriteLine("\nTraversal By using Depth First=>In Order :");
+            //tree.DFS_INOrder();
+
+
+            Console.WriteLine("\nMy Problem  Solving ............................");
+
+            tree.BFS();
+            Console.WriteLine();
+            tree.BFSDoth();
+            Console.WriteLine();
+            tree.ProblemI();
 
         }
-        #region Compare Between Tree1 && Tree2
-        public static dynamic Compare(ArrayList arr1, ArrayList arr2)
-        {
-            bool IsEqual = false;
-            foreach (var item in arr1)
-            {
-                if (arr2.Contains(item))
-                {
-                    IsEqual = true;
-                    continue;
-                }else {
-                    return null;
-                }
-            }
-            if (IsEqual) { return true; } else {
-                return null;
-            }
-        }
-        #endregion
     }
 
 }

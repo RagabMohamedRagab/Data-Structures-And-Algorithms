@@ -44,4 +44,3 @@ C:\Users\pc\Desktop\New folder (2)\CircularDoyublyLinkedList\obj\Debug\net5.0\Ci
 C:\Users\pc\Desktop\New folder (2)\CircularDoyublyLinkedList\obj\Debug\net5.0\ref\CircularDoublyLinkedList.dll
 C:\Users\pc\Desktop\New folder (2)\CircularDoyublyLinkedList\obj\Debug\net5.0\CircularDoublyLinkedList.pdb
 C:\Users\pc\Desktop\New folder (2)\CircularDoyublyLinkedList\obj\Debug\net5.0\CircularDoublyLinkedList.genruntimeconfig.cache
-C:\Users\pc\Desktop\DS\CircularDoyublyLinkedList\obj\Debug\net5.0\CircularDoublyLinkedList.csproj.AssemblyReference.cache

@@ -5,8 +5,4 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\DataStructuer And Algorithms\LinkedStack\LinkedStack.csproj" />
-  </ItemGroup>
-
 </Project>

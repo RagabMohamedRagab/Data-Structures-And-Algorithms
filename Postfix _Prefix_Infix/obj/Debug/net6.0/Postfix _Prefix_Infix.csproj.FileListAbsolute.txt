@@ -27,4 +27,3 @@ C:\Users\pc\Desktop\New folder (2)\Postfix _Prefix_Infix\obj\Debug\net6.0\Postfi
 C:\Users\pc\Desktop\New folder (2)\Postfix _Prefix_Infix\obj\Debug\net6.0\ref\Postfix _Prefix_Infix.dll
 C:\Users\pc\Desktop\New folder (2)\Postfix _Prefix_Infix\obj\Debug\net6.0\Postfix _Prefix_Infix.pdb
 C:\Users\pc\Desktop\New folder (2)\Postfix _Prefix_Infix\obj\Debug\net6.0\Postfix _Prefix_Infix.genruntimeconfig.cache
-C:\Users\pc\Desktop\DS\Postfix _Prefix_Infix\obj\Debug\net6.0\Postfix _Prefix_Infix.csproj.AssemblyReference.cache

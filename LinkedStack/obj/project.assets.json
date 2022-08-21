@@ -5,9 +5,7 @@
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net5.0": [
-      "C:\\Users\\pc\\Desktop\\DataStructuer And Algorithms\\LinkedStack\\LinkedStack.csproj"
-    ]
+    "net5.0": []
   },
   "packageFolders": {
     "C:\\Users\\pc\\.nuget\\packages\\": {},
@@ -40,11 +38,7 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {
-            "C:\\Users\\pc\\Desktop\\DataStructuer And Algorithms\\LinkedStack\\LinkedStack.csproj": {
-              "projectPath": "C:\\Users\\pc\\Desktop\\DataStructuer And Algorithms\\LinkedStack\\LinkedStack.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -71,19 +65,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.107\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\pc\\Desktop\\DataStructuer And Algorithms\\LinkedStack\\LinkedStack.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\pc\\Desktop\\DataStructuer And Algorithms\\LinkedStack\\LinkedStack.csproj",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  }
 }

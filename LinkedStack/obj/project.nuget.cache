@@ -1,18 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D2J+73S777DgXoiR6VN7QeHZef/n46/evawcP9GT9s7nG4xjxOBYNhL9lQgeMrdvfa0YOuwNhrxRpRvNJjYTKw==",
-  "success": false,
+  "dgSpecHash": "TPoYusvH+yXSJRFgjxlDZOuwQqq/F5hoYtZEKGUq2CYgWCHCuCMsc9eUb/11vU0rRgJ5GxlLxzrWtVQfnzqoTw==",
+  "success": true,
   "projectFilePath": "C:\\Users\\pc\\Desktop\\DS\\LinkedStack\\LinkedStack.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\pc\\Desktop\\DataStructuer And Algorithms\\LinkedStack\\LinkedStack.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\pc\\Desktop\\DataStructuer And Algorithms\\LinkedStack\\LinkedStack.csproj",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  "logs": []
 }
