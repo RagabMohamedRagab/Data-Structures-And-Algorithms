@@ -415,28 +415,68 @@ namespace BFS {
         }
         void ProblemIHelper(Node temp1, Node temp2)
         {
-            if (temp1 == null && temp2 == null)
+            try
             {
-                IsEqual = true;
-                return;
+                if (temp1 == null && temp2 == null)
+                {
+                    IsEqual = true;
+                    return;
+                }
+                else if (temp1.key == temp2.key)
+                {
+                    ProblemIHelper(temp1.Left, temp2.Left);
+                    ProblemIHelper(temp1.Right, temp2.Right);
+                }
+                else
+                {
+                    IsEqual = false;
+                }
+
             }
-            else if (temp1.key == temp2.key)
-            {
-                ProblemIHelper(temp1.Left, temp2.Left);
-                ProblemIHelper(temp1.Right, temp2.Right);
-            }
-            else
+            catch (Exception)
             {
                 IsEqual = false;
+                return;
             }
+
         }
         #endregion
 
         #region Print bottom view of a binary tree
+       
+
+        public void PrintLeavies()
+        {
+            if (IsEmpty())
+            {
+                Console.WriteLine("Tree Is Empty..");
+            }
+            Temp = Root;
+            PrintLeaviesHelper(Temp);
+        }
+        void PrintLeaviesHelper(Node temp)
+        {
+            if (temp.Left == null && temp.Right == null)
+            {
+                Console.Write(temp.key + " ");
+                return;
+            }
+            else if (temp.Left == null && temp.Right != null)
+            {
+                PrintLeaviesHelper(temp.Right);
+            }
+            else if (temp.Left != null && temp.Right == null)
+            {
+                PrintLeaviesHelper(temp.Left);
+            }
+            else
+            {
+                PrintLeaviesHelper(temp.Left);
+                PrintLeaviesHelper(temp.Right);
+            }
+        }
+
         #endregion
-
-
-
 
 
 
@@ -447,14 +487,12 @@ namespace BFS {
             Tree tree = new Tree();
             Console.Write("Plz Enter Count Of Node IN Binary Tree:");
             int Count = Int32.Parse(Console.ReadLine());
-            Console.WriteLine("Enter First Tree : ");
             Console.WriteLine("PLZ Enter Node Value:");
             for (int i = 1; i <= Count; i++)
             {
                 long Item = Int64.Parse(Console.ReadLine());
                 tree.AddNode(Item);
             }
-            Console.WriteLine("Enter Second Tree :");
             Console.WriteLine("PLZ Enter Nodes Value:");
             for (int i = 1; i <= Count; i++)
             {
@@ -484,8 +522,9 @@ namespace BFS {
             Console.WriteLine();
             tree.BFSDoth();
             Console.WriteLine();
+            Console.Write("Two Trees :");
             tree.ProblemI();
-
+            tree.PrintLeavies();
         }
     }
 
