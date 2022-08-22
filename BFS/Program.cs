@@ -406,11 +406,11 @@ namespace BFS {
             ProblemIHelper(Temp, Temp2);
             if (IsEqual)
             {
-                Console.WriteLine("They are Equal");
+                Console.WriteLine("They are Identical");
             }
             else
             {
-                Console.WriteLine("They are not equal");
+                Console.WriteLine("They are not Identical");
             }
         }
         void ProblemIHelper(Node temp1, Node temp2)
