@@ -324,7 +324,7 @@ namespace BFS {
                 }
             }
             #endregion
-
+            // Here Error in this case2
             #region Case2
             // If Right is null and Left is not Null or Right Is not Null and Left is Null;
             if ((Current.Right == null && Current.Left != null) || (Current.Right != null && Current.Left == null))
@@ -347,7 +347,7 @@ namespace BFS {
                 }
             }
             #endregion
-
+            // Here Error in this case3
             #region Case3
             // if Right And Left aren't Null
             if (Current.Right != null && Current.Left != null)
@@ -509,11 +509,11 @@ namespace BFS {
             Console.Write("\nPlZ Enter Search Number :");
             long search_num = Int64.Parse(Console.ReadLine());
             tree.Search(search_num);
-            //Console.Write("\nDeleting Node in tree :");
-            //long Delete_num = Int64.Parse(Console.ReadLine());
-            //tree.Deletion(Delete_num);
-            //Console.WriteLine("\nTraversal By using Depth First=>In Order :");
-            //tree.DFS_INOrder();
+            Console.Write("\nDeleting Node in tree :");
+            long Delete_num = Int64.Parse(Console.ReadLine());
+            tree.Deletion(Delete_num);
+            Console.WriteLine("\nTraversal By using Depth First=>In Order :");
+            tree.DFS_INOrder();
 
 
             Console.WriteLine("\nMy Problem  Solving ............................");
