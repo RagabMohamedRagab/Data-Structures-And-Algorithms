@@ -293,7 +293,7 @@ namespace BFS {
                 if (Temp.key == key)
                 {
                     Current = Temp;
-                    Temp = Temp.Right;
+                    break;
                 }
                 else if (Temp.key < key)
                 {
@@ -327,24 +327,13 @@ namespace BFS {
             // Here Error in this case2
             #region Case2
             // If Right is null and Left is not Null or Right Is not Null and Left is Null;
-            if ((Current.Right == null && Current.Left != null) || (Current.Right != null && Current.Left == null))
+            if (Current.Left == null && Current.Right != null)
             {
-                if (Current.Right != null)
-                {
-                    if (Previous.Right.key == Current.key)
-                    {
-                        Previous.Right = Current.Right;
-                        Console.WriteLine("Done.");
-                    }
-                }
-                else
-                {
-                    if (Previous.Left.key == Current.key)
-                    {
-                        Previous.Left = Current.Left;
-                        Console.WriteLine("Done.");
-                    }
-                }
+                Previous.Right = Current.Right;
+            }
+            if (Current.Left != null && Current.Right == null)
+            {
+                Previous.Left=Current.Left;
             }
             #endregion
             // Here Error in this case3

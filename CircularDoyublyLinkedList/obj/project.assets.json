@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\Desktop\\New folder (2)\\CircularDoyublyLinkedList\\CircularDoublyLinkedList.csproj",
+      "projectUniqueName": "C:\\Users\\pc\\Desktop\\DS\\CircularDoyublyLinkedList\\CircularDoublyLinkedList.csproj",
       "projectName": "CircularDoublyLinkedList",
-      "projectPath": "C:\\Users\\pc\\Desktop\\New folder (2)\\CircularDoyublyLinkedList\\CircularDoublyLinkedList.csproj",
+      "projectPath": "C:\\Users\\pc\\Desktop\\DS\\CircularDoyublyLinkedList\\CircularDoublyLinkedList.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pc\\Desktop\\New folder (2)\\CircularDoyublyLinkedList\\obj\\",
+      "outputPath": "C:\\Users\\pc\\Desktop\\DS\\CircularDoyublyLinkedList\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
