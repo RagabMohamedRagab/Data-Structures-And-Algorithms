@@ -277,6 +277,7 @@ namespace BFS {
         #region Deletion
         public void Deletion(long key)
         {
+          
             #region Test Case
             // Test Case for Empty Tree
             if (IsEmpty())
@@ -299,7 +300,7 @@ namespace BFS {
                 {
                     Previous = Temp;
                     Temp = Temp.Right;
-                }
+                } 
                 else
                 {
                     Previous = Temp;
@@ -316,25 +317,67 @@ namespace BFS {
                 {
                     Previous.Left = null;
                     Console.WriteLine("Done.");
+                    return;
                 }
                 else
                 {
                     Previous.Right = null;
                     Console.WriteLine("Done.");
+                    return;
                 }
             }
             #endregion
-            // Here Error in this case2
+
             #region Case2
             // If Right is null and Left is not Null or Right Is not Null and Left is Null;
             if (Current.Left == null && Current.Right != null)
             {
-                Previous.Right = Current.Right;
+                if (Previous.Right != null)
+                {
+                    if (Previous.Right.key == Current.key)
+                    {
+                        Previous.Right = Current.Right;
+                        GC.Collect();
+                        return;
+                    }
+
+                }
+                if (Previous.Left != null)
+                {
+                    if (Previous.Left.key == Current.key)
+                    {
+                        Previous.Left = Current.Right;
+                        GC.Collect();
+                        return;
+                    }
+                }
+
             }
             if (Current.Left != null && Current.Right == null)
             {
-                Previous.Left=Current.Left;
+                if (Previous.Right != null)
+                {
+                    if (Previous.Right.key == Current.key)
+                    {
+                        Previous.Right = Current.Left;
+                        GC.Collect();
+                        return;
+                    }
+
+                }
+                if (Previous.Left != null)
+                {
+                    if (Previous.Left.key == Current.key)
+                    {
+
+                        Previous.Left = Current.Left;
+                        GC.Collect();
+                        return;
+                    }
+                }
+
             }
+
             #endregion
             // Here Error in this case3
             #region Case3
