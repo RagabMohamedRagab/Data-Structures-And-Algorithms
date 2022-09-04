@@ -385,35 +385,39 @@ namespace BFS {
             if (Current.Right != null && Current.Left != null)
             {
                 // Find Minumum Node in Right Sup Tree or Maxumum Node in Left Sup Tree 
-
-                Temp = Current;
-                while (Temp != null)
+                Node PreR = null;
+                if (Previous.Left.key == Current.key)
                 {
-                    Previous = Temp;
-                    Temp = Temp.Right;
-                }
-                Current.key = Temp.key;
-                if (Previous.Right != null)
-                {
-                    if (Previous.Right.key == Temp.key)
+                    while (Temp != null)
                     {
-                        Previous.Right = null;
-                        Console.WriteLine("Done.");
+                        PreR = Temp;
+                        Temp = Temp.Right;
                     }
+                }
+
+                Node PreL = null;
+                if (Previous.Right.key == Current.key)
+                {
+                    while (Temp != null)
+                    {
+                     
+                        Temp = Temp.Left;
+                        PreL = Temp;
+                    }
+                }
+
+                if (PreL.key == 0)
+                {
+                    Current.key = PreR.key;
                 }
                 else
                 {
-                    if (Previous.Left.key == Temp.key)
-                    {
-                        Previous.Left = null;
-                        Console.WriteLine("Done.");
-                    }
+                    Current.key = PreL.key;
                 }
             }
-            #endregion
-
-            GC.Collect();
         }
+        #endregion
+
 
         #endregion
 
