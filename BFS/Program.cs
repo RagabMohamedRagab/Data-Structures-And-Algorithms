@@ -400,9 +400,9 @@ namespace BFS {
                 {
                     while (Temp != null)
                     {
-                     
-                        Temp = Temp.Left;
                         PreL = Temp;
+                        Temp = Temp.Left;
+                 
                     }
                 }
 
