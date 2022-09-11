@@ -421,7 +421,78 @@ namespace BFS {
 
         #endregion
 
+        #region Deletion Recursion
 
+        public void Delete(long key)
+        {
+            if (!IsEmpty())
+            {
+                Console.WriteLine(DeleteHelper(Temp, key));
+            }
+        }
+        Node DeleteHelper(Node Root,long data)
+        {
+          if(Root == null)
+            {
+                return Root;
+            }else if (data > Root.key)
+            {
+                Root.Right=DeleteHelper(Root.Right,data);
+            }else if(data < Root.key)
+            {
+                Root.Left=DeleteHelper(Root.Left,data);
+            }
+            else
+            {
+                if (Root.Right == null && Root.Left == null)
+                {
+                    Root = null;
+                }else if (Root.Right != null)
+                {
+                    Root.key = Successor(Root);
+                    Root.Right=DeleteHelper(Root.Right,Root.key);
+                }else if(Root.Left != null)
+                {
+                    Root.key = Predessor(Root);
+                    Root.Left = DeleteHelper(Root.Left, Root.key);
+                }
+            }
+          return Root;
+          
+        }
+        long Predessor(Node root)
+        {
+            Temp = Temp.Left;
+            while (Temp.Right != null)
+            {
+                Temp = Temp.Right;
+            }
+            return Temp.key;
+        }
+        long Successor(Node temp)
+        {
+            Temp = temp.Right;
+            while (Temp.Left != null)
+            {
+                Temp = Temp.Left;
+            }
+            return Temp.key;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        #endregion
         #region Problem Solving 
         #endregion
 
@@ -547,7 +618,7 @@ namespace BFS {
             tree.Search(search_num);
             Console.Write("\nDeleting Node in tree :");
             long Delete_num = Int64.Parse(Console.ReadLine());
-            tree.Deletion(Delete_num);
+            tree.Delete(Delete_num);
             Console.WriteLine("\nTraversal By using Depth First=>In Order :");
             tree.DFS_INOrder();
 
