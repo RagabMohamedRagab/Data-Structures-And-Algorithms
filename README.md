@@ -32,7 +32,17 @@
                 <li>LVR</li>
                  <li>LRV</li>
            </ul>
+           <ul>
+             <li>Binary Tree</li>
+             <li>Binary Search</li>
+           </ul>
     </li>
+    <li>
+      Algorithm
+       <ul>
+         <li>Complexity Time</li>
+         </ul>
+      </li>
      </ol>
 
 
