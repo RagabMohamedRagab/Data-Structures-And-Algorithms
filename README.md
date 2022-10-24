@@ -40,7 +40,12 @@
     <li>
       Algorithm
        <ul>
-         <li>Complexity Time</li>
+         <li> Asymptotic Notaion 
+           <ol>
+             <li>omega Notaion - Lower</li>
+             <li>theta Notaion - Middel</li>
+             <li> Order Notaion - Upper</li>
+         </li>
          </ul>
       </li>
      </ol>
