@@ -46,6 +46,7 @@
              <li>theta Notaion - Middel</li>
              <li> Order Notaion - Upper</li>
          </li>
+         <li>Time Complexity - Space Complexity </li>
          </ul>
       </li>
      </ol>
