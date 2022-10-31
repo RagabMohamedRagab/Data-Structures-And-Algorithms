@@ -49,6 +49,11 @@
          <li>Time Complexity - Space Complexity </li>
          </ul>
       </li>
+      <li> Sorting
+          <ol>
+           <li>Selection</li>
+          </ol>
+        </li>
      </ol>
 
 
