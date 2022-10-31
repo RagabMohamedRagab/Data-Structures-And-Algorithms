@@ -50,9 +50,9 @@
          </ul>
       </li>
       <li> Sorting
-          <ol>
+          <ul start="A">
            <li>Selection</li>
-          </ol>
+          </ul>
         </li>
      </ol>
 
