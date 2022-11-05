@@ -52,6 +52,7 @@
       <li> Sorting
           <ul start="A">
            <li>Selection</li>
+            <li>Bubble</li>
           </ul>
         </li>
      </ol>
