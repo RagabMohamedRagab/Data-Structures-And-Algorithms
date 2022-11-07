@@ -15,8 +15,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Middel_Nodes_In_LinkedList"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count_Occurence_Number_In_LinkedList", "Count_Occurence_Number_In_LinkedList\Count_Occurence_Number_In_LinkedList.csproj", "{1CBDD813-4A0F-42FB-9B90-0744BF692D9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InserionSort", "InserionSort\InserionSort.csproj", "{14D2B5F3-4AAC-421A-A8FB-F185EBC2D5FE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Recursion\Recursion.csproj", "{161ACFD1-9138-4390-AA08-E1D3F1D76052}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedQueue", "LinkedQueue\LinkedQueue.csproj", "{D1FD0F79-6AEC-49CC-9EA6-78E8A09DA88E}"
@@ -47,7 +45,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "algorithm", "algorithm\algo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Selection Sort", "Selection Sort\Selection Sort.csproj", "{6A42E722-BB9B-4B77-97C7-2190A90B9B9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{B826C75D-00E4-4575-B20B-85D5F17F1D4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{B826C75D-00E4-4575-B20B-85D5F17F1D4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,10 +77,6 @@ Global
 		{1CBDD813-4A0F-42FB-9B90-0744BF692D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CBDD813-4A0F-42FB-9B90-0744BF692D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CBDD813-4A0F-42FB-9B90-0744BF692D9D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{14D2B5F3-4AAC-421A-A8FB-F185EBC2D5FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{14D2B5F3-4AAC-421A-A8FB-F185EBC2D5FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{14D2B5F3-4AAC-421A-A8FB-F185EBC2D5FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{14D2B5F3-4AAC-421A-A8FB-F185EBC2D5FE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{161ACFD1-9138-4390-AA08-E1D3F1D76052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{161ACFD1-9138-4390-AA08-E1D3F1D76052}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{161ACFD1-9138-4390-AA08-E1D3F1D76052}.Release|Any CPU.ActiveCfg = Release|Any CPU
