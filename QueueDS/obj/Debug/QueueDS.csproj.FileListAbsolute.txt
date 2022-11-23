@@ -19,3 +19,4 @@ C:\Users\pc\Desktop\New folder (2)\QueueDS\obj\Debug\QueueDS.csproj.SuggestedBin
 C:\Users\pc\Desktop\New folder (2)\QueueDS\obj\Debug\QueueDS.csproj.CoreCompileInputs.cache
 C:\Users\pc\Desktop\New folder (2)\QueueDS\obj\Debug\QueueDS.exe
 C:\Users\pc\Desktop\New folder (2)\QueueDS\obj\Debug\QueueDS.pdb
+C:\Users\pc\Desktop\DS\QueueDS\obj\Debug\QueueDS.csproj.AssemblyReference.cache

@@ -19,7 +19,6 @@ C:\Users\pc\Desktop\DS\LinkedStack\bin\Debug\net5.0\LinkedStack.deps.json
 C:\Users\pc\Desktop\DS\LinkedStack\bin\Debug\net5.0\LinkedStack.runtimeconfig.json
 C:\Users\pc\Desktop\DS\LinkedStack\bin\Debug\net5.0\LinkedStack.runtimeconfig.dev.json
 C:\Users\pc\Desktop\DS\LinkedStack\bin\Debug\net5.0\LinkedStack.dll
-C:\Users\pc\Desktop\DS\LinkedStack\bin\Debug\net5.0\ref\LinkedStack.dll
 C:\Users\pc\Desktop\DS\LinkedStack\bin\Debug\net5.0\LinkedStack.pdb
 C:\Users\pc\Desktop\DS\LinkedStack\obj\Debug\net5.0\LinkedStack.csproj.AssemblyReference.cache
 C:\Users\pc\Desktop\DS\LinkedStack\obj\Debug\net5.0\LinkedStack.GeneratedMSBuildEditorConfig.editorconfig
@@ -30,3 +29,4 @@ C:\Users\pc\Desktop\DS\LinkedStack\obj\Debug\net5.0\LinkedStack.dll
 C:\Users\pc\Desktop\DS\LinkedStack\obj\Debug\net5.0\ref\LinkedStack.dll
 C:\Users\pc\Desktop\DS\LinkedStack\obj\Debug\net5.0\LinkedStack.pdb
 C:\Users\pc\Desktop\DS\LinkedStack\obj\Debug\net5.0\LinkedStack.genruntimeconfig.cache
+C:\Users\pc\Desktop\DS\LinkedStack\obj\Debug\net5.0\refint\LinkedStack.dll

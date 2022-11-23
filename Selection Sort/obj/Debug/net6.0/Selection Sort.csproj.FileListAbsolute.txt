@@ -2,7 +2,6 @@ C:\Users\pc\Desktop\DS\Selection Sort\bin\Debug\net6.0\Selection Sort.exe
 C:\Users\pc\Desktop\DS\Selection Sort\bin\Debug\net6.0\Selection Sort.deps.json
 C:\Users\pc\Desktop\DS\Selection Sort\bin\Debug\net6.0\Selection Sort.runtimeconfig.json
 C:\Users\pc\Desktop\DS\Selection Sort\bin\Debug\net6.0\Selection Sort.dll
-C:\Users\pc\Desktop\DS\Selection Sort\bin\Debug\net6.0\ref\Selection Sort.dll
 C:\Users\pc\Desktop\DS\Selection Sort\bin\Debug\net6.0\Selection Sort.pdb
 C:\Users\pc\Desktop\DS\Selection Sort\obj\Debug\net6.0\Selection Sort.csproj.AssemblyReference.cache
 C:\Users\pc\Desktop\DS\Selection Sort\obj\Debug\net6.0\Selection Sort.GeneratedMSBuildEditorConfig.editorconfig
@@ -13,3 +12,4 @@ C:\Users\pc\Desktop\DS\Selection Sort\obj\Debug\net6.0\Selection Sort.dll
 C:\Users\pc\Desktop\DS\Selection Sort\obj\Debug\net6.0\ref\Selection Sort.dll
 C:\Users\pc\Desktop\DS\Selection Sort\obj\Debug\net6.0\Selection Sort.pdb
 C:\Users\pc\Desktop\DS\Selection Sort\obj\Debug\net6.0\Selection Sort.genruntimeconfig.cache
+C:\Users\pc\Desktop\DS\Selection Sort\obj\Debug\net6.0\refint\Selection Sort.dll
