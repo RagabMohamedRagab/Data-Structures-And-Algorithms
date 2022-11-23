@@ -39,6 +39,8 @@ namespace Sort {
 
    public class Program
     {
+        // Time Complexity O(N)
+        // Space Complexity O(1)
         static void Main(string[] args)
         {
             int N;
@@ -57,9 +59,6 @@ namespace Sort {
             inser.Display(Arr, N);
             inser.Action(Arr, N);
             inser.Display(Arr, N);
-
-
-
         }
     }
 }
