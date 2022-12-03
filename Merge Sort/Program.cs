@@ -59,13 +59,13 @@ namespace Merge {
             }
             while (i < n1)
             {
-                A[k] = A[i];
+                A[k] = L[i];
                 k++;
                 i++;
             }
             while (j < n2)
             {
-                A[k] = A[j];
+                A[k] = R[j];
                 j++;
                 k++;
             }
@@ -80,6 +80,13 @@ namespace Merge {
                 Sort(A, l, m, r);
             }
         }
+        public void Display(int []A)
+        {
+            foreach (var item in A)
+            {
+                Console.Write(item+" ");
+            }
+        }
     }
     class Program
     {
@@ -87,7 +94,10 @@ namespace Merge {
         {
             int[] A = new int[] { 30, 20, 40, 5, 90, 80, 10 };
             MegeSort megeSort = new MegeSort();
+            megeSort.Display(A);
             megeSort.ActionHelper(A, 0, 6);
+            Console.WriteLine();
+            megeSort.Display(A);
         }
     }
 
