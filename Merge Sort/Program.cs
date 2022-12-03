@@ -52,7 +52,7 @@ namespace Merge {
                 }
                 else
                 {
-                    A[K] = R[j];
+                    A[k] = R[j];
                     j++;
                 }
                 k++;
@@ -76,7 +76,7 @@ namespace Merge {
             {
                 int m = l + (r - l) / 2;
                 ActionHelper(A, l, m);
-                ActionHelper(A, m, r);
+                ActionHelper(A, m+1, r);
                 Sort(A, l, m, r);
             }
         }
@@ -85,7 +85,9 @@ namespace Merge {
     {
         static void Main(string[] args)
         {
-
+            int[] A = new int[] { 30, 20, 40, 5, 90, 80, 10 };
+            MegeSort megeSort = new MegeSort();
+            megeSort.ActionHelper(A, 0, 6);
         }
     }
 
