@@ -63,6 +63,8 @@
           <ul start="A">
            <li>Selection</li>
             <li>Bubble</li>
+            <li>Insertion</li>
+            <li>Merge</li>
           </ul>
         </li>
      </ol>
