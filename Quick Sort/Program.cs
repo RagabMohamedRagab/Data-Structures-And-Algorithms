@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Time Complexity O(Nlogn)
+// Space Complexity O(1)
+using System;
 using System.Globalization;
 
 namespace Quick_Sort {
@@ -25,7 +27,7 @@ namespace Quick_Sort {
                 {
                     break;
                 }
-                if (A[Pivot] > A[r]){
+                else if (A[Pivot] > A[r]){
                     Swap(ref A[Pivot],ref A[r]);
                     Pivot = r;
                 }
@@ -38,7 +40,7 @@ namespace Quick_Sort {
                 {
                     break;
                 }
-                if (A[Pivot] < A[l])
+                else if (A[Pivot] < A[l])
                 {
                     Swap(ref A[Pivot],ref A[l]);
                     Pivot = l;
@@ -46,11 +48,32 @@ namespace Quick_Sort {
             } 
             return Pivot;
         }
+        public void QuickSort(int[]A,int l,int r)
+        {
+            if (l < r)
+            {
+                int pivot=Action(A,l,r);
+                QuickSort(A,l,pivot-1);
+                QuickSort(A,pivot+1,r);
+            }
+        }
+        public void Display(int[] A)
+        {
+            foreach (var item in A)
+            {
+                Console.Write(item +" ");
+            }
+            Console.WriteLine();
+        }
     }
     public class Program {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int[] Arr = new int[] { 40, 20, 60, 10, 30, 50 };
+            Quick quick = new Quick();
+            quick.Display(Arr);
+            quick.QuickSort(Arr, 0, Arr.Length - 1);
+            quick.Display(Arr);
         }
     }
 }
