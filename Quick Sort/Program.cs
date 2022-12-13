@@ -12,6 +12,30 @@ namespace Quick_Sort {
             a = b;
             b=t;
         }
+        public int Action2(int[]A,int l,int r)
+        {
+            int pivot = A[l];
+            int i = l,j = r;
+            while (i < j)
+            {
+                do
+                {
+                    i++;
+                } while (pivot >= A[i]);
+                do
+                {
+                    j--;
+                } while (pivot < A[j]);
+                if (i < j)
+                {
+                    Swap(ref A[i], ref A[j]);
+                }
+              
+                    Swap(ref A[j], ref A[l]);
+                
+            }
+            return j;
+        }
         public int Action(int[]A,int Bl,int Br)
         {
             int l = Bl;
@@ -52,7 +76,7 @@ namespace Quick_Sort {
         {
             if (l < r)
             {
-                int pivot=Action(A,l,r);
+                int pivot=Action2(A,l,r);
                 QuickSort(A,l,pivot-1);
                 QuickSort(A,pivot+1,r);
             }
