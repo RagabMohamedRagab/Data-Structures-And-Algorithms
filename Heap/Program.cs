@@ -33,10 +33,60 @@
                  20  30
 
 
--- Solve Heap 
+-- Solve Heap -----------------
   1- Get Array 
   2- Convert into Complete Binary Tree
   3- Convert Complete Binary tree to Max Heap Or Min Heap  
+
+   Example :
+
+    Index   0 1 2 3 4  5
+    Array   3 7 5 2 10 4
+              <=|=>
+               
+  - Convert Array into Complete Binary Tree
+     
+                3
+              /  \
+             7    5
+            / \  / 
+           2  10 4
+
+   - Get First Index 5/2 = 2
+   1- Array[2]= 5 Start there         
+              3
+             / \
+            7   5
+           / \  /
+          2  10 4
+   
+    2- Arr[1]= 7
+
+           3
+          / \
+         10  5
+        / \  /
+       2  7  4
+
+   3- Arr[0]=3
+  
+        10
+       /  \
+      3    5
+     / \   /
+    2  7  4
+   
+
+   4- Arr[1]=7
+ 
+       10
+      /  \
+     7    5
+    / \   /
+   2  3  4
+
+  Finally:Max - Acending Array : 10 7 5 2 3 4 
+----------------------------------------------
  */
 using System;
 namespace Heap {
