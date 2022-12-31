@@ -32,13 +32,6 @@ C:\Users\pc\source\repos\New folder (8)\Recursion\obj\Debug\Recursion.csprojAsse
 C:\Users\pc\source\repos\New folder (8)\Recursion\obj\Debug\Recursion.csproj.CoreCompileInputs.cache
 C:\Users\pc\source\repos\New folder (8)\Recursion\obj\Debug\Recursion.exe
 C:\Users\pc\source\repos\New folder (8)\Recursion\obj\Debug\Recursion.pdb
-C:\Users\pc\Desktop\DS\Recursion\bin\Debug\Recursion.exe.config
-C:\Users\pc\Desktop\DS\Recursion\bin\Debug\Recursion.exe
-C:\Users\pc\Desktop\DS\Recursion\bin\Debug\Recursion.pdb
-C:\Users\pc\Desktop\DS\Recursion\obj\Debug\Recursion.csproj.SuggestedBindingRedirects.cache
-C:\Users\pc\Desktop\DS\Recursion\obj\Debug\Recursion.csproj.CoreCompileInputs.cache
-C:\Users\pc\Desktop\DS\Recursion\obj\Debug\Recursion.exe
-C:\Users\pc\Desktop\DS\Recursion\obj\Debug\Recursion.pdb
 C:\Users\pc\Desktop\New folder (2)\Recursion\bin\Debug\Recursion.exe.config
 C:\Users\pc\Desktop\New folder (2)\Recursion\bin\Debug\Recursion.exe
 C:\Users\pc\Desktop\New folder (2)\Recursion\bin\Debug\Recursion.pdb
@@ -46,4 +39,3 @@ C:\Users\pc\Desktop\New folder (2)\Recursion\obj\Debug\Recursion.csproj.Suggeste
 C:\Users\pc\Desktop\New folder (2)\Recursion\obj\Debug\Recursion.csproj.CoreCompileInputs.cache
 C:\Users\pc\Desktop\New folder (2)\Recursion\obj\Debug\Recursion.exe
 C:\Users\pc\Desktop\New folder (2)\Recursion\obj\Debug\Recursion.pdb
-C:\Users\pc\Desktop\DS\Recursion\obj\Debug\Recursion.csproj.AssemblyReference.cache

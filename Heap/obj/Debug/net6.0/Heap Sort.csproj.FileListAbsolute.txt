@@ -1,0 +1,15 @@
+C:\Users\pc\Desktop\DS\Heap\bin\Debug\net6.0\Heap Sort.exe
+C:\Users\pc\Desktop\DS\Heap\bin\Debug\net6.0\Heap Sort.deps.json
+C:\Users\pc\Desktop\DS\Heap\bin\Debug\net6.0\Heap Sort.runtimeconfig.json
+C:\Users\pc\Desktop\DS\Heap\bin\Debug\net6.0\Heap Sort.dll
+C:\Users\pc\Desktop\DS\Heap\bin\Debug\net6.0\Heap Sort.pdb
+C:\Users\pc\Desktop\DS\Heap\obj\Debug\net6.0\Heap Sort.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\DS\Heap\obj\Debug\net6.0\Heap Sort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Desktop\DS\Heap\obj\Debug\net6.0\Heap Sort.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\DS\Heap\obj\Debug\net6.0\Heap Sort.AssemblyInfo.cs
+C:\Users\pc\Desktop\DS\Heap\obj\Debug\net6.0\Heap Sort.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\DS\Heap\obj\Debug\net6.0\Heap Sort.dll
+C:\Users\pc\Desktop\DS\Heap\obj\Debug\net6.0\refint\Heap Sort.dll
+C:\Users\pc\Desktop\DS\Heap\obj\Debug\net6.0\Heap Sort.pdb
+C:\Users\pc\Desktop\DS\Heap\obj\Debug\net6.0\Heap Sort.genruntimeconfig.cache
+C:\Users\pc\Desktop\DS\Heap\obj\Debug\net6.0\ref\Heap Sort.dll

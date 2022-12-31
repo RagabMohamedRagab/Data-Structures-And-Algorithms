@@ -5,13 +5,6 @@ C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedList\obj\Debug\Linke
 C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedList\obj\Debug\LinkedList.csproj.CoreCompileInputs.cache
 C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedList\obj\Debug\LinkedList.exe
 C:\Users\pc\source\repos\DataStructuer And Algorithms\LinkedList\obj\Debug\LinkedList.pdb
-C:\Users\pc\Desktop\DS\LinkedList\bin\Debug\LinkedList.exe.config
-C:\Users\pc\Desktop\DS\LinkedList\bin\Debug\LinkedList.exe
-C:\Users\pc\Desktop\DS\LinkedList\bin\Debug\LinkedList.pdb
-C:\Users\pc\Desktop\DS\LinkedList\obj\Debug\LinkedList.csproj.SuggestedBindingRedirects.cache
-C:\Users\pc\Desktop\DS\LinkedList\obj\Debug\LinkedList.csproj.CoreCompileInputs.cache
-C:\Users\pc\Desktop\DS\LinkedList\obj\Debug\LinkedList.exe
-C:\Users\pc\Desktop\DS\LinkedList\obj\Debug\LinkedList.pdb
 C:\Users\pc\Desktop\New folder (2)\LinkedList\bin\Debug\LinkedList.exe.config
 C:\Users\pc\Desktop\New folder (2)\LinkedList\bin\Debug\LinkedList.exe
 C:\Users\pc\Desktop\New folder (2)\LinkedList\bin\Debug\LinkedList.pdb
@@ -19,4 +12,3 @@ C:\Users\pc\Desktop\New folder (2)\LinkedList\obj\Debug\LinkedList.csproj.Sugges
 C:\Users\pc\Desktop\New folder (2)\LinkedList\obj\Debug\LinkedList.csproj.CoreCompileInputs.cache
 C:\Users\pc\Desktop\New folder (2)\LinkedList\obj\Debug\LinkedList.exe
 C:\Users\pc\Desktop\New folder (2)\LinkedList\obj\Debug\LinkedList.pdb
-C:\Users\pc\Desktop\DS\LinkedList\obj\Debug\LinkedList.csproj.AssemblyReference.cache

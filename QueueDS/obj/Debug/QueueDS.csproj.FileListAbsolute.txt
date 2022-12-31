@@ -5,13 +5,6 @@ C:\Users\pc\source\repos\DataStructuer And Algorithms\QueueDS\obj\Debug\QueueDS.
 C:\Users\pc\source\repos\DataStructuer And Algorithms\QueueDS\obj\Debug\QueueDS.csproj.CoreCompileInputs.cache
 C:\Users\pc\source\repos\DataStructuer And Algorithms\QueueDS\obj\Debug\QueueDS.exe
 C:\Users\pc\source\repos\DataStructuer And Algorithms\QueueDS\obj\Debug\QueueDS.pdb
-C:\Users\pc\Desktop\DS\QueueDS\bin\Debug\QueueDS.exe.config
-C:\Users\pc\Desktop\DS\QueueDS\bin\Debug\QueueDS.exe
-C:\Users\pc\Desktop\DS\QueueDS\bin\Debug\QueueDS.pdb
-C:\Users\pc\Desktop\DS\QueueDS\obj\Debug\QueueDS.csproj.SuggestedBindingRedirects.cache
-C:\Users\pc\Desktop\DS\QueueDS\obj\Debug\QueueDS.csproj.CoreCompileInputs.cache
-C:\Users\pc\Desktop\DS\QueueDS\obj\Debug\QueueDS.exe
-C:\Users\pc\Desktop\DS\QueueDS\obj\Debug\QueueDS.pdb
 C:\Users\pc\Desktop\New folder (2)\QueueDS\bin\Debug\QueueDS.exe.config
 C:\Users\pc\Desktop\New folder (2)\QueueDS\bin\Debug\QueueDS.exe
 C:\Users\pc\Desktop\New folder (2)\QueueDS\bin\Debug\QueueDS.pdb
@@ -19,4 +12,3 @@ C:\Users\pc\Desktop\New folder (2)\QueueDS\obj\Debug\QueueDS.csproj.SuggestedBin
 C:\Users\pc\Desktop\New folder (2)\QueueDS\obj\Debug\QueueDS.csproj.CoreCompileInputs.cache
 C:\Users\pc\Desktop\New folder (2)\QueueDS\obj\Debug\QueueDS.exe
 C:\Users\pc\Desktop\New folder (2)\QueueDS\obj\Debug\QueueDS.pdb
-C:\Users\pc\Desktop\DS\QueueDS\obj\Debug\QueueDS.csproj.AssemblyReference.cache

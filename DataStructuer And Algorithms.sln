@@ -53,7 +53,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Merge Sort", "Merge Sort\Me
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quick Sort", "Quick Sort\Quick Sort.csproj", "{82060894-57C6-4291-A708-5EC1629B90F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heap", "Heap\Heap.csproj", "{29DBDF48-3A54-4BB8-9401-0F4F09952DC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heap Sort", "Heap\Heap Sort.csproj", "{29DBDF48-3A54-4BB8-9401-0F4F09952DC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

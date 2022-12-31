@@ -14,20 +14,6 @@ C:\Users\pc\source\repos\DataStructuer And Algorithms\MergeLinkedList\obj\Debug\
 C:\Users\pc\source\repos\DataStructuer And Algorithms\MergeLinkedList\obj\Debug\net5.0\ref\MergeLinkedList.dll
 C:\Users\pc\source\repos\DataStructuer And Algorithms\MergeLinkedList\obj\Debug\net5.0\MergeLinkedList.pdb
 C:\Users\pc\source\repos\DataStructuer And Algorithms\MergeLinkedList\obj\Debug\net5.0\MergeLinkedList.genruntimeconfig.cache
-C:\Users\pc\Desktop\DS\MergeLinkedList\bin\Debug\net5.0\MergeLinkedList.exe
-C:\Users\pc\Desktop\DS\MergeLinkedList\bin\Debug\net5.0\MergeLinkedList.deps.json
-C:\Users\pc\Desktop\DS\MergeLinkedList\bin\Debug\net5.0\MergeLinkedList.runtimeconfig.json
-C:\Users\pc\Desktop\DS\MergeLinkedList\bin\Debug\net5.0\MergeLinkedList.runtimeconfig.dev.json
-C:\Users\pc\Desktop\DS\MergeLinkedList\bin\Debug\net5.0\MergeLinkedList.dll
-C:\Users\pc\Desktop\DS\MergeLinkedList\bin\Debug\net5.0\MergeLinkedList.pdb
-C:\Users\pc\Desktop\DS\MergeLinkedList\obj\Debug\net5.0\MergeLinkedList.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\pc\Desktop\DS\MergeLinkedList\obj\Debug\net5.0\MergeLinkedList.AssemblyInfoInputs.cache
-C:\Users\pc\Desktop\DS\MergeLinkedList\obj\Debug\net5.0\MergeLinkedList.AssemblyInfo.cs
-C:\Users\pc\Desktop\DS\MergeLinkedList\obj\Debug\net5.0\MergeLinkedList.csproj.CoreCompileInputs.cache
-C:\Users\pc\Desktop\DS\MergeLinkedList\obj\Debug\net5.0\MergeLinkedList.dll
-C:\Users\pc\Desktop\DS\MergeLinkedList\obj\Debug\net5.0\ref\MergeLinkedList.dll
-C:\Users\pc\Desktop\DS\MergeLinkedList\obj\Debug\net5.0\MergeLinkedList.pdb
-C:\Users\pc\Desktop\DS\MergeLinkedList\obj\Debug\net5.0\MergeLinkedList.genruntimeconfig.cache
 C:\Users\pc\Desktop\New folder (2)\MergeLinkedList\bin\Debug\net5.0\MergeLinkedList.exe
 C:\Users\pc\Desktop\New folder (2)\MergeLinkedList\bin\Debug\net5.0\MergeLinkedList.deps.json
 C:\Users\pc\Desktop\New folder (2)\MergeLinkedList\bin\Debug\net5.0\MergeLinkedList.runtimeconfig.json
@@ -43,5 +29,3 @@ C:\Users\pc\Desktop\New folder (2)\MergeLinkedList\obj\Debug\net5.0\MergeLinkedL
 C:\Users\pc\Desktop\New folder (2)\MergeLinkedList\obj\Debug\net5.0\ref\MergeLinkedList.dll
 C:\Users\pc\Desktop\New folder (2)\MergeLinkedList\obj\Debug\net5.0\MergeLinkedList.pdb
 C:\Users\pc\Desktop\New folder (2)\MergeLinkedList\obj\Debug\net5.0\MergeLinkedList.genruntimeconfig.cache
-C:\Users\pc\Desktop\DS\MergeLinkedList\obj\Debug\net5.0\MergeLinkedList.csproj.AssemblyReference.cache
-C:\Users\pc\Desktop\DS\MergeLinkedList\obj\Debug\net5.0\refint\MergeLinkedList.dll

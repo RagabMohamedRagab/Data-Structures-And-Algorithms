@@ -36,7 +36,8 @@
 -- Solve Heap -----------------
   1- Get Array 
   2- Convert into Complete Binary Tree
-  3- Convert Complete Binary tree to Max Heap Or Min Heap  
+  3- Convert Complete Binary tree to Max Heap Or Min Heap  by using HeapIfy
+  4- Sorting max Heap or min Heap.
 
    Example :
 
@@ -89,13 +90,69 @@
 ----------------------------------------------
  */
 using System;
-namespace Heap {
-    public class Program
-    {
+namespace Heap_Sort {
+    public class Heap {
+        public void Heapify(int[] A, int size, int pos)
+        {
+            int L = (pos * 2) + 1; // Left Child Of pos
+            int R = (pos * 2) + 2; // Right Child Of Pos
+            int max = pos;    // Max or comparer
+            if (L < size && A[L] > A[max])
+            {
+                max = L;
+            }
+            if (R < size && A[R] > A[max])
+            {
+                max = R;
+            }
+            if (max != pos)
+            {
+                Swap(ref A[max], ref A[pos]); 
+                Heapify(A, size, max);
+            }
+           
+        }
+        void Swap(ref int first, ref int second)
+        {
+            int temp = first;
+            first = second;
+            second = temp;
+        }
+        public void BuildHeap(int[] A, int size) // max | min heap => Convert Complete Binary Tree to Max or Min Heap 
+        {
+            int b = (size / 2) - 1;
+            while (b >= 0)
+            {
+                Heapify(A, size, b);
+                b--;
+            }
+        }
+        public void HeapSort(int[] A, int size)
+        {
+            BuildHeap(A, size);
+            for (int i = size - 1; i >= 0; i--)
+            {
+                Swap(ref A[0], ref A[i]);
+                Heapify(A, size, i);
+            }
+        }
+        public void Display(int[] A)
+        {
+            foreach (var item in A)
+            {
+                Console.Write(item + " ");
+            }
+        }
+    }
+    public class Program {
         static void Main(string[] args)
         {
-            // Code 
+            int[] A = new int[] { 90, 10, 40, 70, 5 };
+            Heap heap = new Heap();
+            heap.HeapSort(A, A.Length);
+            heap.Display(A);
         }
     }
 
 }
+

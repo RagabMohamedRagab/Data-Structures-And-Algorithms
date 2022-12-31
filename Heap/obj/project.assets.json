@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\Desktop\\DS\\Heap\\Heap.csproj",
-      "projectName": "Heap",
-      "projectPath": "C:\\Users\\pc\\Desktop\\DS\\Heap\\Heap.csproj",
+      "projectUniqueName": "C:\\Users\\pc\\Desktop\\DS\\Heap\\Heap Sort.csproj",
+      "projectName": "Heap Sort",
+      "projectPath": "C:\\Users\\pc\\Desktop\\DS\\Heap\\Heap Sort.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\pc\\Desktop\\DS\\Heap\\obj\\",
       "projectStyle": "PackageReference",
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
