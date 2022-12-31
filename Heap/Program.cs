@@ -97,11 +97,11 @@ namespace Heap_Sort {
             int L = (pos * 2) + 1; // Left Child Of pos
             int R = (pos * 2) + 2; // Right Child Of Pos
             int max = pos;    // Max or comparer
-            if (L < size && A[L] > A[max])
+            if (L < size && A[L] < A[max])
             {
                 max = L;
             }
-            if (R < size && A[R] > A[max])
+            if (R < size && A[R] < A[max])
             {
                 max = R;
             }
@@ -133,7 +133,7 @@ namespace Heap_Sort {
             for (int i = size - 1; i >= 0; i--)
             {
                 Swap(ref A[0], ref A[i]);
-                Heapify(A, size, i);
+                Heapify(A, size, 0);
             }
         }
         public void Display(int[] A)
