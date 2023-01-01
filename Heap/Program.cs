@@ -118,7 +118,7 @@ namespace Heap_Sort {
             first = second;
             second = temp;
         }
-        public void BuildHeap(int[] A, int size) // max | min heap => Convert Complete Binary Tree to Max or Min Heap 
+        public void BuildMaxHeap(int[] A, int size) // max | min heap => Convert Complete Binary Tree to Max or Min Heap 
         {
             int b = (size / 2) - 1;
             while (b >= 0)
@@ -129,7 +129,7 @@ namespace Heap_Sort {
         }
         public void HeapSort(int[] A, int size)
         {
-            BuildHeap(A, size);
+            BuildMaxHeap(A, size);
             for (int i = size - 1; i >= 0; i--)
             {
                 Swap(ref A[0], ref A[i]);
