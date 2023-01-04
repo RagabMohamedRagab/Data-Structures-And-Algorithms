@@ -87,6 +87,12 @@
    2  3  4
 
   Finally:Max - Acending Array : 10 7 5 2 3 4 
+
+
+
+    1- BuildMaxHeap
+    2- Swap(first , Last)
+    4- HeapIfy(A,S,0) : HeapIfy Starting From Zero Index
 ----------------------------------------------
  */
 using System;
