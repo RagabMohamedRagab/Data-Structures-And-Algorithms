@@ -10,5 +10,6 @@
        <li> <a href="https://www.youtube.com/playlist?list=PLwCMLs3sjOY6KH-8c9F-lMWn-r02hyoV_">Algorithms - Full Coures In Arabic</a></li>
        <li> <a href="https://www.youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P">Data structures</a></li>
        <li> <a href="https://www.youtube.com/watch?v=eNOZjwJVIxg&list=PLF8OvnCBlEY3a1pbPrE6fvNuV3qi-6KRf">Data Structure and Algorithms analysis || الخوارزميات وهيكلة البيانات</a></li>
+       <li> <a href="https://www.youtube.com/@codemasrytube/featured">Code Masry</a></li>
   </ul>
 
