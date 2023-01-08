@@ -55,7 +55,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quick Sort", "Quick Sort\Qu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heap Sort", "Heap\Heap Sort.csproj", "{29DBDF48-3A54-4BB8-9401-0F4F09952DC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sequence_Linear_Search", "Sequence_Linear_Search\Sequence_Linear_Search.csproj", "{CD746A03-96F0-4D3A-8A10-DDA4703890F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sequence_Linear_Search", "Sequence_Linear_Search\Sequence_Linear_Search.csproj", "{CD746A03-96F0-4D3A-8A10-DDA4703890F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{1FA00D0D-C214-4E91-8E52-3D7B6250ABFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +173,10 @@ Global
 		{CD746A03-96F0-4D3A-8A10-DDA4703890F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD746A03-96F0-4D3A-8A10-DDA4703890F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD746A03-96F0-4D3A-8A10-DDA4703890F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FA00D0D-C214-4E91-8E52-3D7B6250ABFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FA00D0D-C214-4E91-8E52-3D7B6250ABFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FA00D0D-C214-4E91-8E52-3D7B6250ABFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FA00D0D-C214-4E91-8E52-3D7B6250ABFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
