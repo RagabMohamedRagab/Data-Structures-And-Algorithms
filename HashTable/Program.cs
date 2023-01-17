@@ -16,7 +16,7 @@ namespace HashTable {
             Console.Write("Number Of Data:");
             int size = Int32.Parse(Console.ReadLine());
             int i = 0;
-            while (i++ <= size)
+            while (i++ < size)
             {
                 Console.Write("PLZ Enter Key:");
                 string Key = Console.ReadLine().ToLower();
@@ -38,6 +38,23 @@ namespace HashTable {
                     data.Next = hash;
                 }
             }
+            Console.Write("Enter Key You Want To remove ");
+            string keyremove= Console.ReadLine().ToLower();
+            var result = DeletByKey(keyremove, dic) ? "Done" : "Something is Wrong..";
+            Console.WriteLine(result);
+            foreach (var item in dic.Keys)
+            {
+                Console.WriteLine($"{item}");
+                var data= dic[item];
+                while (data != null)
+                {
+                    Console.WriteLine($"{data.Data}");
+                    data=data.Next;
+                }
+            }
+        }
+        public static bool DeletByKey(string key,Dictionary<string,Hash> dic) {
+                return dic.Remove(key)?true:false;
         }
     }
 }
