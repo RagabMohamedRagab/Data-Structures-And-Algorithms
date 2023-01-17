@@ -1,4 +1,5 @@
 ﻿// Efficent in Access Element 
+//Date : 17-1-2023 9:46 pm
 using System;
 namespace HashTable {
     public class Hash {
