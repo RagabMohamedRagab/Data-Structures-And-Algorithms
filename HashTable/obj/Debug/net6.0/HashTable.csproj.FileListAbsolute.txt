@@ -1,0 +1,15 @@
+C:\Users\pc\Desktop\DS\HashTable\bin\Debug\net6.0\HashTable.exe
+C:\Users\pc\Desktop\DS\HashTable\bin\Debug\net6.0\HashTable.deps.json
+C:\Users\pc\Desktop\DS\HashTable\bin\Debug\net6.0\HashTable.runtimeconfig.json
+C:\Users\pc\Desktop\DS\HashTable\bin\Debug\net6.0\HashTable.dll
+C:\Users\pc\Desktop\DS\HashTable\bin\Debug\net6.0\HashTable.pdb
+C:\Users\pc\Desktop\DS\HashTable\obj\Debug\net6.0\HashTable.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\DS\HashTable\obj\Debug\net6.0\HashTable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Desktop\DS\HashTable\obj\Debug\net6.0\HashTable.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\DS\HashTable\obj\Debug\net6.0\HashTable.AssemblyInfo.cs
+C:\Users\pc\Desktop\DS\HashTable\obj\Debug\net6.0\HashTable.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\DS\HashTable\obj\Debug\net6.0\HashTable.dll
+C:\Users\pc\Desktop\DS\HashTable\obj\Debug\net6.0\refint\HashTable.dll
+C:\Users\pc\Desktop\DS\HashTable\obj\Debug\net6.0\HashTable.pdb
+C:\Users\pc\Desktop\DS\HashTable\obj\Debug\net6.0\HashTable.genruntimeconfig.cache
+C:\Users\pc\Desktop\DS\HashTable\obj\Debug\net6.0\ref\HashTable.dll
