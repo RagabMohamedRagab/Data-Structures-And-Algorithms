@@ -11,6 +11,7 @@ namespace HashTable {
         }
     }
     class Program {
+        // Time Complexity O(N)
         static void Main(string[] args)
         {
             Dictionary<string, Hash> dic = new Dictionary<string, Hash>();
@@ -28,8 +29,12 @@ namespace HashTable {
             var result = DeletByKey(keyremove, dic) ? "Done" : "Something is Wrong..";
             Console.WriteLine(result);
             GetAll(dic);
+            Console.Write("PLZ Enter Search Value:");
+            string searchVal = Console.ReadLine();
+            Search(searchVal, dic);
 
         }
+        // Time Complexity O(N)
         public static void Add(string key, Dictionary<string, Hash> dic)
         {
             Console.Write("PLZ Enter Object:");
@@ -50,10 +55,12 @@ namespace HashTable {
                 data.Next = hash;
             }
         }
+        // Time Complexity O(1)
         public static bool DeletByKey(string key, Dictionary<string, Hash> dic)
         {
             return dic.Remove(key) ? true : false;
         }
+        // Time Complexity O(N^2)
         public static void GetAll(Dictionary<string, Hash> dic)
         {
             foreach (var item in dic.Keys)
@@ -65,6 +72,24 @@ namespace HashTable {
                     Console.WriteLine($"{data.Data}");
                     data = data.Next;
                 }
+            }
+        }
+        // Time Complexity O(N)
+        public static void Search(string key,Dictionary<string,Hash> dic)
+        {
+            var data = dic[key];
+            if (data != null)
+            {
+                while (data != null)
+                {
+                    Console.WriteLine($"{data.Data}");
+                    // i++
+                    data = data.Next;
+                }
+            }
+            else
+            {
+                Console.WriteLine("Not Found Fucken Key Hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh .....");
             }
         }
     }
