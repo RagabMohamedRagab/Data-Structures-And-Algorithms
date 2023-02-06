@@ -77,6 +77,7 @@ namespace HashTable {
         // Time Complexity O(N)
         public static void Search(string key,Dictionary<string,Hash> dic)
         {
+            try { 
             var data = dic[key];
             if (data != null)
             {
@@ -88,6 +89,11 @@ namespace HashTable {
                 }
             }
             else
+            {
+                Console.WriteLine("Not Found Fucken Key Hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh .....");
+                }
+            }
+            catch (Exception)
             {
                 Console.WriteLine("Not Found Fucken Key Hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh .....");
             }
