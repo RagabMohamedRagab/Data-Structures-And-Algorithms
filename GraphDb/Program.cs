@@ -7,16 +7,16 @@
 */
 using System;
 namespace GraphDb {
-    public class Graph
+    public class Vertice
     {
         public int key { get; set; }
-        public Graph Next { get; set; }
+        public Vertice Next { get; set; }
     }
     class Program
     {
         static void Main(string[] args)
         {
-            Dictionary<string,Graph> GraphStor=new Dictionary<string,Graph>();
+            Dictionary<string, Vertice> Graph=new Dictionary<string, Vertice>();
 
         }
     }
