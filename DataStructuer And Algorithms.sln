@@ -61,6 +61,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearch", "BinarySearc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashTable", "HashTable\HashTable.csproj", "{5FFB3392-BD6B-424D-A0E4-0787084DE999}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "Graph\Graph.csproj", "{F57472DE-2584-4207-974A-59B11236E795}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{5FFB3392-BD6B-424D-A0E4-0787084DE999}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FFB3392-BD6B-424D-A0E4-0787084DE999}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FFB3392-BD6B-424D-A0E4-0787084DE999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F57472DE-2584-4207-974A-59B11236E795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F57472DE-2584-4207-974A-59B11236E795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F57472DE-2584-4207-974A-59B11236E795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F57472DE-2584-4207-974A-59B11236E795}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
