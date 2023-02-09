@@ -8,36 +8,49 @@
 namespace Graph {
     public  class Vertice
     {
-        public int  Key { get; set; }
-        public Vertice  Edge { get; set; }
+        public string  Key { get; set; }
+        public Vertice  refer { get; set; }
         public Vertice()
         {
-            Edge = null;
+            refer = null;
         }
     }
     public class GraphList
     {
        static Dictionary<string, Vertice> GraphDb = new Dictionary<string, Vertice>();
 
-        public static void Push(string vertice, int data)
+        public static void Push(string edeg,string vertice)
         {
-            Vertice newVertice = new Vertice() { Key = data };
-            if (GraphDb.ContainsKey(vertice))
+            Vertice newVertice = new Vertice() { Key = vertice };
+            if (GraphDb.ContainsKey(edeg))
             {
-                Vertice v = GraphDb[vertice];
+                Vertice v = GraphDb[edeg];
                 Vertice temp = v;
-                while (temp.Edge != null)
+                while (temp.refer != null)
                 {
-                    temp = temp.Edge;
+                    temp = temp.refer;
                 }
 
-                temp.Edge = newVertice;
+                temp.refer = newVertice;
             }
             else
             {
-                GraphDb.Add(vertice, newVertice);
+                GraphDb.Add(edeg, newVertice);
             }
         }
+        public static void Pop(string vertice)
+        {
+            if (GraphDb.ContainsKey(vertice.ToUpper()))
+            {
+                GraphDb.Remove(vertice.ToUpper());
+            }
+            else
+            {
+                Console.WriteLine("Not Found");
+            }
+        }
+      
+         
     }
     class Program
     {
@@ -47,13 +60,19 @@ namespace Graph {
             int b = 0;
             while(b< size)
             {
+                Console.Write("Enter Edge:");
+                string edg = Console.ReadLine().ToUpper();
                 Console.Write("Enter Vertice:");
-                string vertice=Console.ReadLine();
-                Console.Write("Enter Key");
-                int key=Int32.Parse(Console.ReadLine());
-                GraphList.Push(vertice, key);
+                string vertice=Console.ReadLine().ToUpper();
+                
+                GraphList.Push(edg,vertice);
                 b++;
             }
+            Console.WriteLine();
+            Console.Write("Enter Vertice you are removing it :");
+            string removeVertice=Console.ReadLine().ToUpper();
+            GraphList.Pop(removeVertice);
+
 
         }
        
