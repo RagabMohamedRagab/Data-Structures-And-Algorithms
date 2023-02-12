@@ -128,7 +128,5 @@ namespace Graph {
             GraphList.Pop(removeVertice);
             GraphList.GetAll();
         }
-       
-       
     }
 }
