@@ -18,7 +18,11 @@ namespace Graph {
     public class GraphList
     {
        static Dictionary<string, Vertice> GraphDb = new Dictionary<string, Vertice>();
-
+        // Time Complexity
+        //  Worst Case : O(N)
+        // Average Case : O(N)
+        // Best Case : O(1)
+        // Space Complexity O(1)
         public static void Push(string edeg,string vertice)
         {
             Vertice newVertice = new Vertice() { Key = vertice };
@@ -38,6 +42,11 @@ namespace Graph {
                 GraphDb.Add(edeg, newVertice);
             }
         }
+        // Time Complexity
+        //  Worst Case : O(N)
+        // Average Case : O(N)
+        // Best Case : O(1)
+        // Space Complexity O(1)
         public static void Pop(string vertice)
         {
             if (GraphDb.ContainsKey(vertice.ToUpper()))
@@ -49,7 +58,47 @@ namespace Graph {
                 Console.WriteLine("Not Found");
             }
         }
-      
+        // Time Complexity
+        //  Worst Case : O(N^2)
+        // Average Case : O(N^2)
+        // Best Case : O(1)
+        // Space Complexity O(1)
+        public static void GetAll()
+        {
+            foreach(var key in GraphDb.Keys)
+            {
+                Vertice temp= GraphDb[key];
+                Console.Write($"{key}: ");
+                while (temp != null)
+                {
+                    Console.Write($"{temp.Key} ");
+                    temp=temp.refer;
+                }
+                Console.WriteLine();
+            }
+        }
+        // Time Complexity
+        //  Worst Case : O(N)
+        // Average Case : O(N)
+        // Best Case : O(1)
+        // Space Complexity O(1)
+        public static void Search(string key)
+        {
+            if (GraphDb.ContainsKey(key))
+            {
+                Vertice temp = GraphDb[key];
+                Console.Write($"{key}:");
+                while(temp != null)
+                {
+                    Console.Write($"{temp.Key} ");
+                    temp = temp.refer;
+                };
+            }
+            else
+            {
+                Console.WriteLine("Not Found Key");
+            }
+        }
          
     }
     class Program
@@ -69,11 +118,15 @@ namespace Graph {
                 b++;
             }
             Console.WriteLine();
+            Console.Write("Key you Would Like To Search: ");
+            string key = Console.ReadLine();
+            GraphList.Search(key);
+            Console.WriteLine();
+            GraphList.GetAll();
             Console.Write("Enter Vertice you are removing it :");
-            string removeVertice=Console.ReadLine().ToUpper();
+            string removeVertice = Console.ReadLine().ToUpper();
             GraphList.Pop(removeVertice);
-
-
+            GraphList.GetAll();
         }
        
        
