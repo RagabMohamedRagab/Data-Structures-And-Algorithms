@@ -5,6 +5,8 @@
  *      2- List  : Complex Code - Space Complexity O(V+E) - Dictionary
  * Date   6-2-2023 10:04 PM
 */
+using System.Numerics;
+
 namespace Graph {
     public  class Vertice
     {
@@ -82,6 +84,7 @@ namespace Graph {
         // Average Case : O(N)
         // Best Case : O(1)
         // Space Complexity O(1)
+        
         public static void Search(string key)
         {
             if (GraphDb.ContainsKey(key))
@@ -101,20 +104,41 @@ namespace Graph {
         }
          
     }
+    public class GraphMatrix
+    {
+        int size;
+       static int[,] Matrix = null;
+        public GraphMatrix(int N)
+        {
+            this.size = N;
+            Matrix = new int[size, size];
+        }
+      public static void GetAll()
+        {
+            for (int i = 0; i < Matrix.GetLength(0); i++)
+            {
+                for(int j = 0; j < Matrix.GetLength(1); j++)
+                {
+                    Console.Write(Matrix[i, j]+" ");
+                }
+                Console.WriteLine();
+            }
+        }
+    }
     class Program
     {
         static void Main(string[] args) {
             Console.Write("Number of Vertice:");
             int size = Int32.Parse(Console.ReadLine());
             int b = 0;
-            while(b< size)
+            while (b < size)
             {
                 Console.Write("Enter Edge:");
                 string edg = Console.ReadLine().ToUpper();
                 Console.Write("Enter Vertice:");
-                string vertice=Console.ReadLine().ToUpper();
-                
-                GraphList.Push(edg,vertice);
+                string vertice = Console.ReadLine().ToUpper();
+
+                GraphList.Push(edg, vertice);
                 b++;
             }
             Console.WriteLine();
@@ -127,6 +151,11 @@ namespace Graph {
             string removeVertice = Console.ReadLine().ToUpper();
             GraphList.Pop(removeVertice);
             GraphList.GetAll();
+            // ----------------------------Represent by Matrix-----------------------
+            Console.Write("Size of Matrix:");
+            int matrix = Int32.Parse(Console.ReadLine());
+            GraphMatrix graphMatrix = new GraphMatrix(matrix);
+            GraphMatrix.GetAll();
         }
     }
 }
