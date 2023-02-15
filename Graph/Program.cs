@@ -130,29 +130,29 @@ namespace Graph {
     class Program {
         static void Main(string[] args)
         {
-            //Console.Write("Number of Vertice:");
-            //int size = Int32.Parse(Console.ReadLine());
-            //int b = 0;
-            //while (b < size)
-            //{
-            //    Console.Write("Enter Edge:");
-            //    string edg = Console.ReadLine().ToUpper();
-            //    Console.Write("Enter Vertice:");
-            //    string vertice = Console.ReadLine().ToUpper();
+            Console.Write("Number of Vertice:");
+            int size = Int32.Parse(Console.ReadLine());
+            int b = 0;
+            while (b < size)
+            {
+                Console.Write("Enter Edge:");
+                string edg = Console.ReadLine().ToUpper();
+                Console.Write("Enter Vertice:");
+                string vertice = Console.ReadLine().ToUpper();
 
-            //    GraphList.Push(edg, vertice);
-            //    b++;
-            //}
-            //Console.WriteLine();
-            //Console.Write("Key you Would Like To Search: ");
-            //string key = Console.ReadLine();
-            //GraphList.Search(key);
-            //Console.WriteLine();
-            //GraphList.GetAll();
-            //Console.Write("Enter Vertice you are removing it :");
-            //string removeVertice = Console.ReadLine().ToUpper();
-            //GraphList.Pop(removeVertice);
-            //GraphList.GetAll();
+                GraphList.Push(edg, vertice);
+                b++;
+            }
+            Console.WriteLine();
+            Console.Write("Key you Would Like To Search: ");
+            string key = Console.ReadLine();
+            GraphList.Search(key);
+            Console.WriteLine();
+            GraphList.GetAll();
+            Console.Write("Enter Vertice you are removing it :");
+            string removeVertice = Console.ReadLine().ToUpper();
+            GraphList.Pop(removeVertice);
+            GraphList.GetAll();
             // ----------------------------Represent by Matrix-----------------------
             Console.Write("Size of Matrix:");
             int matrix = Int32.Parse(Console.ReadLine());
@@ -192,4 +192,7 @@ namespace Graph {
         }
     }
 }
+
+
+
 
