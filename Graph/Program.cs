@@ -132,8 +132,8 @@ namespace Graph {
         {
             Console.Write("Number of Vertice:");
             int size = Int32.Parse(Console.ReadLine());
-            int b = 0;
-            while (b < size)
+            int y = 0;
+            while (y < size)
             {
                 Console.Write("Enter Edge:");
                 string edg = Console.ReadLine().ToUpper();
@@ -141,7 +141,7 @@ namespace Graph {
                 string vertice = Console.ReadLine().ToUpper();
 
                 GraphList.Push(edg, vertice);
-                b++;
+                y++;
             }
             Console.WriteLine();
             Console.Write("Key you Would Like To Search: ");
