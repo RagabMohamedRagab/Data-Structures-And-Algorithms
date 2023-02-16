@@ -1,0 +1,15 @@
+C:\Users\pc\Desktop\DS\Merge Sort\bin\Debug\net6.0\Merge Sort.exe
+C:\Users\pc\Desktop\DS\Merge Sort\bin\Debug\net6.0\Merge Sort.deps.json
+C:\Users\pc\Desktop\DS\Merge Sort\bin\Debug\net6.0\Merge Sort.runtimeconfig.json
+C:\Users\pc\Desktop\DS\Merge Sort\bin\Debug\net6.0\Merge Sort.dll
+C:\Users\pc\Desktop\DS\Merge Sort\bin\Debug\net6.0\Merge Sort.pdb
+C:\Users\pc\Desktop\DS\Merge Sort\obj\Debug\net6.0\Merge Sort.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\DS\Merge Sort\obj\Debug\net6.0\Merge Sort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Desktop\DS\Merge Sort\obj\Debug\net6.0\Merge Sort.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\DS\Merge Sort\obj\Debug\net6.0\Merge Sort.AssemblyInfo.cs
+C:\Users\pc\Desktop\DS\Merge Sort\obj\Debug\net6.0\Merge Sort.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\DS\Merge Sort\obj\Debug\net6.0\Merge Sort.dll
+C:\Users\pc\Desktop\DS\Merge Sort\obj\Debug\net6.0\refint\Merge Sort.dll
+C:\Users\pc\Desktop\DS\Merge Sort\obj\Debug\net6.0\Merge Sort.pdb
+C:\Users\pc\Desktop\DS\Merge Sort\obj\Debug\net6.0\Merge Sort.genruntimeconfig.cache
+C:\Users\pc\Desktop\DS\Merge Sort\obj\Debug\net6.0\ref\Merge Sort.dll

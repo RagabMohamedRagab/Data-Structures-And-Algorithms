@@ -102,6 +102,7 @@ namespace Graph {
         }
 
     }
+    // Represent Graph By Matrix
     public class GraphMatrix {
         int size;
         static int[,] Matrix = null;
@@ -110,11 +111,25 @@ namespace Graph {
             this.size = N;
             Matrix = new int[size, size];
         }
+        // Time Complexity O(1)
+        public static void Pop(int e,int v)
+        {
+            Matrix[e, v] = 0;
+            Matrix[v, e] = 0;
+        }
+        // Time Complexity O(1)
+        public static string Search(string[]Arr,string vertice)
+        {
+            var data = Arr.SingleOrDefault(b => b == vertice);
+            return data is null ? "Not Found" : $"Found {vertice}";
+        }
+        // Time Complexity O(1)
         public static void Push(int v, int e, int w)
         {
             Matrix[v, e] = w;
             Matrix[e, v] = w;
         }
+        // Time Complexity O(N^2)
         public static void GetAll()
         {
             for (int i = 0; i < Matrix.GetLength(0); i++)
@@ -128,6 +143,7 @@ namespace Graph {
         }
     }
     class Program {
+        // Time Complexity O(N^3)
         static void Main(string[] args)
         {
             Console.Write("Number of Vertice:");
@@ -138,9 +154,9 @@ namespace Graph {
                 Console.Write("Enter Edge:");
                 string edg = Console.ReadLine().ToUpper();
                 Console.Write("Enter Vertice:");
-                string vertice = Console.ReadLine().ToUpper();
+                string vertice1 = Console.ReadLine().ToUpper();
 
-                GraphList.Push(edg, vertice);
+                GraphList.Push(edg, vertice1);
                 y++;
             }
             Console.WriteLine();
@@ -172,24 +188,40 @@ namespace Graph {
                     string v = Console.ReadLine();
                     Console.Write("Weight :");
                     int w = Int32.Parse(Console.ReadLine());
-                    int vindex = 0, eindex = 0;
-                    for (int j = 0; j < Vertic.Length; j++)
-                    {
-                        if (Vertic[j] == u)
-                        {
-                            eindex = j;
-                        }
-                        if (Vertic[j] == v)
-                        {
-                            vindex = j;
-                        }
-                    }
-                    GraphMatrix.Push(vindex, eindex, w);
+                   int []Arr= GetEdgesAndVer(Vertic, v, u);
+                    GraphMatrix.Push(Arr[1], Arr[0], w);
                 }
             }
-
+            GraphMatrix.GetAll();
+            Console.Write("Enter Edge You Removed It:");
+            string e = Console.ReadLine();
+            Console.Write("Enter Vertice You Removed It:");
+            string v2 = Console.ReadLine();
+            int[]A=GetEdgesAndVer(Vertic, v2, e);
+            GraphMatrix.Pop(A[0], A[1]);
+            Console.Write("Enter Vertice:");
+             string vertice=Console.ReadLine();
+            Console.WriteLine(GraphMatrix.Search(Vertic, vertice));
             GraphMatrix.GetAll();
         }
+        // Time Complexity O(N)
+        public static int [] GetEdgesAndVer(string[]Vertices,string ver,string e) 
+        {
+            int vindex = 0, eindex = 0;
+            for (int j = 0; j < Vertices.Length; j++)
+            {
+                if (Vertices[j] == e)
+                {
+                    eindex = j;
+                }
+                if (Vertices[j] == ver)
+                {
+                    vindex = j;
+                }   
+            }
+            return new int[]{ eindex,vindex };
+        }
+        
     }
 }
 
