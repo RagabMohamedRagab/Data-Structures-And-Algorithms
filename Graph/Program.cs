@@ -11,11 +11,14 @@ namespace Graph {
     public class Vertice {
         public string Key { get; set; }
         public Vertice refer { get; set; }
+        public bool vistited { get; set; }
         public Vertice()
         {
             refer = null;
+            vistited= false;
         }
     }
+    // Represent Graph By List (Dictionary)
     public class GraphList {
         static Dictionary<string, Vertice> GraphDb = new Dictionary<string, Vertice>();
         // Time Complexity
