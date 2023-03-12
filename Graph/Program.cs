@@ -85,7 +85,6 @@ namespace Graph {
         // Average Case : O(N)
         // Best Case : O(1)
         // Space Complexity O(1)
-
         public static void Search(string key)
         {
             if (GraphDb.ContainsKey(key))
@@ -103,7 +102,18 @@ namespace Graph {
                 Console.WriteLine("Not Found Key");
             }
         }
-
+        public static void BFS()
+        {
+            Queue<Vertice> queue=new Queue<Vertice>();
+            int a =0;
+            while (++a <= GraphDb.Count)
+            {
+                foreach (var item in GraphDb.Values)
+                {
+                    Console.WriteLine(item.Key);
+                }
+            }
+        }
     }
     // Represent Graph By Matrix
     public class GraphMatrix {
@@ -162,50 +172,57 @@ namespace Graph {
                 GraphList.Push(edg, vertice1);
                 y++;
             }
-            Console.WriteLine();
-            Console.Write("Key you Would Like To Search: ");
-            string key = Console.ReadLine();
-            GraphList.Search(key);
-            Console.WriteLine();
-            GraphList.GetAll();
-            Console.Write("Enter Vertice you are removing it :");
-            string removeVertice = Console.ReadLine().ToUpper();
-            GraphList.Pop(removeVertice);
-            GraphList.GetAll();
-            // ----------------------------Represent by Matrix-----------------------
-            Console.Write("Size of Matrix:");
-            int matrix = Int32.Parse(Console.ReadLine());
-            GraphMatrix graphMatrix = new GraphMatrix(matrix);
-            string[] Vertic = new string[matrix];
-            for (int i = 0; i < Vertic.Length; i++)
-            {
-                Vertic[i] = Console.ReadLine();
-            }
-            for (int a = 0; a < Vertic.Length; a++)
-            {
-                for (int b = 0; b < Vertic.Length; b++)
-                {
-                    Console.Write("Enter Edge:");
-                    string u = Console.ReadLine();
-                    Console.Write("Enter Vertice:");
-                    string v = Console.ReadLine();
-                    Console.Write("Weight :");
-                    int w = Int32.Parse(Console.ReadLine());
-                   int []Arr= GetEdgesAndVer(Vertic, v, u);
-                    GraphMatrix.Push(Arr[1], Arr[0], w);
-                }
-            }
-            GraphMatrix.GetAll();
-            Console.Write("Enter Edge You Removed It:");
-            string e = Console.ReadLine();
-            Console.Write("Enter Vertice You Removed It:");
-            string v2 = Console.ReadLine();
-            int[]A=GetEdgesAndVer(Vertic, v2, e);
-            GraphMatrix.Pop(A[0], A[1]);
-            Console.Write("Enter Vertice:");
-             string vertice=Console.ReadLine();
-            Console.WriteLine(GraphMatrix.Search(Vertic, vertice));
-            GraphMatrix.GetAll();
+            //Console.WriteLine();
+            //Console.Write("Key you Would Like To Search: ");
+            //string key = Console.ReadLine();
+            //GraphList.Search(key);
+            //Console.WriteLine();
+            //GraphList.GetAll();
+            //Console.Write("Enter Vertice you are removing it :");
+            //string removeVertice = Console.ReadLine().ToUpper();
+            //GraphList.Pop(removeVertice);
+            //GraphList.GetAll();
+            //// ----------------------------Represent by Matrix-----------------------
+            //Console.Write("Size of Matrix:");
+            //int matrix = Int32.Parse(Console.ReadLine());
+            //GraphMatrix graphMatrix = new GraphMatrix(matrix);
+            //string[] Vertic = new string[matrix];
+            //for (int i = 0; i < Vertic.Length; i++)
+            //{
+            //    Vertic[i] = Console.ReadLine();
+            //}
+            //for (int a = 0; a < Vertic.Length; a++)
+            //{
+            //    for (int b = 0; b < Vertic.Length; b++)
+            //    {
+            //        Console.Write("Enter Edge:");
+            //        string u = Console.ReadLine();
+            //        Console.Write("Enter Vertice:");
+            //        string v = Console.ReadLine();
+            //        Console.Write("Weight :");
+            //        int w = Int32.Parse(Console.ReadLine());
+            //       int []Arr= GetEdgesAndVer(Vertic, v, u);
+            //        GraphMatrix.Push(Arr[1], Arr[0], w);
+            //    }
+            //}
+            //GraphMatrix.GetAll();
+            //Console.Write("Enter Edge You Removed It:");
+            //string e = Console.ReadLine();
+            //Console.Write("Enter Vertice You Removed It:");
+            //string v2 = Console.ReadLine();
+            //int[]A=GetEdgesAndVer(Vertic, v2, e);
+            //GraphMatrix.Pop(A[0], A[1]);
+            //Console.Write("Enter Vertice:");
+            // string vertice=Console.ReadLine();
+            //Console.WriteLine(GraphMatrix.Search(Vertic, vertice));
+            //GraphMatrix.GetAll();
+
+
+
+            ////  Breadth First Search
+            GraphList.BFS();
+
+
         }
         // Time Complexity O(N)
         public static int [] GetEdgesAndVer(string[]Vertices,string ver,string e) 
