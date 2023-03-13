@@ -15,7 +15,6 @@ namespace Graph {
         public Vertice()
         {
             refer = null;
-            vistited= false;
         }
     }
     // Represent Graph By List (Dictionary)
@@ -104,13 +103,23 @@ namespace Graph {
         }
         public static void BFS()
         {
-            Queue<Vertice> queue=new Queue<Vertice>();
-            int a =0;
-            while (++a <= GraphDb.Count)
+            Queue<Vertice> queue = new Queue<Vertice>();
+            foreach (string key in GraphDb.Keys)
             {
-                foreach (var item in GraphDb.Values)
+                var current = GraphDb[key]; 
+                queue.Enqueue(current);
+                if (queue.Count >= 0)
                 {
-                    Console.WriteLine(item.Key);
+                    current = queue.Dequeue();
+                    while (current != null)
+                    {
+                        if (!current.vistited)
+                        {
+                            Console.Write(current.Key);
+                            current.vistited = true;
+                        }
+                        current = current.refer;
+                    }
                 }
             }
         }
@@ -125,13 +134,13 @@ namespace Graph {
             Matrix = new int[size, size];
         }
         // Time Complexity O(1)
-        public static void Pop(int e,int v)
+        public static void Pop(int e, int v)
         {
             Matrix[e, v] = 0;
             Matrix[v, e] = 0;
         }
         // Time Complexity O(1)
-        public static string Search(string[]Arr,string vertice)
+        public static string Search(string[] Arr, string vertice)
         {
             var data = Arr.SingleOrDefault(b => b == vertice);
             return data is null ? "Not Found" : $"Found {vertice}";
@@ -164,10 +173,11 @@ namespace Graph {
             int y = 0;
             while (y < size)
             {
-                Console.Write("Enter Edge:");
-                string edg = Console.ReadLine().ToUpper();
+             
                 Console.Write("Enter Vertice:");
                 string vertice1 = Console.ReadLine().ToUpper();
+                Console.Write("Enter Edge:");
+                string edg = Console.ReadLine().ToUpper();
 
                 GraphList.Push(edg, vertice1);
                 y++;
@@ -225,7 +235,7 @@ namespace Graph {
 
         }
         // Time Complexity O(N)
-        public static int [] GetEdgesAndVer(string[]Vertices,string ver,string e) 
+        public static int[] GetEdgesAndVer(string[] Vertices, string ver, string e)
         {
             int vindex = 0, eindex = 0;
             for (int j = 0; j < Vertices.Length; j++)
@@ -237,11 +247,11 @@ namespace Graph {
                 if (Vertices[j] == ver)
                 {
                     vindex = j;
-                }   
+                }
             }
-            return new int[]{ eindex,vindex };
+            return new int[] { eindex, vindex };
         }
-        
+
     }
 }
 
