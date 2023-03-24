@@ -63,7 +63,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashTable", "HashTable\Hash
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graph", "Graph\Graph.csproj", "{F57472DE-2584-4207-974A-59B11236E795}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphBFS", "GraphBFS\GraphBFS.csproj", "{BECD8818-D274-4B04-8214-EAE825985672}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphBFS", "GraphBFS\GraphBFS.csproj", "{2F21DF9C-B143-40BB-ADF6-4D17C66B1159}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -191,10 +191,10 @@ Global
 		{F57472DE-2584-4207-974A-59B11236E795}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F57472DE-2584-4207-974A-59B11236E795}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F57472DE-2584-4207-974A-59B11236E795}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BECD8818-D274-4B04-8214-EAE825985672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BECD8818-D274-4B04-8214-EAE825985672}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BECD8818-D274-4B04-8214-EAE825985672}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BECD8818-D274-4B04-8214-EAE825985672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F21DF9C-B143-40BB-ADF6-4D17C66B1159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F21DF9C-B143-40BB-ADF6-4D17C66B1159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F21DF9C-B143-40BB-ADF6-4D17C66B1159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F21DF9C-B143-40BB-ADF6-4D17C66B1159}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
