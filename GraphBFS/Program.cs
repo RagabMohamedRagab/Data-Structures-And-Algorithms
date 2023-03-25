@@ -6,17 +6,7 @@ namespace GraphBFS {
     {
         private int vertice;
         private LinkedList<int>[] bfs;
-        /*
-         * {
-         *    new LinkedList<int>{1,2},
-         *    new LinkedList<int>{1,2},
-         *    new LinkedList<int>{1,2},
-         *    new LinkedList<int>{1,2}
-         * }
-         * 
-         * 
-         * 
-         */
+      
         public BFS(int V)
         {
             vertice= V;
@@ -33,6 +23,30 @@ namespace GraphBFS {
         {
             bfs[v].AddLast(e);
         }
+        public void BFSSearch(int v)
+        {
+            bool[]Vistited=new bool[vertice];
+            LinkedList<int> list=new LinkedList<int>();
+            Vistited[v]=true;
+            list.AddLast(v);
+          
+            while(list.Count > 0)
+            {
+                int i = list.First.Value;
+                Console.WriteLine(i);
+                LinkedList<int> childrens = bfs[i];
+                list.RemoveFirst();
+                foreach (var item in childrens)
+                {
+                    if (!Vistited[item])
+                    {
+                        Vistited[item] = true;
+                        list.AddLast(item);
+                    }
+                }
+                childrens.Clear();
+            }
+        }
         public void Print()
         {
             foreach (var item in bfs)
@@ -45,9 +59,15 @@ namespace GraphBFS {
     {
         private static void Main(string[] args)
         {
-           BFS fS=new BFS(2);
-            fS.Print();
-         
+            BFS g = new BFS(4);
+
+            g.Add(0, 1);
+            g.Add(0, 2);
+            g.Add(1, 2);
+            g.Add(2, 0);
+            g.Add(2, 3);
+            g.Add(3, 3);
+            g.BFSSearch(2);
         }
     }
 }
