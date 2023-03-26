@@ -1,0 +1,15 @@
+C:\Users\pc\Desktop\DS\GraphDFS\bin\Debug\net6.0\GraphDFS.exe
+C:\Users\pc\Desktop\DS\GraphDFS\bin\Debug\net6.0\GraphDFS.deps.json
+C:\Users\pc\Desktop\DS\GraphDFS\bin\Debug\net6.0\GraphDFS.runtimeconfig.json
+C:\Users\pc\Desktop\DS\GraphDFS\bin\Debug\net6.0\GraphDFS.dll
+C:\Users\pc\Desktop\DS\GraphDFS\bin\Debug\net6.0\GraphDFS.pdb
+C:\Users\pc\Desktop\DS\GraphDFS\obj\Debug\net6.0\GraphDFS.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\DS\GraphDFS\obj\Debug\net6.0\GraphDFS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Desktop\DS\GraphDFS\obj\Debug\net6.0\GraphDFS.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\DS\GraphDFS\obj\Debug\net6.0\GraphDFS.AssemblyInfo.cs
+C:\Users\pc\Desktop\DS\GraphDFS\obj\Debug\net6.0\GraphDFS.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\DS\GraphDFS\obj\Debug\net6.0\GraphDFS.dll
+C:\Users\pc\Desktop\DS\GraphDFS\obj\Debug\net6.0\refint\GraphDFS.dll
+C:\Users\pc\Desktop\DS\GraphDFS\obj\Debug\net6.0\GraphDFS.pdb
+C:\Users\pc\Desktop\DS\GraphDFS\obj\Debug\net6.0\GraphDFS.genruntimeconfig.cache
+C:\Users\pc\Desktop\DS\GraphDFS\obj\Debug\net6.0\ref\GraphDFS.dll
