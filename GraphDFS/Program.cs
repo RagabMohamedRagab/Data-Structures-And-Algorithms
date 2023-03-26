@@ -27,6 +27,7 @@ namespace GraphDFS {
         {
             dfs[v].AddLast(e);
         }
+        // DFS by Iterations.
         public void DFS(int v)
         {
              LinkedList<int> list = new LinkedList<int>();  
@@ -47,6 +48,20 @@ namespace GraphDFS {
                 }
             }
         }
+        // By Recurive .. 
+        public void RecursiveDFS(int v)
+        {
+            Vistited[v] = true;
+             Console.Write($"{v} ");
+            foreach (var item in dfs[v])
+            {
+                if (!Vistited[item])
+                {
+                 
+                    RecursiveDFS(item);
+                }
+            }
+        }
     }
 
     public class Program {
@@ -57,9 +72,8 @@ namespace GraphDFS {
             g.addEdge(0, 2);
             g.addEdge(1, 2);
             g.addEdge(2, 3);
-
-
             g.DFS(0);
+            g.RecursiveDFS(0);
         }
     }
 }
