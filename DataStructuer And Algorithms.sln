@@ -63,7 +63,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashTable", "HashTable\Hash
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graph", "Graph\Graph.csproj", "{F57472DE-2584-4207-974A-59B11236E795}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphBFS", "GraphBFS\GraphBFS.csproj", "{2F21DF9C-B143-40BB-ADF6-4D17C66B1159}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphBFS", "GraphBFS\GraphBFS.csproj", "{2F21DF9C-B143-40BB-ADF6-4D17C66B1159}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
