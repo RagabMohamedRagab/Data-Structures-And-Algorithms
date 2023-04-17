@@ -1,6 +1,14 @@
 ﻿// Breadth First Search
-// Time Complexity O(V+E)
+// Time Complexity O(V^2)
 // Space Complexity O(V)
+/*  Implement Breadth Fisrt Search By Queue
+ *  1- Initial Queue by Adding vertice
+ *  2- Make Top of Queue Visited
+ *  3- Pop Top Vertice From Queue
+ *  4- Get Adjcent of Vertice 
+ *  5- Push it in Queue 
+ *  6- Make them Vistited
+ */
 namespace GraphBFS {
     public class BFS
     {
@@ -16,8 +24,6 @@ namespace GraphBFS {
                 bfs[i]=new LinkedList<int>();
             }
         }
-
-
         // Add Ede
         public void Add(int v,int e)
         {

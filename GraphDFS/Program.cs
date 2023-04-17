@@ -1,11 +1,5 @@
 ﻿/* - Depth First Search..
- *   using Stack to implemenation DFS 
- *  1- Initial Stack by Adding Vertice.
- *  2- Make it Visited
- *  3- 
- * 
- * 
- * 
+ * Time Complexity O(V+E)
  */
 using System;
 namespace GraphDFS {
