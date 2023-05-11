@@ -65,7 +65,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graph", "Graph\Graph.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphBFS", "GraphBFS\GraphBFS.csproj", "{2F21DF9C-B143-40BB-ADF6-4D17C66B1159}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphDFS", "GraphDFS\GraphDFS.csproj", "{010491DA-412A-4E9B-BA3A-813EEC8F3E87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphDFS", "GraphDFS\GraphDFS.csproj", "{010491DA-412A-4E9B-BA3A-813EEC8F3E87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DijestraAlgorithm", "DijestraAlgorithm\DijestraAlgorithm.csproj", "{7CA7EDD0-906A-448F-8205-DDCEA611A0D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -201,6 +203,10 @@ Global
 		{010491DA-412A-4E9B-BA3A-813EEC8F3E87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{010491DA-412A-4E9B-BA3A-813EEC8F3E87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{010491DA-412A-4E9B-BA3A-813EEC8F3E87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CA7EDD0-906A-448F-8205-DDCEA611A0D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CA7EDD0-906A-448F-8205-DDCEA611A0D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CA7EDD0-906A-448F-8205-DDCEA611A0D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CA7EDD0-906A-448F-8205-DDCEA611A0D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
