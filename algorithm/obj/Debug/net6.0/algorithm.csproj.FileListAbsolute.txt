@@ -10,3 +10,15 @@ C:\Users\pc\Desktop\DS\algorithm\obj\Debug\net6.0\algorithm.dll
 C:\Users\pc\Desktop\DS\algorithm\obj\Debug\net6.0\refint\algorithm.dll
 C:\Users\pc\Desktop\DS\algorithm\obj\Debug\net6.0\algorithm.pdb
 C:\Users\pc\Desktop\DS\algorithm\obj\Debug\net6.0\ref\algorithm.dll
+C:\Users\pc\Desktop\Course\algorithm\bin\Debug\net6.0\algorithm.deps.json
+C:\Users\pc\Desktop\Course\algorithm\bin\Debug\net6.0\algorithm.dll
+C:\Users\pc\Desktop\Course\algorithm\bin\Debug\net6.0\algorithm.pdb
+C:\Users\pc\Desktop\Course\algorithm\obj\Debug\net6.0\algorithm.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\Course\algorithm\obj\Debug\net6.0\algorithm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Desktop\Course\algorithm\obj\Debug\net6.0\algorithm.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\Course\algorithm\obj\Debug\net6.0\algorithm.AssemblyInfo.cs
+C:\Users\pc\Desktop\Course\algorithm\obj\Debug\net6.0\algorithm.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\Course\algorithm\obj\Debug\net6.0\algorithm.dll
+C:\Users\pc\Desktop\Course\algorithm\obj\Debug\net6.0\refint\algorithm.dll
+C:\Users\pc\Desktop\Course\algorithm\obj\Debug\net6.0\algorithm.pdb
+C:\Users\pc\Desktop\Course\algorithm\obj\Debug\net6.0\ref\algorithm.dll

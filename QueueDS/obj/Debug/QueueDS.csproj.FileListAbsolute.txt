@@ -20,3 +20,11 @@ C:\Users\pc\Desktop\DS\QueueDS\obj\Debug\QueueDS.csproj.SuggestedBindingRedirect
 C:\Users\pc\Desktop\DS\QueueDS\obj\Debug\QueueDS.csproj.CoreCompileInputs.cache
 C:\Users\pc\Desktop\DS\QueueDS\obj\Debug\QueueDS.exe
 C:\Users\pc\Desktop\DS\QueueDS\obj\Debug\QueueDS.pdb
+C:\Users\pc\Desktop\Course\QueueDS\bin\Debug\QueueDS.exe.config
+C:\Users\pc\Desktop\Course\QueueDS\bin\Debug\QueueDS.exe
+C:\Users\pc\Desktop\Course\QueueDS\bin\Debug\QueueDS.pdb
+C:\Users\pc\Desktop\Course\QueueDS\obj\Debug\QueueDS.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\Course\QueueDS\obj\Debug\QueueDS.csproj.SuggestedBindingRedirects.cache
+C:\Users\pc\Desktop\Course\QueueDS\obj\Debug\QueueDS.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\Course\QueueDS\obj\Debug\QueueDS.exe
+C:\Users\pc\Desktop\Course\QueueDS\obj\Debug\QueueDS.pdb

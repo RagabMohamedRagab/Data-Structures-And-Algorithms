@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DijestraAlgorithm/1.0.0": {
+        "runtime": {
+          "DijestraAlgorithm.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DijestraAlgorithm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

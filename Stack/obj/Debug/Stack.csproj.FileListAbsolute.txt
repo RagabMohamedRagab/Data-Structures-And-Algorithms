@@ -20,3 +20,11 @@ C:\Users\pc\Desktop\DS\Stack\obj\Debug\Stack.csproj.SuggestedBindingRedirects.ca
 C:\Users\pc\Desktop\DS\Stack\obj\Debug\Stack.csproj.CoreCompileInputs.cache
 C:\Users\pc\Desktop\DS\Stack\obj\Debug\Stack.exe
 C:\Users\pc\Desktop\DS\Stack\obj\Debug\Stack.pdb
+C:\Users\pc\Desktop\Course\Stack\bin\Debug\Stack.exe.config
+C:\Users\pc\Desktop\Course\Stack\bin\Debug\Stack.exe
+C:\Users\pc\Desktop\Course\Stack\bin\Debug\Stack.pdb
+C:\Users\pc\Desktop\Course\Stack\obj\Debug\Stack.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\Course\Stack\obj\Debug\Stack.csproj.SuggestedBindingRedirects.cache
+C:\Users\pc\Desktop\Course\Stack\obj\Debug\Stack.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\Course\Stack\obj\Debug\Stack.exe
+C:\Users\pc\Desktop\Course\Stack\obj\Debug\Stack.pdb

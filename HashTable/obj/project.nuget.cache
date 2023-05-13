@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W8LfsUZlrIrOtth7+G3so+QFjrIc1zhNsbfk576e1Y13YM0jE5ishfVZTzM19O8rmN3F4FL1xRDJx5ennJWm9Q==",
+  "dgSpecHash": "XmYBD6Gl3nYoHazgmPP3xlNNzbhrT3Yg5LiBan4Q/ok8W8hbPURDKkoIOk2A0wXn3rPcvlJtFI+/8zDjJ9YgbA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pc\\Desktop\\DS\\HashTable\\HashTable.csproj",
+  "projectFilePath": "C:\\Users\\pc\\Desktop\\Course\\HashTable\\HashTable.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

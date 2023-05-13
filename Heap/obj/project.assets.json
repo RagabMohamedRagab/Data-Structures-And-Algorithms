@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\Desktop\\DS\\Heap\\Heap Sort.csproj",
+      "projectUniqueName": "C:\\Users\\pc\\Desktop\\Course\\Heap\\Heap Sort.csproj",
       "projectName": "Heap Sort",
-      "projectPath": "C:\\Users\\pc\\Desktop\\DS\\Heap\\Heap Sort.csproj",
+      "projectPath": "C:\\Users\\pc\\Desktop\\Course\\Heap\\Heap Sort.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pc\\Desktop\\DS\\Heap\\obj\\",
+      "outputPath": "C:\\Users\\pc\\Desktop\\Course\\Heap\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

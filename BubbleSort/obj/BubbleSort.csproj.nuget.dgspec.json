@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\Desktop\\DS\\BubbleSort\\BubbleSort.csproj": {}
+    "C:\\Users\\pc\\Desktop\\Course\\BubbleSort\\BubbleSort.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\Desktop\\DS\\BubbleSort\\BubbleSort.csproj": {
+    "C:\\Users\\pc\\Desktop\\Course\\BubbleSort\\BubbleSort.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\Desktop\\DS\\BubbleSort\\BubbleSort.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Desktop\\Course\\BubbleSort\\BubbleSort.csproj",
         "projectName": "BubbleSort",
-        "projectPath": "C:\\Users\\pc\\Desktop\\DS\\BubbleSort\\BubbleSort.csproj",
+        "projectPath": "C:\\Users\\pc\\Desktop\\Course\\BubbleSort\\BubbleSort.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\Desktop\\DS\\BubbleSort\\obj\\",
+        "outputPath": "C:\\Users\\pc\\Desktop\\Course\\BubbleSort\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
