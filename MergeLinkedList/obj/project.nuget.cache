@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fBxygu4tQX5lNZF8CHhA3lVKh9MbI9LF/MVdKSC7gAk6bCScdzLOsMxCqG5chiGw+0YtgymNpuV/bHK2faoXtw==",
+  "dgSpecHash": "ryp3ao2KJkhrKa+ggT/REy5YInrfj4E0ZfT05EhlYWQ3YSqQwvaxVwrHP+yQAh2z3dC7EF5GFsSjdoGONjAWQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pc\\Desktop\\Course\\MergeLinkedList\\MergeLinkedList.csproj",
+  "projectFilePath": "C:\\Users\\pc\\Desktop\\DS\\MergeLinkedList\\MergeLinkedList.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

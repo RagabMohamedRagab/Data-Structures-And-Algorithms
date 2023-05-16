@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\Desktop\\Course\\GraphDFS\\GraphDFS.csproj": {}
+    "C:\\Users\\pc\\Desktop\\DS\\GraphDFS\\GraphDFS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\Desktop\\Course\\GraphDFS\\GraphDFS.csproj": {
+    "C:\\Users\\pc\\Desktop\\DS\\GraphDFS\\GraphDFS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\Desktop\\Course\\GraphDFS\\GraphDFS.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Desktop\\DS\\GraphDFS\\GraphDFS.csproj",
         "projectName": "GraphDFS",
-        "projectPath": "C:\\Users\\pc\\Desktop\\Course\\GraphDFS\\GraphDFS.csproj",
+        "projectPath": "C:\\Users\\pc\\Desktop\\DS\\GraphDFS\\GraphDFS.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\Desktop\\Course\\GraphDFS\\obj\\",
+        "outputPath": "C:\\Users\\pc\\Desktop\\DS\\GraphDFS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

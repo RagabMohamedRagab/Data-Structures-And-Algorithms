@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\Desktop\\Course\\Quick Sort\\Quick Sort.csproj",
+      "projectUniqueName": "C:\\Users\\pc\\Desktop\\DS\\Quick Sort\\Quick Sort.csproj",
       "projectName": "Quick Sort",
-      "projectPath": "C:\\Users\\pc\\Desktop\\Course\\Quick Sort\\Quick Sort.csproj",
+      "projectPath": "C:\\Users\\pc\\Desktop\\DS\\Quick Sort\\Quick Sort.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pc\\Desktop\\Course\\Quick Sort\\obj\\",
+      "outputPath": "C:\\Users\\pc\\Desktop\\DS\\Quick Sort\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

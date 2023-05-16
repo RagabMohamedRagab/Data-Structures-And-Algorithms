@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\Desktop\\Course\\Postfix _Prefix_Infix\\Postfix _Prefix_Infix.csproj": {}
+    "C:\\Users\\pc\\Desktop\\DS\\Postfix _Prefix_Infix\\Postfix _Prefix_Infix.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\Desktop\\Course\\Postfix _Prefix_Infix\\Postfix _Prefix_Infix.csproj": {
+    "C:\\Users\\pc\\Desktop\\DS\\Postfix _Prefix_Infix\\Postfix _Prefix_Infix.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\Desktop\\Course\\Postfix _Prefix_Infix\\Postfix _Prefix_Infix.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Desktop\\DS\\Postfix _Prefix_Infix\\Postfix _Prefix_Infix.csproj",
         "projectName": "Postfix _Prefix_Infix",
-        "projectPath": "C:\\Users\\pc\\Desktop\\Course\\Postfix _Prefix_Infix\\Postfix _Prefix_Infix.csproj",
+        "projectPath": "C:\\Users\\pc\\Desktop\\DS\\Postfix _Prefix_Infix\\Postfix _Prefix_Infix.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\Desktop\\Course\\Postfix _Prefix_Infix\\obj\\",
+        "outputPath": "C:\\Users\\pc\\Desktop\\DS\\Postfix _Prefix_Infix\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

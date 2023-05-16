@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\Desktop\\Course\\GraphBFS\\GraphBFS.csproj": {}
+    "C:\\Users\\pc\\Desktop\\DS\\GraphBFS\\GraphBFS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\Desktop\\Course\\GraphBFS\\GraphBFS.csproj": {
+    "C:\\Users\\pc\\Desktop\\DS\\GraphBFS\\GraphBFS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\Desktop\\Course\\GraphBFS\\GraphBFS.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Desktop\\DS\\GraphBFS\\GraphBFS.csproj",
         "projectName": "GraphBFS",
-        "projectPath": "C:\\Users\\pc\\Desktop\\Course\\GraphBFS\\GraphBFS.csproj",
+        "projectPath": "C:\\Users\\pc\\Desktop\\DS\\GraphBFS\\GraphBFS.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\Desktop\\Course\\GraphBFS\\obj\\",
+        "outputPath": "C:\\Users\\pc\\Desktop\\DS\\GraphBFS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

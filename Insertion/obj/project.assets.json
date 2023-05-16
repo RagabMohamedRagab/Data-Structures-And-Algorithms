@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\Desktop\\Course\\Insertion\\Insertion.csproj",
+      "projectUniqueName": "C:\\Users\\pc\\Desktop\\DS\\Insertion\\Insertion.csproj",
       "projectName": "Insertion",
-      "projectPath": "C:\\Users\\pc\\Desktop\\Course\\Insertion\\Insertion.csproj",
+      "projectPath": "C:\\Users\\pc\\Desktop\\DS\\Insertion\\Insertion.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pc\\Desktop\\Course\\Insertion\\obj\\",
+      "outputPath": "C:\\Users\\pc\\Desktop\\DS\\Insertion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "reRA7221/hvN7nwD+r6z8Q5ghsFWxW3vcasUoBYWDNq3EQxKf8+re5Q7DbdHCqSJDi363CLVRRpML39AJSKU5w==",
+  "dgSpecHash": "n+AsB19G9TTVZ24qYrG8eQwxEpNXAGfF2F6zwMHWi/nrGQ8rm3p9t95w0PXeiZxvxxO4+LABPBigrVSQTF0NbA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pc\\Desktop\\Course\\LinkedQueue\\LinkedQueue.csproj",
+  "projectFilePath": "C:\\Users\\pc\\Desktop\\DS\\LinkedQueue\\LinkedQueue.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -3,49 +3,30 @@
  - Aulixary Complexity O(V)
  */
 namespace DijestraAlgorithm {
-    class Vertice
+  public  class Graph
     {
-        public int Edge;
-        public int Weight;
-    }
-    class Graph
-    {
-        private LinkedList<Vertice>[] dkstra;
-        private int vertice;
-        public Graph(int v)
+        public int v;
+        public List<(int, int)>[] dksta;
+        public Graph(int V)
         {
-            vertice = v;
-            dkstra= new LinkedList<Vertice>[vertice];
-            for(int i = 0; i < v; i++)
+            v = V;
+            dksta=new List<(int, int)>[V];
+            for(int i = 0; i < V; i++)
             {
-                dkstra[i]= new LinkedList<Vertice>();
+                dksta[i] = new List<(int, int)>();
             }
         }
-        public void Add(int V,Vertice v) {
-            dkstra[V].AddLast(v);
+        public void AddEdge(int e,int v,int w)
+        {
+            dksta[v].Add((e, w));
+            dksta[e].Add((v, w));
         }
     }
     class Program
     {
         private static void Main(string[]args)
         {
-            int v = 5;
-            Graph g = new Graph(v);
-            for(int i = 0; i < v; i++)
-            {
-                Console.Write("Enter Vertice :");
-                int ver = Int32.Parse(Console.ReadLine());
-                Console.Write("Enter Weight :");
-                int w = Int32.Parse(Console.ReadLine());
-                Console.Write("Enter Edge: ");
-                int E=Int32.Parse(Console.ReadLine());
-                Vertice vertice = new Vertice
-                {
-                    Edge = E,
-                    Weight = w
-                };
-                g.Add(ver, vertice);
-            }
+          
            
         }
     }

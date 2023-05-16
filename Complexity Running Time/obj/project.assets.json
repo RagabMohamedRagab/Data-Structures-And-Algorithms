@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\Desktop\\Course\\Complexity Running Time\\Complexity Running Time.csproj",
+      "projectUniqueName": "C:\\Users\\pc\\Desktop\\DS\\Complexity Running Time\\Complexity Running Time.csproj",
       "projectName": "Complexity Running Time",
-      "projectPath": "C:\\Users\\pc\\Desktop\\Course\\Complexity Running Time\\Complexity Running Time.csproj",
+      "projectPath": "C:\\Users\\pc\\Desktop\\DS\\Complexity Running Time\\Complexity Running Time.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pc\\Desktop\\Course\\Complexity Running Time\\obj\\",
+      "outputPath": "C:\\Users\\pc\\Desktop\\DS\\Complexity Running Time\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

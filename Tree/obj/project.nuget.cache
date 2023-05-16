@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D0bQOaZMKKxkw4fH+EFEbZgt+u+KqetSH4xcz7AekDBMp3GEq5uaXiCqjnHa2ptnR6r2rLFlXMN4S1OXdq0b8w==",
+  "dgSpecHash": "KZT29W5YVXRenriAr2oyexEX9bzsNKbPDgcCymLSc6zzzYn0RoECP1tdBn3cj2Uc1wot+4X4WQefkEyyTc37Lw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pc\\Desktop\\Course\\Tree\\Tree.csproj",
+  "projectFilePath": "C:\\Users\\pc\\Desktop\\DS\\Tree\\Tree.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

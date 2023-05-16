@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RfAbbfRG9wfnzkQwQD6Y7Fh9+LPNeKhlDCk1kuEpeNjZyqif3ySf7aAuOBe04Ji4G+AgkfA2OiBGhwYGHZw1WA==",
+  "dgSpecHash": "rUx2eMSP2cdORNdTF489XXbuRXoyIFoM2mky7P6LNCKKVGiMArpyVx5X/1JkX90P4eQsvpSpiE0/66+apPTEiA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pc\\Desktop\\Course\\GraphBFS\\GraphBFS.csproj",
+  "projectFilePath": "C:\\Users\\pc\\Desktop\\DS\\GraphBFS\\GraphBFS.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

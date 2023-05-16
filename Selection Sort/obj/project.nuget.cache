@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5cwKv4ImqObb9Xiyu51qRXiC0NfPagz4KjugLb7Z85icN1+ziJfyIRevB0gCtAYTUT296YsMKMJf9QDOOq11NA==",
+  "dgSpecHash": "choXvoNIMuzG8P9vFdVO4JRDOHa4ELUHOMWTh/m4JDLPJCsrT2DTP9Ag8196tar0F4YIiex9PIeA6nR8mqVRwg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pc\\Desktop\\Course\\Selection Sort\\Selection Sort.csproj",
+  "projectFilePath": "C:\\Users\\pc\\Desktop\\DS\\Selection Sort\\Selection Sort.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

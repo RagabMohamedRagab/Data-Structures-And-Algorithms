@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HQedr/qBBxO+WYe9QlGMMO1EwrkLVq8YeFdh9PKzGPgWAeAGe8MjB/w7iTD855R3u7AcJK81LjwRFe9Jiv2vIw==",
+  "dgSpecHash": "DIuBgwBxVCPGsH2NNF6qZr1J9XSWAWhjSVPXShZ/NK7ONaRpOP2brSEVdbt+Y3lL5hhQdTjPtShD/6vsBceJ3A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pc\\Desktop\\Course\\Graph\\Graph.csproj",
+  "projectFilePath": "C:\\Users\\pc\\Desktop\\DS\\Graph\\Graph.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
