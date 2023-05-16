@@ -1,4 +1,4 @@
-﻿/* Dijkestra Algorithm 
+﻿/* Dijkestra Algorithm - Shortest Path 
  -  Time Complexity O(V^2)
  - Aulixary Complexity O(V)
  */
