@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\Desktop\\DS\\Selection Sort\\Selection Sort.csproj",
+      "projectUniqueName": "C:\\Users\\pc\\Source\\Repos\\Data-Structures-And-Algorithms\\Selection Sort\\Selection Sort.csproj",
       "projectName": "Selection Sort",
-      "projectPath": "C:\\Users\\pc\\Desktop\\DS\\Selection Sort\\Selection Sort.csproj",
+      "projectPath": "C:\\Users\\pc\\Source\\Repos\\Data-Structures-And-Algorithms\\Selection Sort\\Selection Sort.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pc\\Desktop\\DS\\Selection Sort\\obj\\",
+      "outputPath": "C:\\Users\\pc\\Source\\Repos\\Data-Structures-And-Algorithms\\Selection Sort\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

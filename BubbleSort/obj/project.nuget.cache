@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ydgS1o2vXA3Qi5pmW3qAAGjSvyRx286Cxj4Cc52kFV2dMghQ3mb+sZjkPphD4JgPULJq1di8NkVqmO6vdVgjug==",
+  "dgSpecHash": "M+54vH7COT1K5VRVulqRL5aLPx9N7kCnjeQ9PzjrWP+0j/adM+Eso0JGPibb3Mbzc/gvySvVERT76D9Wb3ZBQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pc\\Desktop\\DS\\BubbleSort\\BubbleSort.csproj",
+  "projectFilePath": "C:\\Users\\pc\\Source\\Repos\\Data-Structures-And-Algorithms\\BubbleSort\\BubbleSort.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

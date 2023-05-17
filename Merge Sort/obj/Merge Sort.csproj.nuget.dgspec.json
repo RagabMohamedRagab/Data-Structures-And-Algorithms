@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\Desktop\\DS\\Merge Sort\\Merge Sort.csproj": {}
+    "C:\\Users\\pc\\Source\\Repos\\Data-Structures-And-Algorithms\\Merge Sort\\Merge Sort.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\Desktop\\DS\\Merge Sort\\Merge Sort.csproj": {
+    "C:\\Users\\pc\\Source\\Repos\\Data-Structures-And-Algorithms\\Merge Sort\\Merge Sort.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\Desktop\\DS\\Merge Sort\\Merge Sort.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Source\\Repos\\Data-Structures-And-Algorithms\\Merge Sort\\Merge Sort.csproj",
         "projectName": "Merge Sort",
-        "projectPath": "C:\\Users\\pc\\Desktop\\DS\\Merge Sort\\Merge Sort.csproj",
+        "projectPath": "C:\\Users\\pc\\Source\\Repos\\Data-Structures-And-Algorithms\\Merge Sort\\Merge Sort.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\Desktop\\DS\\Merge Sort\\obj\\",
+        "outputPath": "C:\\Users\\pc\\Source\\Repos\\Data-Structures-And-Algorithms\\Merge Sort\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

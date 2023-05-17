@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\Desktop\\DS\\BFS\\BFS.csproj": {}
+    "C:\\Users\\pc\\Source\\Repos\\Data-Structures-And-Algorithms\\BFS\\BFS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\Desktop\\DS\\BFS\\BFS.csproj": {
+    "C:\\Users\\pc\\Source\\Repos\\Data-Structures-And-Algorithms\\BFS\\BFS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\Desktop\\DS\\BFS\\BFS.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Source\\Repos\\Data-Structures-And-Algorithms\\BFS\\BFS.csproj",
         "projectName": "BFS",
-        "projectPath": "C:\\Users\\pc\\Desktop\\DS\\BFS\\BFS.csproj",
+        "projectPath": "C:\\Users\\pc\\Source\\Repos\\Data-Structures-And-Algorithms\\BFS\\BFS.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\Desktop\\DS\\BFS\\obj\\",
+        "outputPath": "C:\\Users\\pc\\Source\\Repos\\Data-Structures-And-Algorithms\\BFS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

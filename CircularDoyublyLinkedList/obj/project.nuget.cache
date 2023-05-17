@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HqSRtLzC42LGt3ZplbgnLPD68Mb647rRfNb8XLJvNQ1zLs53TEXpD1qZ+YsndNObpVutRG84czjARvsvJqjMGg==",
+  "dgSpecHash": "HJuJaBcQTUONSOWhb9tFgoorw87BvUxMmUS79FJGbcGbWJH3ypmMymGY/cfHqAY8s9OOKXc4FjGlCeaQk8iarg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pc\\Desktop\\DS\\CircularDoyublyLinkedList\\CircularDoublyLinkedList.csproj",
+  "projectFilePath": "C:\\Users\\pc\\Source\\Repos\\Data-Structures-And-Algorithms\\CircularDoyublyLinkedList\\CircularDoublyLinkedList.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

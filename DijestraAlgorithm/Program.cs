@@ -23,6 +23,7 @@ namespace DijestraAlgorithm {
             dksta[v].Add((e, w));
             dksta[e].Add((v, w));
         }
+        // Time Complexity O(N^3)
         public int[] Dijkestra(int init)
         {
             bool[] visited= new bool[v];

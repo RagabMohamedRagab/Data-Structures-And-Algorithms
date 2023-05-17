@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fM/OuTblEgBT3R7WhpJmT5fQk9+KHdgHHaqr1z9qQJ5eTlJCIlfUBNGYYSggfW0UgbT6WJ0sTh/rKNXyGcMzYw==",
+  "dgSpecHash": "VAskkXBvCgc1FJ2jdmlRsl1uFdSPp7NGXA7ElQ08yceipE8qG1EkHgFpexS72ADJ2sZYk3HBrCtkpAkGzQsbhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pc\\Desktop\\DS\\BFS\\BFS.csproj",
+  "projectFilePath": "C:\\Users\\pc\\Source\\Repos\\Data-Structures-And-Algorithms\\BFS\\BFS.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

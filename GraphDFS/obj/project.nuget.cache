@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v9dql768uE+B0DwJfgba7SzxJgMhbdkyWJ6pRu1GOismC/OcgEY74siRDtTdFtZpkZLd0lYV1HArlvaE9DfO+A==",
+  "dgSpecHash": "DSC95JkRxXTjTjjhDRN3qKc1jQUARJeZdbD7OItroOZxA20ZhOdFApZLhQUrrp2DVEse+G6ttai4iQ4oPZiu3w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pc\\Desktop\\DS\\GraphDFS\\GraphDFS.csproj",
+  "projectFilePath": "C:\\Users\\pc\\Source\\Repos\\Data-Structures-And-Algorithms\\GraphDFS\\GraphDFS.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
