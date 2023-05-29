@@ -1,0 +1,15 @@
+C:\Users\pc\Desktop\DS\BellmanFord\bin\Debug\net6.0\BellmanFord.exe
+C:\Users\pc\Desktop\DS\BellmanFord\bin\Debug\net6.0\BellmanFord.deps.json
+C:\Users\pc\Desktop\DS\BellmanFord\bin\Debug\net6.0\BellmanFord.runtimeconfig.json
+C:\Users\pc\Desktop\DS\BellmanFord\bin\Debug\net6.0\BellmanFord.dll
+C:\Users\pc\Desktop\DS\BellmanFord\bin\Debug\net6.0\BellmanFord.pdb
+C:\Users\pc\Desktop\DS\BellmanFord\obj\Debug\net6.0\BellmanFord.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\DS\BellmanFord\obj\Debug\net6.0\BellmanFord.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Desktop\DS\BellmanFord\obj\Debug\net6.0\BellmanFord.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\DS\BellmanFord\obj\Debug\net6.0\BellmanFord.AssemblyInfo.cs
+C:\Users\pc\Desktop\DS\BellmanFord\obj\Debug\net6.0\BellmanFord.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\DS\BellmanFord\obj\Debug\net6.0\BellmanFord.dll
+C:\Users\pc\Desktop\DS\BellmanFord\obj\Debug\net6.0\refint\BellmanFord.dll
+C:\Users\pc\Desktop\DS\BellmanFord\obj\Debug\net6.0\BellmanFord.pdb
+C:\Users\pc\Desktop\DS\BellmanFord\obj\Debug\net6.0\BellmanFord.genruntimeconfig.cache
+C:\Users\pc\Desktop\DS\BellmanFord\obj\Debug\net6.0\ref\BellmanFord.dll

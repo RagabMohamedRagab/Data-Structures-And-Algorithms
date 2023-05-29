@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\Source\\Repos\\Data-Structures-And-Algorithms\\BinarySearch\\BinarySearch.csproj",
+      "projectUniqueName": "C:\\Users\\pc\\Desktop\\DS\\BinarySearch\\BinarySearch.csproj",
       "projectName": "BinarySearch",
-      "projectPath": "C:\\Users\\pc\\Source\\Repos\\Data-Structures-And-Algorithms\\BinarySearch\\BinarySearch.csproj",
+      "projectPath": "C:\\Users\\pc\\Desktop\\DS\\BinarySearch\\BinarySearch.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pc\\Source\\Repos\\Data-Structures-And-Algorithms\\BinarySearch\\obj\\",
+      "outputPath": "C:\\Users\\pc\\Desktop\\DS\\BinarySearch\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
