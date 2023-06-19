@@ -1,0 +1,15 @@
+C:\Users\pc\Desktop\DS\Kruskal's Algorithm\bin\Debug\net6.0\Kruskal's Algorithm.exe
+C:\Users\pc\Desktop\DS\Kruskal's Algorithm\bin\Debug\net6.0\Kruskal's Algorithm.deps.json
+C:\Users\pc\Desktop\DS\Kruskal's Algorithm\bin\Debug\net6.0\Kruskal's Algorithm.runtimeconfig.json
+C:\Users\pc\Desktop\DS\Kruskal's Algorithm\bin\Debug\net6.0\Kruskal's Algorithm.dll
+C:\Users\pc\Desktop\DS\Kruskal's Algorithm\bin\Debug\net6.0\Kruskal's Algorithm.pdb
+C:\Users\pc\Desktop\DS\Kruskal's Algorithm\obj\Debug\net6.0\Kruskal's Algorithm.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\DS\Kruskal's Algorithm\obj\Debug\net6.0\Kruskal's Algorithm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Desktop\DS\Kruskal's Algorithm\obj\Debug\net6.0\Kruskal's Algorithm.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\DS\Kruskal's Algorithm\obj\Debug\net6.0\Kruskal's Algorithm.AssemblyInfo.cs
+C:\Users\pc\Desktop\DS\Kruskal's Algorithm\obj\Debug\net6.0\Kruskal's Algorithm.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\DS\Kruskal's Algorithm\obj\Debug\net6.0\Kruskal's Algorithm.dll
+C:\Users\pc\Desktop\DS\Kruskal's Algorithm\obj\Debug\net6.0\refint\Kruskal's Algorithm.dll
+C:\Users\pc\Desktop\DS\Kruskal's Algorithm\obj\Debug\net6.0\Kruskal's Algorithm.pdb
+C:\Users\pc\Desktop\DS\Kruskal's Algorithm\obj\Debug\net6.0\Kruskal's Algorithm.genruntimeconfig.cache
+C:\Users\pc\Desktop\DS\Kruskal's Algorithm\obj\Debug\net6.0\ref\Kruskal's Algorithm.dll
